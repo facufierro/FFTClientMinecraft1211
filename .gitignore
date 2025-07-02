@@ -8,6 +8,7 @@
 /data
 /crash-reports
 .connector
+.vscode
 usercache.json
 usernamecache.json
 options.txt
