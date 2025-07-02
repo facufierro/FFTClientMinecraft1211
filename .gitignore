@@ -6,6 +6,7 @@
 /logs
 /saves
 /data
+.connector
 usercache.json
 usernamecache.json
 options.txt
