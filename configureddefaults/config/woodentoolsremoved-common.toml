@@ -1,0 +1,37 @@
+["Obtaining stone"]
+	#This controls how players obtain cobblestone at the very start of the game. Three options: 
+	#- Simple mode just provides flint pickaxe; get a few stone pieces and forget about your problems. 
+	#- Hard mode is for realistic modpacks; you'll spend a short while and plenty of nerves to progress from wood tier to stone tier. 
+	#- Option 3 is nothing. Neither of the two. If the modpack provides another way for starting player to get stone (from rocks on the ground or another mod's flint pickaxe), just disable both the hard mode and the simple mode.
+	"Hard mode enabled" = false
+	#This controls how players obtain cobblestone at the very start of the game. Three options: 
+	#- Simple mode just provides flint pickaxe; get a few stone pieces and forget about your problems. 
+	#- Hard mode is for realistic modpacks; you'll spend a short while and plenty of nerves to progress from wood tier to stone tier. 
+	#- Option 3 is nothing. Neither of the two. If the modpack provides another way for starting player to get stone (from rocks on the ground or another mod's flint pickaxe), just disable both the hard mode and the simple mode.
+	"Simple mode enabled" = true
+
+["Gameplay changes"]
+	#This option reduced durability of stone tools. It is a percentage: 100 means unchanged (132 durability points), 50 is half, 10 is 10% (13). It is intended to motivate players to move to iron as soon as possible.
+	# Default: 30
+	# Range: 1 ~ 100
+	"Stone tools durability multiplier" = 30
+	#This is a chance (in percents) that a stick will drop from leaves block. This works in addition to base game's paltry 2% chance (separately). You can set to 0 to disable; default (4%) isn't too generous.
+	# Default: 6
+	# Range: 0 ~ 100
+	"Additional stick drop chance" = 6
+	#Because Minecraft's gravel logic is stupid (dig through it, find nothing, it's okay, try again until you find flint inside), this mod guarantees three flint drops in ten gravel blocks broken - but only the first ten. After the first set, this feature is off. You can turn this off if you have another mod that takes care of gravel (try "Modest flint overhaul" by the author of this mod) or if for some insane reason you like digging through the same gravel block over and over.
+	"Guaranteed flint drops" = true
+	#This is how much extra damage a wooden sword or tool will deal in mob hands. Option is introduced because some mods add wooden tools to zombies. No effect on tools in player's hands. This is not a total value, it is a bonus added to mob damage plus minimal tool damage.
+	# Default: 2
+	# Range: 0 ~ 10
+	"Wooden tool damage in mob hands" = 2
+
+[Interoperability]
+	#Tinker's construct offers flint tools and easily circumvents this mod's HARD mode. By default, this mod backs off when TC is present and disables both the HARD mode and the SIMPLE mode. This option forces the mod not to disable the three recipes it disables when TC is present, but - that's it. This option does not trigger any changes to TC behavior. It is up to modpack maker or the player to resolve the incompatibility.
+	"Force hard mode even with TC present" = false
+
+["Extra features and flavor tweaks"]
+	#A crude firestarter tool. Setting this to true makes the tool craftable but also makes firepit require it. Otherwise firepit can be lit with shift-right-click.
+	"Enable flint-and-rock" = true
+	#By default, mod doesn't change campfire behavior. Set this to true to have them placed unlit. This doesn't offer any challenge, only a minor bother for the sake of survival theme.
+	"Campfires (all of them) start unlit" = true
