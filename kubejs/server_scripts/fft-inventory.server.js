@@ -1,17 +1,12 @@
+const BACKPACK = 'backpacks:backpack';
+const CURIO_SLOT = 'back';
+const INTERVAL = 5; // in ticks
+
 ServerEvents.tick(event => {
-    if (event.server.tickCount % 5 === 0) {
-        let backpackTypes = [
-            'usefulbackpacks:backpack_small',
-            'usefulbackpacks:backpack_medium',
-            'usefulbackpacks:backpack_large'
-        ]
-
-        for (let backpack of backpackTypes) {
-            let withBackpackCommand = `execute if entity @a[curios={item:{id:"${backpack}"},slot:["back"]}] run inventory_slots set_available @p 36`
-            event.server.runCommandSilent(withBackpackCommand)
-        }
-
-        let noBackpackCommand = `execute if entity @a[curios=!{item:{id:"usefulbackpacks:backpack_small"},slot:["back"]}] if entity @a[curios=!{item:{id:"usefulbackpacks:backpack_medium"},slot:["back"]}] if entity @a[curios=!{item:{id:"usefulbackpacks:backpack_large"},slot:["back"]}] run inventory_slots set_available @p 9`
-        event.server.runCommandSilent(noBackpackCommand)
+    if (event.server.tickCount % INTERVAL === 0) {
+        let withoutBackpackCommand = `execute if entity @p[curios=!{item:{id:"${BACKPACK}"},slot:["${CURIO_SLOT}"]}] run inventory_slots set_unlocked @p 0`;
+        event.server.runCommandSilent(withoutBackpackCommand)
+        let withBackpackCommand = `execute if entity @p[curios={item:{id:"${BACKPACK}"},slot:["${CURIO_SLOT}"]}] run inventory_slots set_unlocked @p 27`;
+        event.server.runCommandSilent(withBackpackCommand)
     }
 })
