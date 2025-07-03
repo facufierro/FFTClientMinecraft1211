@@ -18,3 +18,4 @@ kubejs/config/common.json
 .cache
 defaultconfigs
 configureddefaults/README.md
+.mixin.out
