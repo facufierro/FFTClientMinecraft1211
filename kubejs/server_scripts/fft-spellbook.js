@@ -23,25 +23,25 @@ ItemEvents.canPickUp(event => {
     const itemId = event.item.id;
 
     if (SPELLBOOKS.includes(itemId)) {
-        if (countSpellbooksInInventory(player) >= 2) {
+        if (countSpellbooksInInventory(player) >= 1) {
             event.cancel();
-            player.tell('You can only carry 2 spellbooks at a time!');
+            player.tell('You can only carry 1 spare spellbook at a time!');
         }
     }
 });
 
-// Block spellbooks from inventory transfers if would exceed 2
+// Block spellbooks from inventory transfers if would exceed 1
 PlayerEvents.inventoryChanged(event => {
     const player = event.player;
     const spellbookCount = countSpellbooksInInventory(player);
 
-    if (spellbookCount > 2) {
+    if (spellbookCount > 1) {
         // Find and drop excess spellbooks
         for (let spellbook of SPELLBOOKS) {
-            while (player.inventory.contains(spellbook) && countSpellbooksInInventory(player) > 2) {
+            while (player.inventory.contains(spellbook) && countSpellbooksInInventory(player) > 1) {
                 player.inventory.clear(spellbook);
                 player.drop(spellbook, false);
-                player.tell('You can only carry 2 spellbooks at a time!');
+                player.tell('You can only carry 1 spare spellbook at a time!');
             }
         }
     }
