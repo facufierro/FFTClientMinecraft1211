@@ -32,7 +32,7 @@
 		#Third person camera x-offset.
 		# Default: -0.75
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = 20.0
+		offset_x = -0.5
 		#Third person camera y-offset.
 		# Default: 0.0
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
