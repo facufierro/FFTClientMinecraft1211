@@ -25,7 +25,7 @@
 	durabilityModuleEnabled = true
 	#What type of gear should take vanilla durability damage. Default: NONE
 	#Allowed Values: ALL, TOOLS, ARMOR, NONE
-	vanillaDurabilityGearType = "NONE"
+	vanillaDurabilityGearType = "ALL"
 	#What type of gear is damaged upon death. Default: ALL
 	#Allowed Values: ALL, TOOLS, ARMOR, NONE
 	deathGearType = "ALL"
@@ -72,7 +72,7 @@
 	#An additional multiplier to the health regained by eating while under the Hunger status effect. Default: 0.5 (50%)
 	hungerEffectHealMultiplier = 0.0
 	#The amount of time, in ticks, between players naturally regenerating 1 hp. 1 second is 20 ticks. Turn off the naturalRegeneration gamerule to disable. Default: 250.
-	naturalRegenerationTickRate = 0.0
+	naturalRegenerationTickRate = 250
 	#Whether players should naturally regenerate hp during combat. (Turn off the naturalRegeneration gamerule to disable all natural regen). Default: false.
 	naturalRegenerationDuringCombat = false
 	#Item Cooldown in seconds when throwing a splash potion. Default: 0.5
