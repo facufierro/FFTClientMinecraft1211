@@ -32,7 +32,7 @@
 		#Third person camera x-offset.
 		# Default: -0.75
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = 0.0
+		offset_x = -0.5
 		#Third person camera y-offset.
 		# Default: 0.0
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
@@ -265,7 +265,7 @@
 	#Whether or not to remember the last perspective used.
 	remember_last_perspective = true
 	#Whether or not to replace the default third person perspective.
-	replace_default_perspective = false
+	replace_default_perspective = true
 	#Whether or not the first person perspective is enabled.
 	first_person_enabled = true
 	#Whether or not the third person front perspective is enabled.
@@ -275,7 +275,7 @@
 
 [player]
 	#Whether or not to adjust the player model transparency when view is obstructed. Changing this value may require a game restart to take full effect.
-	adjust_player_transparency = true
+	adjust_player_transparency = false
 	#The angle at which the player will no longer be rendered when looking up. Set to 0 to disable.
 	# Default: 0.0
 	# Range: 0.0 ~ 90.0
