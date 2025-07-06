@@ -35100,13 +35100,207 @@
             "neoforge"
           ]
         }
+      },
+      {
+        "name": "Inventory Tweaks: ReFoxed",
+        "version": "1.21.1-1.2.0",
+        "optional": true,
+        "file": "invtweaks-1.21.1-1.2.0.jar",
+        "type": "mods",
+        "description": "Inventory Tweaks for NeoForge",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 976858,
+        "curseForgeFileId": 5939540,
+        "curseForgeProject": {
+          "id": 976858,
+          "name": "Inventory Tweaks - ReFoxed",
+          "authors": [
+            {
+              "id": 101028709,
+              "name": "LobsterJonn",
+              "url": "https://www.curseforge.com/members/lobsterjonn"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Inventory Tweaks for NeoForge",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "inventory-tweaks-refoxed",
+          "isFeatured": false,
+          "dateModified": "2025-06-09T08:18:03.723Z",
+          "dateCreated": "2024-02-19T14:13:31.117Z",
+          "dateReleased": "2025-06-09T08:14:34.83Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-refoxed",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/JDKDigital/InvTweaksRefoxed/issues",
+            "sourceUrl": "https://github.com/JDKDigital/InvTweaksRefoxed"
+          },
+          "logo": {
+            "id": 951092,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/951/92/256/256/638440158830430802.png",
+            "title": "638440158830430802.png",
+            "url": "https://media.forgecdn.net/avatars/951/92/638440158830430802.png",
+            "modId": 976858
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6632417
+        },
+        "curseForgeFile": {
+          "id": 5939540,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "invtweaks-1.21.1-1.2.0.jar",
+          "fileName": "invtweaks-1.21.1-1.2.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-11-26T18:15:12.537Z",
+          "fileLength": 74866,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2325008119,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 576637308,
+              "name": "invtweaks"
+            },
+            {
+              "fingerprint": 234590878,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2237320170,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3208778516,
+              "name": "logo.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "f81426b87be821aba41da4483895760cf6248710",
+              "algo": 1
+            },
+            {
+              "value": "d870ff3ea3e496d660be5c08f510c438",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 4107700152,
+          "modId": 976858
+        },
+        "modrinthProject": {
+          "id": "uqnMI1kq",
+          "slug": "inventory-tweaks-refoxed",
+          "project_type": "mod",
+          "team": "S0S92QRZ",
+          "title": "Inventory Tweaks: ReFoxed",
+          "description": "Inventory Tweaks for NeoForge",
+          "body": "A fork of Inventory Tweaks Renewed, updated for NeoForge 1.20.\n\n\nThis mod allows you to easily manage your inventory, in both single player and multiplayer. It works out of the box, and will make you save a massive amount of time!\n\nIt automatically replaces your tools as they break, and item stacks once emptied\nIt sorts your inventory and your chests in a single click/keystroke\nIt provides lots of powerful shortcuts to move items around\nIt allows you to customize entirely the way your inventory is sorted, thanks to clever configuration files",
+          "published": "2024-02-19T23:08:37.020281Z",
+          "updated": "2024-11-26T18:52:57.351918Z",
+          "status": "approved",
+          "license": {
+            "id": "Apache-2.0",
+            "name": "Apache License 2.0"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uqnMI1kq/1c41a4db66e86f74ccbad63f346ba8d74340f2c0.png",
+          "issues_url": "https://github.com/JDKDigital/InvTweaksRefoxed/issues",
+          "source_url": "https://github.com/JDKDigital/InvTweaksRefoxed",
+          "discord_url": "https://discord.gg/x822BKu624",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "tcTciTmQ",
+          "project_id": "uqnMI1kq",
+          "author_id": "AAL1KesL",
+          "name": "1.21.1-1.2.0",
+          "version_number": "1.21.1-1.2.0",
+          "changelog": "- Fixed items being deleted on sort\r\n- Fixed armor unequipping when equipped from right click\r\n- Blacklisted more GUIs by default",
+          "date_published": "2024-11-26T18:15:13.783718Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "a419544da8d943ccf17ed62f359fdbff04752735d370b18de3833a74277039e0313c8032e06462125b6b9b4e15b4eec057b680d302b465191ce51c13254bdeb2",
+                "sha1": "f81426b87be821aba41da4483895760cf6248710"
+              },
+              "url": "https://cdn.modrinth.com/data/uqnMI1kq/versions/tcTciTmQ/invtweaks-1.21.1-1.2.0.jar",
+              "filename": "invtweaks-1.21.1-1.2.0.jar",
+              "primary": true,
+              "size": 74866
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21.1",
+            "1.21.2",
+            "1.21.3"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1751763213268,
-    "numPlays": 167
+    "lastPlayed": 1751764534545,
+    "numPlays": 169
   },
   "id": "1.21.1",
   "complianceLevel": 1,
