@@ -2025,588 +2025,6 @@
         }
       },
       {
-        "name": "Distant Horizons",
-        "version": "2.3.2-b - 1.21.1 neo/fabric",
-        "optional": true,
-        "file": "DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
-        "type": "mods",
-        "description": "See farther without turning your game into a slide show",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 508933,
-        "curseForgeFileId": 6387706,
-        "curseForgeProject": {
-          "id": 508933,
-          "name": "Distant Horizons: A Level of Detail mod",
-          "authors": [
-            {
-              "id": 17079937,
-              "name": "James_Seibel",
-              "url": "https://www.curseforge.com/members/james_seibel"
-            }
-          ],
-          "gameId": 432,
-          "summary": "Increase view distance without harming performance.",
-          "categories": [
-            {
-              "name": "Utility & QoL",
-              "slug": "utility-qol",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
-              "dateModified": "2021-11-17T11:45:09.143Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 5191,
-              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 5191,
-          "classId": 6,
-          "slug": "distant-horizons",
-          "isFeatured": false,
-          "dateModified": "2025-04-05T17:24:06.59Z",
-          "dateCreated": "2021-07-28T03:24:00.973Z",
-          "dateReleased": "2025-04-05T14:54:23.71Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons",
-            "wikiUrl": "https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/2-frequently-asked-questions/1-general/General",
-            "issuesUrl": "https://gitlab.com/jeseibel/minecraft-lod-mod/-/issues",
-            "sourceUrl": "https://gitlab.com/distant-horizons-team/distant-horizons"
-          },
-          "logo": {
-            "id": 1189514,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1189/514/256/256/638764417521176751.png",
-            "title": "638764417521176751.png",
-            "url": "https://media.forgecdn.net/avatars/1189/514/638764417521176751.png",
-            "modId": 508933
-          },
-          "allowModDistribution": true,
-          "screenshots": [
-            {
-              "id": 880253,
-              "description": "Oceans feel a lot smaller now don't they?\n\nCombined with Iris 1.7 shaders.\nPhoto courtesy of Sarge",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/880/253/310/172/light-house-sarge.jpg",
-              "title": "Ocean Overlook",
-              "url": "https://media.forgecdn.net/attachments/880/253/light-house-sarge.jpg",
-              "modId": 508933
-            },
-            {
-              "id": 880251,
-              "description": "Combined with Iris 1.7 shaders.\nPhoto courtesy of Sarge",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/880/251/310/172/misty-mountain-sarge.jpg",
-              "title": "Distant Mountains",
-              "url": "https://media.forgecdn.net/attachments/880/251/misty-mountain-sarge.jpg",
-              "modId": 508933
-            },
-            {
-              "id": 880249,
-              "description": "dh 512 rd.jpg",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/880/249/310/172/dh-512-rd.jpg",
-              "title": "512 Render Distance",
-              "url": "https://media.forgecdn.net/attachments/880/249/dh-512-rd.jpg",
-              "modId": 508933
-            },
-            {
-              "id": 488621,
-              "description": "Photo taken from the Pioneer Survival server",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/488/621/310/172/pioneer-survival-spawn.png",
-              "title": "Client-side Multiplayer Support 2",
-              "url": "https://media.forgecdn.net/attachments/488/621/pioneer-survival-spawn.png",
-              "modId": 508933
-            },
-            {
-              "id": 488618,
-              "description": "Photo taken from the Pioneer Survival server",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/488/618/310/172/pioneer-survival-floating-island.png",
-              "title": "Client-side Multiplayer Support 1",
-              "url": "https://media.forgecdn.net/attachments/488/618/pioneer-survival-floating-island.png",
-              "modId": 508933
-            },
-            {
-              "id": 477565,
-              "description": "Finding end cities will be much easier now. \r\nPhoto taken by: Bunshaman",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/477/565/310/172/2022-07-10_23.png",
-              "title": "The End",
-              "url": "https://media.forgecdn.net/attachments/477/565/2022-07-10_23.png",
-              "modId": 508933
-            },
-            {
-              "id": 467383,
-              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/467/383/310/172/all-gif.gif",
-              "title": "Detail levels (gif)",
-              "url": "https://media.forgecdn.net/attachments/467/383/all-gif.gif",
-              "modId": 508933
-            },
-            {
-              "id": 466466,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/466/466/310/172/logonameflathighlight.png",
-              "title": "Legacy Logo",
-              "url": "https://media.forgecdn.net/attachments/466/466/logonameflathighlight.png",
-              "modId": 508933
-            },
-            {
-              "id": 431567,
-              "description": "Vanilla render distance 4. Mod render distance 512.",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/567/310/172/cliff-side-1.png",
-              "title": "Ciff side 1",
-              "url": "https://media.forgecdn.net/attachments/431/567/cliff-side-1.png",
-              "modId": 508933
-            },
-            {
-              "id": 431564,
-              "description": "Vanilla render distance 4. Mod render distance 512.",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/564/310/172/cliff-side-2.png",
-              "title": "Cliff side 2",
-              "url": "https://media.forgecdn.net/attachments/431/564/cliff-side-2.png",
-              "modId": 508933
-            },
-            {
-              "id": 431558,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/558/310/172/horizon.png",
-              "title": "A Distant Horizon",
-              "url": "https://media.forgecdn.net/attachments/431/558/horizon.png",
-              "modId": 508933
-            },
-            {
-              "id": 403112,
-              "description": "By default the mod renders at 64, but can go up to 4096!\r\n(although anything above 512 may become difficult due to high RAM or GPU usage)",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/403/112/310/172/256-render-distance.png",
-              "title": "256 render distance",
-              "url": "https://media.forgecdn.net/attachments/403/112/256-render-distance.png",
-              "modId": 508933
-            },
-            {
-              "id": 391538,
-              "description": "Fake chunks closer will become larger and less detailed the further they are from the player, increasing performance.",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/391/538/310/172/5.png",
-              "title": "Variable Detail",
-              "url": "https://media.forgecdn.net/attachments/391/538/5.png",
-              "modId": 508933
-            },
-            {
-              "id": 760783,
-              "description": "Showing MC 1.16",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/760/783/310/172/1024-fog-mc-1.jpg",
-              "title": "1024 render distance",
-              "url": "https://media.forgecdn.net/attachments/760/783/1024-fog-mc-1.jpg",
-              "modId": 508933
-            },
-            {
-              "id": 475003,
-              "description": "Fog can be customized to change with vertical height along with horizontal distance.",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/475/3/310/172/unknown.png",
-              "title": "Vertical Fog",
-              "url": "https://media.forgecdn.net/attachments/475/3/unknown.png",
-              "modId": 508933
-            },
-            {
-              "id": 467382,
-              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/467/382/310/172/all.png",
-              "title": "Detail levels",
-              "url": "https://media.forgecdn.net/attachments/467/382/all.png",
-              "modId": 508933
-            },
-            {
-              "id": 431559,
-              "description": "Distant Horizons works with mod terrain generators!\r\n(Terralith 2.0 shown in this image)",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/559/310/172/volcano-2.png",
-              "title": "Modded Terrain Generation",
-              "url": "https://media.forgecdn.net/attachments/431/559/volcano-2.png",
-              "modId": 508933
-            },
-            {
-              "id": 403115,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/403/115/310/172/nether-vista.png",
-              "title": "Cave/Nether support",
-              "url": "https://media.forgecdn.net/attachments/403/115/nether-vista.png",
-              "modId": 508933
-            },
-            {
-              "id": 1111872,
-              "description": "Logo v2",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1111/872/310/172/distant-horizons-png.png",
-              "title": "Logo",
-              "url": "https://media.forgecdn.net/attachments/1111/872/distant-horizons-png.png",
-              "modId": 508933
-            }
-          ],
-          "mainFileId": 6387718
-        },
-        "curseForgeFile": {
-          "id": 6387706,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "1.21.1 Beta 2.3.2 neo/fabric",
-          "fileName": "DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
-          "releaseType": 2,
-          "fileStatus": 4,
-          "fileDate": "2025-04-05T14:52:18.953Z",
-          "fileLength": 17943813,
-          "dependencies": [],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 1328746495,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 2766528365,
-              "name": "build_info.json"
-            },
-            {
-              "fingerprint": 403312223,
-              "name": "com"
-            },
-            {
-              "fingerprint": 3411263795,
-              "name": "dh_sqlite"
-            },
-            {
-              "fingerprint": 2456101327,
-              "name": "DistantHorizons"
-            },
-            {
-              "fingerprint": 666054883,
-              "name": "fabric-1_20_6.distanthorizons.accesswidener"
-            },
-            {
-              "fingerprint": 3263904736,
-              "name": "fabric-DistantHorizons-fabric-refmap.json"
-            },
-            {
-              "fingerprint": 578317025,
-              "name": "fabric-distanthorizons.accesswidener"
-            },
-            {
-              "fingerprint": 235908075,
-              "name": "fabric-DistantHorizons.fabric.mixins.json"
-            },
-            {
-              "fingerprint": 3384519944,
-              "name": "fabric.mod.json"
-            },
-            {
-              "fingerprint": 365971227,
-              "name": "LICENSE-LOGOS.txt"
-            },
-            {
-              "fingerprint": 1136524626,
-              "name": "LICENSE.LESSER.txt"
-            },
-            {
-              "fingerprint": 3558459809,
-              "name": "LICENSE.txt"
-            },
-            {
-              "fingerprint": 2446386450,
-              "name": "loaderCommon"
-            },
-            {
-              "fingerprint": 1233317820,
-              "name": "log4jConfig.xml"
-            },
-            {
-              "fingerprint": 410256779,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 666054883,
-              "name": "neoforge-1_20_6.distanthorizons.accesswidener"
-            },
-            {
-              "fingerprint": 1699054700,
-              "name": "neoforge-DistantHorizons.neoforge.mixins.json"
-            },
-            {
-              "fingerprint": 1699054700,
-              "name": "neoforge-neoforge-DistantHorizons.neoforge.mixins.json"
-            },
-            {
-              "fingerprint": 367747903,
-              "name": "not.fabric.mod.json"
-            },
-            {
-              "fingerprint": 1374316859,
-              "name": "org"
-            },
-            {
-              "fingerprint": 3521902734,
-              "name": "pack.mcmeta"
-            },
-            {
-              "fingerprint": 305584542,
-              "name": "shaders"
-            },
-            {
-              "fingerprint": 2903979276,
-              "name": "sqlite-jdbc.properties"
-            },
-            {
-              "fingerprint": 890667614,
-              "name": "sqlScripts"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "4e68bdfaabe21b6c8841497fea48233be5ce3b39",
-              "algo": 1
-            },
-            {
-              "value": "697441dcb42cff61f8bda975d8061e1b",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
-              "gameVersionName": "Fabric"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Client"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
-              "gameVersionName": "NeoForge"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000021.0000000001",
-              "gameVersion": "1.21.1",
-              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
-              "gameVersionName": "1.21.1"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Server"
-            }
-          ],
-          "gameVersions": [
-            "Fabric",
-            "Client",
-            "NeoForge",
-            "1.21.1",
-            "Server"
-          ],
-          "fileFingerprint": 2546846154,
-          "modId": 508933
-        },
-        "modrinthProject": {
-          "id": "uCdwusMi",
-          "slug": "distanthorizons",
-          "project_type": "mod",
-          "team": "FulsV5Ai",
-          "title": "Distant Horizons",
-          "description": "See farther without turning your game into a slide show",
-          "body": "<center>\n  <img width=\"420\" src=\"https://media.forgecdn.net/attachments/1111/872/distant-horizons-png.png\" alt=\"Distant Horizons\">\n</center>\n\n\n\n<br>\n\nWhat does Distant Horizons do? \n<br>\nSimply put, it add simplified terrain past Minecraft's default view distance to improve performance and allow for longer draw distances.\n<br>\nNow you can finally enjoy that lookout tower you built on top of a mountain!\n\n![Cliffside Village](https://media.forgecdn.net/attachments/880/249/dh-512-rd.jpg)\n### <center> This photo was taken with a Minecraft render distance of 12 and a mod distance of 512. </center>\n<br> <br>\n\n<center>\nIf you want to see a quick demo, check out the latest update video\n<br> <br>\n\n<a href=\"https://www.youtube.com/watch?v=zuQDgamAZsU\">\n<img src=\"https://i.ytimg.com/vi/zuQDgamAZsU/hq720.jpg\" width=\"630\" />\n</a> </center> <br> <br>\n\n## Hey, Hey you! This is important!\n\nThe version support numbers are strict! <br>\nIf a version says it supports MC 1.18.1 it will NOT work on 1.18.2! <br>\n\nAnd: the mod is still in alpha. Things may change, break, crash or otherwise go wrong. You have been warned! <br>\nAlthough if you have problems feel free to leave an issue on the project's GitLab.\n<br> \n \n\n \n## FAQ:\n\n**Q: Forge or Fabric?** <br>\nA: MC 1.20.6 and newer - NeoForge and Fabric are both in the same jar. <br>\nMC 1.20.4 and older - Forge and Fabric are both in the same jar. \n\n**Q: Shaders?** <br>\nA: Yes, but only with certain shaders. <br>\n- Optifine: DH partially works with forward rendered shaders.\n- Iris (and equivalent ports): DH 2.1.0+ only works with Iris 1.7+ and only with shaders built with DH support in mind. \n  - DH 2.0 and older don't work with Iris.\n\n**Q: Does this work with player created structures?** <br>\nA: Yes.\n\n**Q: Is there multiplayer support?** <br>\nA: Yes\n\n**client side only:** <br>\nIf you only have DH installed on your client LODs will be saved between sessions, although you have to explore the world to load them.\n <br>\n**Server and Client:** <br>\nIf DH is installed on the server and client, LODs will automatically be sent to each connected user that has DH installed and has `Distant Generation Enabled` set to true, disabling distant generation on the server will prevent LODs from being sent to the users.\n\n**Q: Where can I download the Bukkit plugin?** <br>\nA: The bukkit plugin for 2.3.0 is available as an additional file in the download page.\n\n<br>\n\n### Extended FAQ:\n\n<a href=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/1-user-guide/1-frequently-asked-questions/1-general/General\">\n<img src=\"https://gitlab.com/jeseibel/minecraft-lod-mod/-/wikis/_hidden/shared-images/images/faq-button-general.png\" width=\"200\" />\n</a> <br>\n\n<a href=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/1-user-guide/1-frequently-asked-questions/4-mod-support/Mod-Support\">\n<img src=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/_hidden/shared-images/images/faq-button-mod-support.png\" width=\"200\" />\n</a> <br>\n\n<a href=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/1-user-guide/1-frequently-asked-questions/2-problems-and-solutions/Problems-and-Solutions\">\n<img src=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/_hidden/shared-images/images/faq-button-problem.png\" width=\"200\" />\n</a>\n\n<br> <br>\n\n\n## Discord:\nJoin our Discord for news, updates, and help:\ndiscord.com/invite/xAB8G4cENx\n<br> <br>\n\n\n## Support us:\n\nIf you want to help with development, join our discord and let us know!\n\nOtherwise if you can't help with development but still want to support Distant Horizons, check out our donation page:\n\nhttps://ko-fi.com/distanthorizons",
-          "published": "2022-01-23T05:46:55.026356Z",
-          "updated": "2025-04-05T15:13:05.306547Z",
-          "status": "approved",
-          "license": {
-            "id": "LGPL-3.0-only",
-            "name": "GNU Lesser General Public License v3.0 only"
-          },
-          "client_side": "optional",
-          "server_side": "optional",
-          "categories": [
-            "optimization",
-            "utility"
-          ],
-          "loaders": [
-            "fabric",
-            "forge",
-            "neoforge"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/uCdwusMi/e716cda9bb568b5373ff76e363fb4c6d7278fba6_96.webp",
-          "issues_url": "https://gitlab.com/distant-horizons-team/distant-horizons/-/issues",
-          "source_url": "https://gitlab.com/distant-horizons-team/distant-horizons",
-          "wiki_url": "https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/home",
-          "discord_url": "https://discord.gg/xAB8G4cENx",
-          "donation_urls": [
-            {
-              "id": "ko-fi",
-              "platform": "Ko-fi",
-              "url": "https://ko-fi.com/distanthorizons"
-            }
-          ],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/1aa2b086bb9f1e800183feea724b98b90d62cd15_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/1b27a855d3b44c0d1b7bc111b7e22d1c6f9a9e5d.png",
-              "featured": false,
-              "title": "Modded Terrain Generation",
-              "description": "Distant Horizons works with mod terrain generators! (Terralith 2.0 shown in this image)",
-              "created": "2022-06-07T02:51:26.416185Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/1f23c2eb7d43d67dd35912456205cc1b0b66e905_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/5dac2a283e66ed9da0f76ec5a8a6cd243309bff1.png",
-              "featured": false,
-              "title": "Cave/Nether support",
-              "description": " ",
-              "created": "2022-06-07T02:47:51.575910Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/29b1542131948d311c933506c240fde3a3114df9_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/8a194aa0cdd60a695550eb53110a6f61d880db57.jpeg",
-              "featured": false,
-              "title": "1024 render distance",
-              "description": "Showing MC 1.16",
-              "created": "2023-11-18T14:30:55.851012Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/329feb1c2514756735de08f5abe378dcc5597f93_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/53bd0a0be0d54480da03175ce1c6901df826f00f.png",
-              "featured": false,
-              "title": "Cliff side 2",
-              "description": "Vanilla render distance 4. Mod render distance 512.",
-              "created": "2022-06-07T02:52:29.740651Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/669f60450b322881d01972de2671ff5ab87dab3b.gif",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/669f60450b322881d01972de2671ff5ab87dab3b.gif",
-              "featured": false,
-              "title": "Detail levels (gif)",
-              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
-              "created": "2022-06-07T03:08:24.100552Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/738910aac87e64ca229e62e58d60c672c1c223ff_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/f379ba97a83c9ebe18da3ebed2de3f449117f8e8.png",
-              "featured": false,
-              "title": "Client-side Multiplayer Support 2",
-              "description": "Photo taken from the Pioneer Survival server",
-              "created": "2022-08-20T19:56:09.442323Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/84b9849fc6a8a97308c551ba95ea9253ee943337_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/b743960d0cbdde7f54edc07de127bc59c6b06350.png",
-              "featured": false,
-              "title": "Client-side Multiplayer Support 1",
-              "description": "Photo taken from the Pioneer Survival server",
-              "created": "2022-08-20T19:56:07.314760Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/8b80a71825383615354e731402563d434e28e541_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/1fc59e3c050f6a06635ccf37aa2b8125bb9856c5.png",
-              "featured": false,
-              "title": "Detail levels",
-              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
-              "created": "2022-06-07T03:08:02.244410Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/9fa71bad4ac5d484221c76690aeccdd74ff55e93_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/9b85cf731ecc3100866ccc8e43d60d40c8d189ed.png",
-              "featured": true,
-              "title": "A Distant Horizon",
-              "created": "2022-06-07T02:50:17.573019Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/bbc4609a89b2d3882c4bd50d931d9603d290cfcc_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/b0981e8472507c468d00b4e466d38c0801c7425e.png",
-              "featured": false,
-              "title": "Custom map support",
-              "description": "Pictured: Super Hostile Iceolation",
-              "created": "2022-06-07T02:48:58.993459Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/c5ee81eba95474bcc17b84b17ace49b0f6509277_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/65eb075cb80cf3f12cc403aa27a12b9377c40b36.png",
-              "featured": false,
-              "title": "Ciff side 1",
-              "description": "Vanilla render distance 4. Mod render distance 512.",
-              "created": "2022-06-07T02:52:53.882646Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/d70f1da2729c79aca38dc0260c5229df5b3ec277_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/80be8f6d024e322dc5a7538a4a0b187f2bc87210.png",
-              "featured": false,
-              "title": "256 render distance",
-              "description": "By default the mod renders at 64, but can go up to 4096! (although anything above 512 may become difficult due to high RAM or GPU usage)",
-              "created": "2022-06-07T02:47:26.204976Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/fa76d2bd04d77cf1ab1fd4d076f7ac9eb4fe7ffe_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/153a12159c2f00a59190623906b79245ddeaec8a.png",
-              "featured": false,
-              "title": "Variable Detail",
-              "description": "Fake chunks closer will become larger and less detailed the further they are from the player, increasing performance.",
-              "created": "2022-06-07T02:46:42.413300Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/fdada7d20036fbed71f61f0fd18c959b232af6e2_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/5f1a20ee735c1dcd026e62228301f7d10928a299.png",
-              "featured": false,
-              "title": "The End",
-              "description": "Finding end cities will be much easier now.  Photo taken by: Bunshaman",
-              "created": "2022-07-17T13:33:42.641700Z",
-              "ordering": 0.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "jkSxZOJh",
-          "project_id": "uCdwusMi",
-          "author_id": "ksmgF6Gt",
-          "name": "2.3.2-b - 1.21.1 neo/fabric",
-          "version_number": "2.3.2-b-1.21.1",
-          "changelog": "\n## Highlights:\n\n- Added MC 1.21.5 support\n- Improved world gen back to pre 2.3.0 speeds\n- Fixed transparent LODs rendering brighter than expected against the sky\n- Fixed several OpenGL errors (specifically for Linux)\n- Fixed LAN not working for Neo/Forge\n- Fixed Forge 1.18.2 dedicated server crashing on startup due to auto-updater\n- Fixed several memory leaks when changing worlds/levels\n\n\n\n## Full Changelog\n\n**Additions:**\n\n- MC 1.21.5 support\n- additional error checking/handling to shader compilation\n- stack traces to GL error logging\n- a config to only log GL errors once per message\n\n<br/>\n\n**Changes:**\n\n- decrease default world gen progress message timeout 5 seconds -> 2\n- Don't log InterruptedException's during thread pool shutdown\n- Add Iris <=1.8.10 incompatibility for MC 1.21.5\n\t- Iris 1.8.11 fixes the problem and works like normal\n\n<br/>\n\n**Bug Fixes:**\n\n- Fix GL error logging on MC versions 1.20.2 and newer\n- Fix changing graphics settings via the API failing when called on world load\n- Fix API terrain repo failing when no memory cache was provided\n- fix passing in the wrong flags to glBufferStorage\n- Fix GL errors/logs due to the following:\n  - restoring textures to the default FBO\n  - accessing the default FBO\n- Fix LAN not working on Neo/Forge\n- Fix Forge 1.18.2 dedicated server startup crash due to auto-updater\n- Fix transparent LODs rendering brighter against the sky\n- Fix SSAO applying to the sky\n- Fix world gen task duplication (increases world gen speed)\n- Fix beacon beams not going through some blocks\n- Fix several memory leaks when changing worlds/levels\n\n\n\n\n\n\n",
-          "date_published": "2025-04-05T15:07:24.053903Z",
-          "version_type": "beta",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "7dc7f295b8e132799520435c2de603c5ba1fe7b7d1c2de7a8c7106eba2d57dd2b46ac7559a7ebcd21790398472690fd3ad5ddeeec3c2648c54fae267f87b508b",
-                "sha1": "4e68bdfaabe21b6c8841497fea48233be5ce3b39"
-              },
-              "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/jkSxZOJh/DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
-              "filename": "DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
-              "primary": true,
-              "size": 17943813
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.21.1"
-          ],
-          "loaders": [
-            "fabric",
-            "neoforge"
-          ]
-        }
-      },
-      {
         "name": "Wooden tools are dumb",
         "version": "mc1.21--1.06.9",
         "optional": true,
@@ -22108,239 +21526,6 @@
         }
       },
       {
-        "name": "Better Foliage Renewed",
-        "version": "Unknown",
-        "optional": true,
-        "file": "BetterFoliageRenewed-NeoForge-1.21-6.0.jar",
-        "type": "mods",
-        "description": "A slim port of Better Foliage to 1.16 and beyond.",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 470013,
-        "curseForgeFileId": 5651620,
-        "curseForgeProject": {
-          "id": 470013,
-          "name": "Better Foliage Renewed",
-          "authors": [
-            {
-              "id": 100768859,
-              "name": "EERussianguy",
-              "url": "https://www.curseforge.com/members/eerussianguy"
-            }
-          ],
-          "gameId": 432,
-          "summary": "A slim port of Better Foliage to 1.16 and beyond.",
-          "categories": [
-            {
-              "name": "Cosmetic",
-              "slug": "cosmetic",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
-              "dateModified": "2014-05-08T17:42:35.597Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 424,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 424,
-          "classId": 6,
-          "slug": "better-foliage-renewed",
-          "isFeatured": false,
-          "dateModified": "2024-08-22T01:16:58.637Z",
-          "dateCreated": "2021-04-11T13:55:29.847Z",
-          "dateReleased": "2024-08-22T01:11:16.857Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-foliage-renewed",
-            "wikiUrl": "",
-            "issuesUrl": "https://github.com/eerussianguy/Better-Foliage/issues",
-            "sourceUrl": "https://github.com/eerussianguy/Better-Foliage"
-          },
-          "logo": {
-            "id": 368797,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/368/797/256/256/637537461298772862.png",
-            "title": "637537461298772862.png",
-            "url": "https://media.forgecdn.net/avatars/368/797/637537461298772862.png",
-            "modId": 470013
-          },
-          "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 5651620
-        },
-        "curseForgeFile": {
-          "id": 5651620,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "BetterFoliageRenewed 6.0",
-          "fileName": "BetterFoliageRenewed-NeoForge-1.21-6.0.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2024-08-22T01:11:16.857Z",
-          "fileLength": 388038,
-          "dependencies": [],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 1365081913,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 1549560798,
-              "name": "com"
-            },
-            {
-              "fingerprint": 1141061166,
-              "name": "pack.mcmeta"
-            },
-            {
-              "fingerprint": 484963886,
-              "name": "assets"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "0f2a13903ddf2e5dc469837272eec0fd1ccc4f7f",
-              "algo": 1
-            },
-            {
-              "value": "0f96e4432fc0755f930995ba548d9948",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0000000001.0000000021",
-              "gameVersion": "1.21",
-              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
-              "gameVersionName": "1.21"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Client"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
-              "gameVersionName": "NeoForge"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000021.0000000001",
-              "gameVersion": "1.21.1",
-              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
-              "gameVersionName": "1.21.1"
-            }
-          ],
-          "gameVersions": [
-            "1.21",
-            "Client",
-            "NeoForge",
-            "1.21.1"
-          ],
-          "fileFingerprint": 1402961520,
-          "modId": 470013
-        },
-        "modrinthProject": {
-          "id": "czNFt8ef",
-          "slug": "better-foliage-renewed",
-          "project_type": "mod",
-          "team": "d1XNqHyx",
-          "title": "Better Foliage Renewed",
-          "description": "A port of the mod that adds better grass and leaves to modern versions of Forge",
-          "body": "Better Foliage Renewed is a port of the original work of Octarine Noise to modern Minecraft. This is a client side only mod. It is Forge only. It will not receive a fabric port.\n\n \n\nThe original work had a few design decisions that made it hard to update as is: Complex coremodding to get certain rendering effects, a dependence on an obscure programming language, as well as doing difficult things like generating textures at runtime.\n\n \n\nThere is compatibility built in for Atmospheric, Bayou Blues, BOP, Caves and Cliffs, and Quark.\n\n \n\nThis port aims to fix these things by taking advantage of resource pack APIs. It also has no dependencies. Besides for the particle effects, you might notice that there isn't a config to disable/tweak many of the features. This is because models are loaded via resource pack. If you want to disable a certain model, override that block's blockstate file with the one from vanilla. This also means that mod compat is easier than ever! If a mod you like has a permissive license (if I can host their assets in my repository), I will add compat for it myself. Otherwise, you are free to do it yourself.\n\n \n\nFor performance, this mod is pretty comparable to vanilla. The leaves might cause some lag on slow computers, but in general, you shouldn't notice any effects unless you try shaders.\n",
-          "published": "2023-07-26T19:13:04.074660Z",
-          "updated": "2024-08-22T01:11:20.010893Z",
-          "status": "approved",
-          "license": {
-            "id": "MIT",
-            "name": "MIT License"
-          },
-          "client_side": "required",
-          "server_side": "unsupported",
-          "categories": [
-            "decoration"
-          ],
-          "loaders": [
-            "forge",
-            "neoforge"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/czNFt8ef/5e4f51b2a723e0b9884062e715d7b9009b7363c8_96.webp",
-          "issues_url": "https://github.com/eerussianguy/Better-Foliage/issues",
-          "source_url": "https://github.com/eerussianguy/Better-Foliage",
-          "donation_urls": [
-            {
-              "id": "ko-fi",
-              "platform": "Ko-fi",
-              "url": "https://ko-fi.com/eerussianguy"
-            }
-          ],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/czNFt8ef/images/5906d4fd9410e2ccfa7474795806f354fccc6d71_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/czNFt8ef/images/c0f6fa6de26d1188e399cff3ba4a7d58af5ef79c.png",
-              "featured": true,
-              "title": "Better Grass, Leaves, and Leaf Particles",
-              "created": "2023-07-26T19:17:49.573042Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/czNFt8ef/images/75e8b63ea4bd2b4c253cc20e91d2d2951a43ac06_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/czNFt8ef/images/75e8b63ea4bd2b4c253cc20e91d2d2951a43ac06.png",
-              "featured": false,
-              "title": "Better Lilies",
-              "created": "2023-07-26T19:18:04.617307Z",
-              "ordering": 1.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/czNFt8ef/images/0a9a2417765df2b5657ca284bc0f84bd2255d53a_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/czNFt8ef/images/fe2118f14ce986b09c2687e4cce095d2c19fea66.png",
-              "featured": false,
-              "title": "Rising Souls",
-              "created": "2023-07-26T19:18:15.483842Z",
-              "ordering": 2.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "of1dzvXQ",
-          "project_id": "czNFt8ef",
-          "author_id": "NJlwE92G",
-          "name": "BetterFoliageRenewed 6.0",
-          "version_number": "6.0",
-          "changelog": "### Changes\n\n- Update to 1.21",
-          "date_published": "2024-08-22T01:11:20.010893Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha1": "0f2a13903ddf2e5dc469837272eec0fd1ccc4f7f",
-                "sha512": "f9a8443e52c2c281c8aa770d87da45e2069f0cc910f449f16211d07efedb734378aeb7e6fa9002e513d9de0b975879a102f92e1d8eb5f19159485ea5fe3f1c0f"
-              },
-              "url": "https://cdn.modrinth.com/data/czNFt8ef/versions/of1dzvXQ/BetterFoliageRenewed-NeoForge-1.21-6.0.jar",
-              "filename": "BetterFoliageRenewed-NeoForge-1.21-6.0.jar",
-              "primary": true,
-              "size": 388038
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.21",
-            "1.21.1"
-          ],
-          "loaders": [
-            "neoforge"
-          ]
-        }
-      },
-      {
         "name": "Client Tweaks",
         "version": "Unknown",
         "optional": true,
@@ -34847,13 +34032,1081 @@
             "fabric"
           ]
         }
+      },
+      {
+        "name": "Toni's Immersive Lanterns",
+        "version": "1.0.6",
+        "optional": true,
+        "file": "immersivelanterns-neoforge-1.0.6-1.21.1.jar",
+        "type": "mods",
+        "description": "Adds dynamic lighting and Accessories support to lanterns, with physics!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 1116812,
+        "curseForgeFileId": 6052947,
+        "curseForgeProject": {
+          "id": 1116812,
+          "name": "Toni's Immersive Lanterns",
+          "authors": [
+            {
+              "id": 102782844,
+              "name": "Txni",
+              "url": "https://www.curseforge.com/members/txni"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds dynamic lighting and Accessories support to lanterns, with physics!",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 422,
+          "classId": 6,
+          "slug": "immersive-lanterns",
+          "isFeatured": false,
+          "dateModified": "2025-02-01T06:02:02.477Z",
+          "dateCreated": "2024-10-07T00:12:43.667Z",
+          "dateReleased": "2025-01-04T16:04:58.427Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/immersive-lanterns",
+            "issuesUrl": "https://github.com/txnimc/ImmersiveLanterns/issues",
+            "sourceUrl": "https://github.com/txnimc/ImmersiveLanterns"
+          },
+          "logo": {
+            "id": 1093990,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1093/990/256/256/638638567639585736.png",
+            "title": "638638567639585736.png",
+            "url": "https://media.forgecdn.net/avatars/1093/990/638638567639585736.png",
+            "modId": 1116812
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6052952
+        },
+        "curseForgeFile": {
+          "id": 6052947,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ImmersiveLanterns Neoforge 1.0.6 for 1.21.1",
+          "fileName": "immersivelanterns-neoforge-1.0.6-1.21.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-01-04T16:04:53.7Z",
+          "fileLength": 207004,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 938917,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 1104882,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 551736,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 6052948,
+          "modules": [
+            {
+              "fingerprint": 544119958,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 927273185,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 398028493,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3403394897,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 2441970801,
+              "name": "mixins.immersivelanterns.json"
+            },
+            {
+              "fingerprint": 4105100827,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 170084077,
+              "name": "toni"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "5315b3323b83130123f69b1b3bfc777376e4961f",
+              "algo": 1
+            },
+            {
+              "value": "ca047feebd0cf322ba8d72170a40b5fb",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 3115122916,
+          "modId": 1116812
+        },
+        "modrinthProject": {
+          "id": "vskzdsyT",
+          "slug": "immersive-lanterns",
+          "project_type": "mod",
+          "team": "1UZn392d",
+          "title": "Toni's Immersive Lanterns",
+          "description": "Adds dynamic lighting and Accessories support to lanterns, with physics!",
+          "body": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/c72yiPmFS_4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\nImmersive Lanterns adds the ability to wear Lanterns with the Accessories mod, with dynamic lighting support and custom swinging physics!\n\nTired of choosing between putting a shield or a torch in your offhand? Simple, just craft a lantern and crouch-right-click to equip to your Accessories slot! The lantern will dangle from your belt and light up the area around you. When you move around in game, the lantern will swing around like a pendulum in third person.\n\nThere are a couple mods that add dynamic lighting support to lanterns in a similar way, but Immersive Lanterns is the first to feature full compatibility with Iris shaderpacks that have their own custom dynamic lighting. For example, if you equip a Soul Lantern and use Complementary, you'll get blue lighting!\n\nImmersive Lanterns is available for 1.20.1 and 1.21.1+ on Forge and Fabric. On all platforms, it depends on Accessories and Sodium/Embeddium Dynamic Lights.\n",
+          "published": "2024-10-07T00:10:38.737053Z",
+          "updated": "2025-01-04T16:05:02.419394Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-Tonis-MMC-License",
+            "name": "",
+            "url": "https://license.txni.dev/"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "decoration",
+            "equipment",
+            "game-mechanics"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/vskzdsyT/58cbf236996cc927320535cd5152365ab37fa8f6_96.webp",
+          "issues_url": "https://github.com/txnimc/ImmersiveLanterns/issues",
+          "source_url": "https://github.com/txnimc/ImmersiveLanterns",
+          "discord_url": "https://discord.gg/kS7auUeYmc",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/vskzdsyT/images/f8424820a7570094072778cd548367b231317a92_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vskzdsyT/images/f8424820a7570094072778cd548367b231317a92.png",
+              "featured": true,
+              "title": "Immersive Lanterns",
+              "created": "2024-10-07T00:49:38.130924Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "CaxJ3tAY",
+          "project_id": "vskzdsyT",
+          "author_id": "dSn53j6E",
+          "name": "ImmersiveLanterns Neoforge 1.0.6 for 1.21.1",
+          "version_number": "1.0.6",
+          "changelog": "Fix crash with latest version of accessories",
+          "date_published": "2025-01-04T16:04:54.862210Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "5315b3323b83130123f69b1b3bfc777376e4961f",
+                "sha512": "035fc011a4bb72128e60dbe4678bfc93e29bb06dd0a3563d7e44d4b886780eaaf36a7843b7051b0e97c44d9cbfe15040ca1f61638f3681e63992078e154ffdcc"
+              },
+              "url": "https://cdn.modrinth.com/data/vskzdsyT/versions/CaxJ3tAY/immersivelanterns-neoforge-1.0.6-1.21.1.jar",
+              "filename": "immersivelanterns-neoforge-1.0.6-1.21.1.jar",
+              "primary": true,
+              "size": 207004
+            },
+            {
+              "hashes": {
+                "sha1": "1f754e3321620af2b4a91b2991c0bbd062ce945a",
+                "sha512": "4eb3b8e9d98e177b861577017fd9d647ceea0072518f821989c463b68a35addba0ae7e1e32d49f8ac0d3c92182b1b517bf76facc5bc3cee3f8264f9877e8e69c"
+              },
+              "url": "https://cdn.modrinth.com/data/vskzdsyT/versions/CaxJ3tAY/immersivelanterns-neoforge-1.0.6-1.21.1-sources.jar",
+              "filename": "immersivelanterns-neoforge-1.0.6-1.21.1-sources.jar",
+              "primary": false,
+              "size": 200722
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "vBbPDuOs",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "PxQSWIcD",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "jtmvUHXj",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "TxniLib",
+        "version": "Unknown",
+        "optional": true,
+        "file": "txnilib-neoforge-1.0.24-1.21.1.jar",
+        "type": "mods",
+        "description": "Multiversion library mod for Txni projects",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 1104882,
+        "curseForgeFileId": 6533725,
+        "curseForgeProject": {
+          "id": 1104882,
+          "name": "TxniLib",
+          "authors": [
+            {
+              "id": 102782844,
+              "name": "Txni",
+              "url": "https://www.curseforge.com/members/txni"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Multiversion library mod for Txni projects",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "txnilib",
+          "isFeatured": false,
+          "dateModified": "2025-05-15T23:30:03.19Z",
+          "dateCreated": "2024-09-18T09:28:33.777Z",
+          "dateReleased": "2025-05-15T21:54:12.237Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/txnilib",
+            "issuesUrl": "https://github.com/txnimc/TxniLib/issues",
+            "sourceUrl": "https://github.com/txnimc/TxniLib"
+          },
+          "logo": {
+            "id": 1170525,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1170/525/256/256/638741611474710951.png",
+            "title": "638741611474710951.png",
+            "url": "https://media.forgecdn.net/avatars/1170/525/638741611474710951.png",
+            "modId": 1104882
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6533726
+        },
+        "curseForgeFile": {
+          "id": 6533725,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "TxniLib Neoforge 1.0.24 for 1.21.1",
+          "fileName": "txnilib-neoforge-1.0.24-1.21.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-05-15T21:54:10.04Z",
+          "fileLength": 6276522,
+          "dependencies": [],
+          "alternateFileId": 6533731,
+          "modules": [
+            {
+              "fingerprint": 718857338,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3525083395,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 464391895,
+              "name": "mixins.txnilib.json"
+            },
+            {
+              "fingerprint": 4105100827,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3329088537,
+              "name": "toni"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "17b1bbb96e922e683a1807a2e7bece603fdc491d",
+              "algo": 1
+            },
+            {
+              "value": "69cd87744e40cc444b4176022ec6d17a",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 806726534,
+          "modId": 1104882
+        },
+        "modrinthProject": {
+          "id": "vBbPDuOs",
+          "slug": "txnilib",
+          "project_type": "mod",
+          "team": "QpXXVRL8",
+          "title": "TxniLib",
+          "description": "Multiversion library mod for Txni projects",
+          "body": "![banner](https://cdn.modrinth.com/data/cached_images/7b44fe8ba6ad90bc61a7a6212da5019e1191ffd7_0.webp)\n\nThis is a library mod! If you're not a developer, don't worry about it. This is probably in your modpack as a dependency for another mod.\n\nIf you are a developer, hello! This library is specifically designed to work alongside my [multiversion template mod](https://template.txni.dev/) which I use to release mods simultaneously on 1.20 & 1.21 on Forge & Fabric, from one codebase. Besides random stuff I find useful, this mod mostly contains platform and version specific implementations to cut down on the amount of repeated if/else when maintaining projects across versions. You're welcome to use it, but documentation is provided on a when-I-have-extra-time basis.",
+          "published": "2024-09-18T09:40:52.605190Z",
+          "updated": "2025-05-15T21:54:12.635815Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/vBbPDuOs/230624c5d6b08c340e02d2a0f67c737f759bf4e2_96.webp",
+          "issues_url": "https://github.com/txnimc/TxniLib/issues",
+          "source_url": "https://github.com/txnimc/TxniLib",
+          "discord_url": "https://discord.gg/kS7auUeYmc",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/vBbPDuOs/images/7b44fe8ba6ad90bc61a7a6212da5019e1191ffd7_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vBbPDuOs/images/7b44fe8ba6ad90bc61a7a6212da5019e1191ffd7.png",
+              "featured": false,
+              "title": "banner",
+              "created": "2024-09-18T10:06:25.882614Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "M1CyD3Uu",
+          "project_id": "vBbPDuOs",
+          "author_id": "dSn53j6E",
+          "name": "TxniLib Neoforge 1.0.24 for 1.21.1",
+          "version_number": "neoforge-1.21.1-1.0.24",
+          "changelog": "Fix issue with loading on newer versions of Forge/NeoForge #2\r\nAdded new string config options to ConfigBase",
+          "date_published": "2025-05-15T21:54:12.613150Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "17b1bbb96e922e683a1807a2e7bece603fdc491d",
+                "sha512": "656cd5746fe1b3a2cc7c516619d9f88556f37387e672bb0f362c8aecefc6f1d06705d3a84564c8779856fbbf69fee67b6038a24ffcf46f36f2c478a1aff43a57"
+              },
+              "url": "https://cdn.modrinth.com/data/vBbPDuOs/versions/M1CyD3Uu/txnilib-neoforge-1.0.24-1.21.1.jar",
+              "filename": "txnilib-neoforge-1.0.24-1.21.1.jar",
+              "primary": true,
+              "size": 6276522
+            },
+            {
+              "hashes": {
+                "sha512": "de3d92e9db0409087e6cf824d092a40fb738627db77e4a1725b0bbb51f5c842bb68192e3cc3672d11cc574972c4055cff057ea1657bd373cc5e2332929e1dcc1",
+                "sha1": "a65f30a85635d5f7dc77225177b3cef948b31d95"
+              },
+              "url": "https://cdn.modrinth.com/data/vBbPDuOs/versions/M1CyD3Uu/txnilib-neoforge-1.0.24-1.21.1-sources.jar",
+              "filename": "txnilib-neoforge-1.0.24-1.21.1-sources.jar",
+              "primary": false,
+              "size": 663767
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Distant Horizons",
+        "version": "2.3.2-b - 1.21.1 neo/fabric",
+        "optional": true,
+        "file": "DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
+        "type": "mods",
+        "description": "See farther without turning your game into a slide show",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 508933,
+        "curseForgeFileId": 6387706,
+        "curseForgeProject": {
+          "id": 508933,
+          "name": "Distant Horizons: A Level of Detail mod",
+          "authors": [
+            {
+              "id": 17079937,
+              "name": "James_Seibel",
+              "url": "https://www.curseforge.com/members/james_seibel"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Increase view distance without harming performance.",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "distant-horizons",
+          "isFeatured": false,
+          "dateModified": "2025-04-05T17:24:06.59Z",
+          "dateCreated": "2021-07-28T03:24:00.973Z",
+          "dateReleased": "2025-04-05T14:54:23.71Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons",
+            "wikiUrl": "https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/2-frequently-asked-questions/1-general/General",
+            "issuesUrl": "https://gitlab.com/jeseibel/minecraft-lod-mod/-/issues",
+            "sourceUrl": "https://gitlab.com/distant-horizons-team/distant-horizons"
+          },
+          "logo": {
+            "id": 1189514,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1189/514/256/256/638764417521176751.png",
+            "title": "638764417521176751.png",
+            "url": "https://media.forgecdn.net/avatars/1189/514/638764417521176751.png",
+            "modId": 508933
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 880253,
+              "description": "Oceans feel a lot smaller now don't they?\n\nCombined with Iris 1.7 shaders.\nPhoto courtesy of Sarge",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/880/253/310/172/light-house-sarge.jpg",
+              "title": "Ocean Overlook",
+              "url": "https://media.forgecdn.net/attachments/880/253/light-house-sarge.jpg",
+              "modId": 508933
+            },
+            {
+              "id": 880251,
+              "description": "Combined with Iris 1.7 shaders.\nPhoto courtesy of Sarge",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/880/251/310/172/misty-mountain-sarge.jpg",
+              "title": "Distant Mountains",
+              "url": "https://media.forgecdn.net/attachments/880/251/misty-mountain-sarge.jpg",
+              "modId": 508933
+            },
+            {
+              "id": 880249,
+              "description": "dh 512 rd.jpg",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/880/249/310/172/dh-512-rd.jpg",
+              "title": "512 Render Distance",
+              "url": "https://media.forgecdn.net/attachments/880/249/dh-512-rd.jpg",
+              "modId": 508933
+            },
+            {
+              "id": 488621,
+              "description": "Photo taken from the Pioneer Survival server",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/488/621/310/172/pioneer-survival-spawn.png",
+              "title": "Client-side Multiplayer Support 2",
+              "url": "https://media.forgecdn.net/attachments/488/621/pioneer-survival-spawn.png",
+              "modId": 508933
+            },
+            {
+              "id": 488618,
+              "description": "Photo taken from the Pioneer Survival server",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/488/618/310/172/pioneer-survival-floating-island.png",
+              "title": "Client-side Multiplayer Support 1",
+              "url": "https://media.forgecdn.net/attachments/488/618/pioneer-survival-floating-island.png",
+              "modId": 508933
+            },
+            {
+              "id": 477565,
+              "description": "Finding end cities will be much easier now. \r\nPhoto taken by: Bunshaman",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/477/565/310/172/2022-07-10_23.png",
+              "title": "The End",
+              "url": "https://media.forgecdn.net/attachments/477/565/2022-07-10_23.png",
+              "modId": 508933
+            },
+            {
+              "id": 467383,
+              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/467/383/310/172/all-gif.gif",
+              "title": "Detail levels (gif)",
+              "url": "https://media.forgecdn.net/attachments/467/383/all-gif.gif",
+              "modId": 508933
+            },
+            {
+              "id": 466466,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/466/466/310/172/logonameflathighlight.png",
+              "title": "Legacy Logo",
+              "url": "https://media.forgecdn.net/attachments/466/466/logonameflathighlight.png",
+              "modId": 508933
+            },
+            {
+              "id": 431567,
+              "description": "Vanilla render distance 4. Mod render distance 512.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/567/310/172/cliff-side-1.png",
+              "title": "Ciff side 1",
+              "url": "https://media.forgecdn.net/attachments/431/567/cliff-side-1.png",
+              "modId": 508933
+            },
+            {
+              "id": 431564,
+              "description": "Vanilla render distance 4. Mod render distance 512.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/564/310/172/cliff-side-2.png",
+              "title": "Cliff side 2",
+              "url": "https://media.forgecdn.net/attachments/431/564/cliff-side-2.png",
+              "modId": 508933
+            },
+            {
+              "id": 431558,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/558/310/172/horizon.png",
+              "title": "A Distant Horizon",
+              "url": "https://media.forgecdn.net/attachments/431/558/horizon.png",
+              "modId": 508933
+            },
+            {
+              "id": 403112,
+              "description": "By default the mod renders at 64, but can go up to 4096!\r\n(although anything above 512 may become difficult due to high RAM or GPU usage)",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/403/112/310/172/256-render-distance.png",
+              "title": "256 render distance",
+              "url": "https://media.forgecdn.net/attachments/403/112/256-render-distance.png",
+              "modId": 508933
+            },
+            {
+              "id": 391538,
+              "description": "Fake chunks closer will become larger and less detailed the further they are from the player, increasing performance.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/391/538/310/172/5.png",
+              "title": "Variable Detail",
+              "url": "https://media.forgecdn.net/attachments/391/538/5.png",
+              "modId": 508933
+            },
+            {
+              "id": 760783,
+              "description": "Showing MC 1.16",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/760/783/310/172/1024-fog-mc-1.jpg",
+              "title": "1024 render distance",
+              "url": "https://media.forgecdn.net/attachments/760/783/1024-fog-mc-1.jpg",
+              "modId": 508933
+            },
+            {
+              "id": 475003,
+              "description": "Fog can be customized to change with vertical height along with horizontal distance.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/475/3/310/172/unknown.png",
+              "title": "Vertical Fog",
+              "url": "https://media.forgecdn.net/attachments/475/3/unknown.png",
+              "modId": 508933
+            },
+            {
+              "id": 467382,
+              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/467/382/310/172/all.png",
+              "title": "Detail levels",
+              "url": "https://media.forgecdn.net/attachments/467/382/all.png",
+              "modId": 508933
+            },
+            {
+              "id": 431559,
+              "description": "Distant Horizons works with mod terrain generators!\r\n(Terralith 2.0 shown in this image)",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/431/559/310/172/volcano-2.png",
+              "title": "Modded Terrain Generation",
+              "url": "https://media.forgecdn.net/attachments/431/559/volcano-2.png",
+              "modId": 508933
+            },
+            {
+              "id": 403115,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/403/115/310/172/nether-vista.png",
+              "title": "Cave/Nether support",
+              "url": "https://media.forgecdn.net/attachments/403/115/nether-vista.png",
+              "modId": 508933
+            },
+            {
+              "id": 1111872,
+              "description": "Logo v2",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1111/872/310/172/distant-horizons-png.png",
+              "title": "Logo",
+              "url": "https://media.forgecdn.net/attachments/1111/872/distant-horizons-png.png",
+              "modId": 508933
+            }
+          ],
+          "mainFileId": 6387718
+        },
+        "curseForgeFile": {
+          "id": 6387706,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "1.21.1 Beta 2.3.2 neo/fabric",
+          "fileName": "DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2025-04-05T14:52:18.953Z",
+          "fileLength": 17943813,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1328746495,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2766528365,
+              "name": "build_info.json"
+            },
+            {
+              "fingerprint": 403312223,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3411263795,
+              "name": "dh_sqlite"
+            },
+            {
+              "fingerprint": 2456101327,
+              "name": "DistantHorizons"
+            },
+            {
+              "fingerprint": 666054883,
+              "name": "fabric-1_20_6.distanthorizons.accesswidener"
+            },
+            {
+              "fingerprint": 3263904736,
+              "name": "fabric-DistantHorizons-fabric-refmap.json"
+            },
+            {
+              "fingerprint": 578317025,
+              "name": "fabric-distanthorizons.accesswidener"
+            },
+            {
+              "fingerprint": 235908075,
+              "name": "fabric-DistantHorizons.fabric.mixins.json"
+            },
+            {
+              "fingerprint": 3384519944,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 365971227,
+              "name": "LICENSE-LOGOS.txt"
+            },
+            {
+              "fingerprint": 1136524626,
+              "name": "LICENSE.LESSER.txt"
+            },
+            {
+              "fingerprint": 3558459809,
+              "name": "LICENSE.txt"
+            },
+            {
+              "fingerprint": 2446386450,
+              "name": "loaderCommon"
+            },
+            {
+              "fingerprint": 1233317820,
+              "name": "log4jConfig.xml"
+            },
+            {
+              "fingerprint": 410256779,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 666054883,
+              "name": "neoforge-1_20_6.distanthorizons.accesswidener"
+            },
+            {
+              "fingerprint": 1699054700,
+              "name": "neoforge-DistantHorizons.neoforge.mixins.json"
+            },
+            {
+              "fingerprint": 1699054700,
+              "name": "neoforge-neoforge-DistantHorizons.neoforge.mixins.json"
+            },
+            {
+              "fingerprint": 367747903,
+              "name": "not.fabric.mod.json"
+            },
+            {
+              "fingerprint": 1374316859,
+              "name": "org"
+            },
+            {
+              "fingerprint": 3521902734,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 305584542,
+              "name": "shaders"
+            },
+            {
+              "fingerprint": 2903979276,
+              "name": "sqlite-jdbc.properties"
+            },
+            {
+              "fingerprint": 890667614,
+              "name": "sqlScripts"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "4e68bdfaabe21b6c8841497fea48233be5ce3b39",
+              "algo": 1
+            },
+            {
+              "value": "697441dcb42cff61f8bda975d8061e1b",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "Client",
+            "NeoForge",
+            "1.21.1",
+            "Server"
+          ],
+          "fileFingerprint": 2546846154,
+          "modId": 508933
+        },
+        "modrinthProject": {
+          "id": "uCdwusMi",
+          "slug": "distanthorizons",
+          "project_type": "mod",
+          "team": "FulsV5Ai",
+          "title": "Distant Horizons",
+          "description": "See farther without turning your game into a slide show",
+          "body": "<center>\n  <img width=\"420\" src=\"https://media.forgecdn.net/attachments/1111/872/distant-horizons-png.png\" alt=\"Distant Horizons\">\n</center>\n\n\n\n<br>\n\nWhat does Distant Horizons do? \n<br>\nSimply put, it add simplified terrain past Minecraft's default view distance to improve performance and allow for longer draw distances.\n<br>\nNow you can finally enjoy that lookout tower you built on top of a mountain!\n\n![Cliffside Village](https://media.forgecdn.net/attachments/880/249/dh-512-rd.jpg)\n### <center> This photo was taken with a Minecraft render distance of 12 and a mod distance of 512. </center>\n<br> <br>\n\n<center>\nIf you want to see a quick demo, check out the latest update video\n<br> <br>\n\n<a href=\"https://www.youtube.com/watch?v=zuQDgamAZsU\">\n<img src=\"https://i.ytimg.com/vi/zuQDgamAZsU/hq720.jpg\" width=\"630\" />\n</a> </center> <br> <br>\n\n## Hey, Hey you! This is important!\n\nThe version support numbers are strict! <br>\nIf a version says it supports MC 1.18.1 it will NOT work on 1.18.2! <br>\n\nAnd: the mod is still in alpha. Things may change, break, crash or otherwise go wrong. You have been warned! <br>\nAlthough if you have problems feel free to leave an issue on the project's GitLab.\n<br> \n \n\n \n## FAQ:\n\n**Q: Forge or Fabric?** <br>\nA: MC 1.20.6 and newer - NeoForge and Fabric are both in the same jar. <br>\nMC 1.20.4 and older - Forge and Fabric are both in the same jar. \n\n**Q: Shaders?** <br>\nA: Yes, but only with certain shaders. <br>\n- Optifine: DH partially works with forward rendered shaders.\n- Iris (and equivalent ports): DH 2.1.0+ only works with Iris 1.7+ and only with shaders built with DH support in mind. \n  - DH 2.0 and older don't work with Iris.\n\n**Q: Does this work with player created structures?** <br>\nA: Yes.\n\n**Q: Is there multiplayer support?** <br>\nA: Yes\n\n**client side only:** <br>\nIf you only have DH installed on your client LODs will be saved between sessions, although you have to explore the world to load them.\n <br>\n**Server and Client:** <br>\nIf DH is installed on the server and client, LODs will automatically be sent to each connected user that has DH installed and has `Distant Generation Enabled` set to true, disabling distant generation on the server will prevent LODs from being sent to the users.\n\n**Q: Where can I download the Bukkit plugin?** <br>\nA: The bukkit plugin for 2.3.0 is available as an additional file in the download page.\n\n<br>\n\n### Extended FAQ:\n\n<a href=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/1-user-guide/1-frequently-asked-questions/1-general/General\">\n<img src=\"https://gitlab.com/jeseibel/minecraft-lod-mod/-/wikis/_hidden/shared-images/images/faq-button-general.png\" width=\"200\" />\n</a> <br>\n\n<a href=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/1-user-guide/1-frequently-asked-questions/4-mod-support/Mod-Support\">\n<img src=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/_hidden/shared-images/images/faq-button-mod-support.png\" width=\"200\" />\n</a> <br>\n\n<a href=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/1-user-guide/1-frequently-asked-questions/2-problems-and-solutions/Problems-and-Solutions\">\n<img src=\"https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/_hidden/shared-images/images/faq-button-problem.png\" width=\"200\" />\n</a>\n\n<br> <br>\n\n\n## Discord:\nJoin our Discord for news, updates, and help:\ndiscord.com/invite/xAB8G4cENx\n<br> <br>\n\n\n## Support us:\n\nIf you want to help with development, join our discord and let us know!\n\nOtherwise if you can't help with development but still want to support Distant Horizons, check out our donation page:\n\nhttps://ko-fi.com/distanthorizons",
+          "published": "2022-01-23T05:46:55.026356Z",
+          "updated": "2025-04-05T15:13:05.306547Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "optimization",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uCdwusMi/e716cda9bb568b5373ff76e363fb4c6d7278fba6_96.webp",
+          "issues_url": "https://gitlab.com/distant-horizons-team/distant-horizons/-/issues",
+          "source_url": "https://gitlab.com/distant-horizons-team/distant-horizons",
+          "wiki_url": "https://gitlab.com/distant-horizons-team/distant-horizons/-/wikis/home",
+          "discord_url": "https://discord.gg/xAB8G4cENx",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/distanthorizons"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/1aa2b086bb9f1e800183feea724b98b90d62cd15_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/1b27a855d3b44c0d1b7bc111b7e22d1c6f9a9e5d.png",
+              "featured": false,
+              "title": "Modded Terrain Generation",
+              "description": "Distant Horizons works with mod terrain generators! (Terralith 2.0 shown in this image)",
+              "created": "2022-06-07T02:51:26.416185Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/1f23c2eb7d43d67dd35912456205cc1b0b66e905_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/5dac2a283e66ed9da0f76ec5a8a6cd243309bff1.png",
+              "featured": false,
+              "title": "Cave/Nether support",
+              "description": " ",
+              "created": "2022-06-07T02:47:51.575910Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/29b1542131948d311c933506c240fde3a3114df9_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/8a194aa0cdd60a695550eb53110a6f61d880db57.jpeg",
+              "featured": false,
+              "title": "1024 render distance",
+              "description": "Showing MC 1.16",
+              "created": "2023-11-18T14:30:55.851012Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/329feb1c2514756735de08f5abe378dcc5597f93_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/53bd0a0be0d54480da03175ce1c6901df826f00f.png",
+              "featured": false,
+              "title": "Cliff side 2",
+              "description": "Vanilla render distance 4. Mod render distance 512.",
+              "created": "2022-06-07T02:52:29.740651Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/669f60450b322881d01972de2671ff5ab87dab3b.gif",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/669f60450b322881d01972de2671ff5ab87dab3b.gif",
+              "featured": false,
+              "title": "Detail levels (gif)",
+              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
+              "created": "2022-06-07T03:08:24.100552Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/738910aac87e64ca229e62e58d60c672c1c223ff_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/f379ba97a83c9ebe18da3ebed2de3f449117f8e8.png",
+              "featured": false,
+              "title": "Client-side Multiplayer Support 2",
+              "description": "Photo taken from the Pioneer Survival server",
+              "created": "2022-08-20T19:56:09.442323Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/84b9849fc6a8a97308c551ba95ea9253ee943337_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/b743960d0cbdde7f54edc07de127bc59c6b06350.png",
+              "featured": false,
+              "title": "Client-side Multiplayer Support 1",
+              "description": "Photo taken from the Pioneer Survival server",
+              "created": "2022-08-20T19:56:07.314760Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/8b80a71825383615354e731402563d434e28e541_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/1fc59e3c050f6a06635ccf37aa2b8125bb9856c5.png",
+              "featured": false,
+              "title": "Detail levels",
+              "description": "The mod will render chunks at different detail levels depending on how far they are from you.",
+              "created": "2022-06-07T03:08:02.244410Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/9fa71bad4ac5d484221c76690aeccdd74ff55e93_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/9b85cf731ecc3100866ccc8e43d60d40c8d189ed.png",
+              "featured": true,
+              "title": "A Distant Horizon",
+              "created": "2022-06-07T02:50:17.573019Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/bbc4609a89b2d3882c4bd50d931d9603d290cfcc_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/b0981e8472507c468d00b4e466d38c0801c7425e.png",
+              "featured": false,
+              "title": "Custom map support",
+              "description": "Pictured: Super Hostile Iceolation",
+              "created": "2022-06-07T02:48:58.993459Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/c5ee81eba95474bcc17b84b17ace49b0f6509277_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/65eb075cb80cf3f12cc403aa27a12b9377c40b36.png",
+              "featured": false,
+              "title": "Ciff side 1",
+              "description": "Vanilla render distance 4. Mod render distance 512.",
+              "created": "2022-06-07T02:52:53.882646Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/d70f1da2729c79aca38dc0260c5229df5b3ec277_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/80be8f6d024e322dc5a7538a4a0b187f2bc87210.png",
+              "featured": false,
+              "title": "256 render distance",
+              "description": "By default the mod renders at 64, but can go up to 4096! (although anything above 512 may become difficult due to high RAM or GPU usage)",
+              "created": "2022-06-07T02:47:26.204976Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/fa76d2bd04d77cf1ab1fd4d076f7ac9eb4fe7ffe_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/153a12159c2f00a59190623906b79245ddeaec8a.png",
+              "featured": false,
+              "title": "Variable Detail",
+              "description": "Fake chunks closer will become larger and less detailed the further they are from the player, increasing performance.",
+              "created": "2022-06-07T02:46:42.413300Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/images/fdada7d20036fbed71f61f0fd18c959b232af6e2_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uCdwusMi/images/5f1a20ee735c1dcd026e62228301f7d10928a299.png",
+              "featured": false,
+              "title": "The End",
+              "description": "Finding end cities will be much easier now.  Photo taken by: Bunshaman",
+              "created": "2022-07-17T13:33:42.641700Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "jkSxZOJh",
+          "project_id": "uCdwusMi",
+          "author_id": "ksmgF6Gt",
+          "name": "2.3.2-b - 1.21.1 neo/fabric",
+          "version_number": "2.3.2-b-1.21.1",
+          "changelog": "\n## Highlights:\n\n- Added MC 1.21.5 support\n- Improved world gen back to pre 2.3.0 speeds\n- Fixed transparent LODs rendering brighter than expected against the sky\n- Fixed several OpenGL errors (specifically for Linux)\n- Fixed LAN not working for Neo/Forge\n- Fixed Forge 1.18.2 dedicated server crashing on startup due to auto-updater\n- Fixed several memory leaks when changing worlds/levels\n\n\n\n## Full Changelog\n\n**Additions:**\n\n- MC 1.21.5 support\n- additional error checking/handling to shader compilation\n- stack traces to GL error logging\n- a config to only log GL errors once per message\n\n<br/>\n\n**Changes:**\n\n- decrease default world gen progress message timeout 5 seconds -> 2\n- Don't log InterruptedException's during thread pool shutdown\n- Add Iris <=1.8.10 incompatibility for MC 1.21.5\n\t- Iris 1.8.11 fixes the problem and works like normal\n\n<br/>\n\n**Bug Fixes:**\n\n- Fix GL error logging on MC versions 1.20.2 and newer\n- Fix changing graphics settings via the API failing when called on world load\n- Fix API terrain repo failing when no memory cache was provided\n- fix passing in the wrong flags to glBufferStorage\n- Fix GL errors/logs due to the following:\n  - restoring textures to the default FBO\n  - accessing the default FBO\n- Fix LAN not working on Neo/Forge\n- Fix Forge 1.18.2 dedicated server startup crash due to auto-updater\n- Fix transparent LODs rendering brighter against the sky\n- Fix SSAO applying to the sky\n- Fix world gen task duplication (increases world gen speed)\n- Fix beacon beams not going through some blocks\n- Fix several memory leaks when changing worlds/levels\n\n\n\n\n\n\n",
+          "date_published": "2025-04-05T15:07:24.053903Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "7dc7f295b8e132799520435c2de603c5ba1fe7b7d1c2de7a8c7106eba2d57dd2b46ac7559a7ebcd21790398472690fd3ad5ddeeec3c2648c54fae267f87b508b",
+                "sha1": "4e68bdfaabe21b6c8841497fea48233be5ce3b39"
+              },
+              "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/jkSxZOJh/DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
+              "filename": "DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
+              "primary": true,
+              "size": 17943813
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "fabric",
+            "neoforge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1751760933420,
-    "numPlays": 161
+    "lastPlayed": 1751763213268,
+    "numPlays": 167
   },
   "id": "1.21.1",
   "complianceLevel": 1,
