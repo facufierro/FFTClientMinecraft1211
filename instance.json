@@ -23378,286 +23378,6 @@
         }
       },
       {
-        "name": "Sodium/Embeddium Dynamic Lights",
-        "version": "Unknown",
-        "optional": true,
-        "file": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-        "type": "mods",
-        "description": "Multiloader port of LambDynLights that adds Sodium/Embeddium settings support",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 551736,
-        "curseForgeFileId": 6044477,
-        "curseForgeProject": {
-          "id": 551736,
-          "name": "Sodium/Embeddium Dynamic Lights",
-          "authors": [
-            {
-              "id": 102782844,
-              "name": "Txni",
-              "url": "https://www.curseforge.com/members/txni"
-            }
-          ],
-          "gameId": 432,
-          "summary": "Multiloader port of LambDynLights that adds Sodium/Embeddium settings support",
-          "categories": [
-            {
-              "name": "Cosmetic",
-              "slug": "cosmetic",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
-              "dateModified": "2014-05-08T17:42:35.597Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 424,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Performance",
-              "slug": "performance",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
-              "dateModified": "2024-01-16T06:56:01.057Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 6814,
-              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Performance",
-              "slug": "performance",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
-              "dateModified": "2024-01-16T06:56:01.057Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 6814,
-              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 424,
-          "classId": 6,
-          "slug": "dynamiclights-reforged",
-          "isFeatured": false,
-          "dateModified": "2025-04-10T21:24:23.3Z",
-          "dateCreated": "2021-12-02T03:36:35.27Z",
-          "dateReleased": "2025-04-10T21:19:54.253Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged",
-            "wikiUrl": "",
-            "issuesUrl": "https://github.com/txnimc/SodiumDynamicLights/issues",
-            "sourceUrl": "https://github.com/txnimc/SodiumDynamicLights"
-          },
-          "logo": {
-            "id": 1068309,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1068/309/256/256/638602793082566240.png",
-            "title": "638602793082566240.png",
-            "url": "https://media.forgecdn.net/avatars/1068/309/638602793082566240.png",
-            "modId": 551736
-          },
-          "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 6408534
-        },
-        "curseForgeFile": {
-          "id": 6044477,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "SodiumDynamicLights Neoforge 1.0.10 for 1.21.1",
-          "fileName": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2025-01-02T01:22:42.973Z",
-          "fileLength": 299353,
-          "dependencies": [
-            {
-              "fileId": 0,
-              "modId": 1103431,
-              "relationType": 3
-            },
-            {
-              "fileId": 0,
-              "modId": 394468,
-              "relationType": 3
-            }
-          ],
-          "alternateFileId": 6044483,
-          "modules": [
-            {
-              "fingerprint": 233804710,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 1997262962,
-              "name": "LambDynamicLights.LICENSE"
-            },
-            {
-              "fingerprint": 1958171739,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 670667074,
-              "name": "dev"
-            },
-            {
-              "fingerprint": 835876190,
-              "name": "mixins.sodiumdynamiclights.json"
-            },
-            {
-              "fingerprint": 4105100827,
-              "name": "pack.mcmeta"
-            },
-            {
-              "fingerprint": 2210316125,
-              "name": "sodiumdynamiclights.toml"
-            },
-            {
-              "fingerprint": 4053808789,
-              "name": "sodiumdynamiclights_1.20.1.accesswidener"
-            },
-            {
-              "fingerprint": 1095485847,
-              "name": "sodiumdynamiclights_1.21.1.accesswidener"
-            },
-            {
-              "fingerprint": 1095485847,
-              "name": "sodiumdynamiclights_1.21.4.accesswidener"
-            },
-            {
-              "fingerprint": 979772024,
-              "name": "toni"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652",
-              "algo": 1
-            },
-            {
-              "value": "daaa3a9e438fddffc1db19bf8a7dfba0",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
-              "gameVersionName": "NeoForge"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000021.0000000001",
-              "gameVersion": "1.21.1",
-              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
-              "gameVersionName": "1.21.1"
-            }
-          ],
-          "gameVersions": [
-            "NeoForge",
-            "1.21.1"
-          ],
-          "fileFingerprint": 474806553,
-          "modId": 551736
-        },
-        "modrinthProject": {
-          "id": "PxQSWIcD",
-          "slug": "sodium-dynamic-lights",
-          "project_type": "mod",
-          "team": "hBGCPeKZ",
-          "title": "Sodium Dynamic Lights",
-          "description": "Multiloader port of LambDynLights that adds Sodium options integration",
-          "body": "![banner](https://cdn.modrinth.com/data/cached_images/56ae9d34e07794c183a3c9c89b57b6b6043e3b2e.png)\n\nAn unofficial Forge/multiloader port of LambDynamicLights that integrates with Sodium and Embeddium.\n\nYou may also enjoy [Sodium/Embeddium Extras](https://modrinth.com/mod/sodium-extras)\n\n![sodium options](https://cdn.modrinth.com/data/cached_images/4f224929dc5c2a0cfca922dcbb918ae9d87000db.png)\n\n![demo](https://cdn.modrinth.com/data/cached_images/14bdbab8f5aae99193fb0be2d36d872da17d96aa.png)",
-          "published": "2024-08-26T14:26:07.157981Z",
-          "updated": "2025-04-10T21:19:54.842919Z",
-          "status": "approved",
-          "license": {
-            "id": "MIT",
-            "name": "MIT License"
-          },
-          "client_side": "required",
-          "server_side": "unsupported",
-          "categories": [
-            "decoration",
-            "optimization"
-          ],
-          "loaders": [
-            "fabric",
-            "forge",
-            "neoforge"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/PxQSWIcD/a5ab5515213391934e18baaf487c87e4b24ebfa3_96.webp",
-          "issues_url": "https://github.com/txnimc/SodiumDynamicLights/issues",
-          "source_url": "https://github.com/txnimc/SodiumDynamicLights",
-          "discord_url": "https://discord.gg/kS7auUeYmc",
-          "donation_urls": [],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/PxQSWIcD/images/bf198f89bf08b1e43a67d8da3038c5b32c8f7ce3_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/PxQSWIcD/images/56ae9d34e07794c183a3c9c89b57b6b6043e3b2e.png",
-              "featured": false,
-              "created": "2024-08-26T14:50:40.557804Z",
-              "ordering": 0.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "XI0WLXdn",
-          "project_id": "PxQSWIcD",
-          "author_id": "dSn53j6E",
-          "name": "SodiumDynamicLights Neoforge 1.0.10 for 1.21.1",
-          "version_number": "neoforge-1.21.1-1.0.10",
-          "changelog": "fix crash with mods using the new LambDynLights API",
-          "date_published": "2025-01-02T01:22:43.914842Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a",
-                "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652"
-              },
-              "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-              "filename": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-              "primary": true,
-              "size": 299353
-            },
-            {
-              "hashes": {
-                "sha1": "38dbd03a29d65637e78f05b65121eafa6ba30bb0",
-                "sha512": "1684095a16e0c96c663dc62a84905e25df805f5bdb347c44009c6db99b216bdaf358242062a03e5a2bc04599ad1db6b0d79de56470719ef5a468e5cf50c24f18"
-              },
-              "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1-sources.jar",
-              "filename": "sodiumdynamiclights-neoforge-1.0.10-1.21.1-sources.jar",
-              "primary": false,
-              "size": 280751
-            }
-          ],
-          "dependencies": [
-            {
-              "project_id": "AANobbMI",
-              "dependency_type": "required"
-            },
-            {
-              "project_id": "Es5v4eyq",
-              "dependency_type": "required"
-            }
-          ],
-          "game_versions": [
-            "1.21.1"
-          ],
-          "loaders": [
-            "neoforge"
-          ]
-        }
-      },
-      {
         "name": "Sodium/Embeddium Options API",
         "version": "Unknown",
         "optional": true,
@@ -34520,6 +34240,708 @@
         }
       },
       {
+        "name": "Inventory Tweaks: ReFoxed",
+        "version": "1.21.1-1.2.0",
+        "optional": true,
+        "file": "invtweaks-1.21.1-1.2.0.jar",
+        "type": "mods",
+        "description": "Inventory Tweaks for NeoForge",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 976858,
+        "curseForgeFileId": 5939540,
+        "curseForgeProject": {
+          "id": 976858,
+          "name": "Inventory Tweaks - ReFoxed",
+          "authors": [
+            {
+              "id": 101028709,
+              "name": "LobsterJonn",
+              "url": "https://www.curseforge.com/members/lobsterjonn"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Inventory Tweaks for NeoForge",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "inventory-tweaks-refoxed",
+          "isFeatured": false,
+          "dateModified": "2025-06-09T08:18:03.723Z",
+          "dateCreated": "2024-02-19T14:13:31.117Z",
+          "dateReleased": "2025-06-09T08:14:34.83Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-refoxed",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/JDKDigital/InvTweaksRefoxed/issues",
+            "sourceUrl": "https://github.com/JDKDigital/InvTweaksRefoxed"
+          },
+          "logo": {
+            "id": 951092,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/951/92/256/256/638440158830430802.png",
+            "title": "638440158830430802.png",
+            "url": "https://media.forgecdn.net/avatars/951/92/638440158830430802.png",
+            "modId": 976858
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6632417
+        },
+        "curseForgeFile": {
+          "id": 5939540,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "invtweaks-1.21.1-1.2.0.jar",
+          "fileName": "invtweaks-1.21.1-1.2.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-11-26T18:15:12.537Z",
+          "fileLength": 74866,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2325008119,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 576637308,
+              "name": "invtweaks"
+            },
+            {
+              "fingerprint": 234590878,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2237320170,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3208778516,
+              "name": "logo.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "f81426b87be821aba41da4483895760cf6248710",
+              "algo": 1
+            },
+            {
+              "value": "d870ff3ea3e496d660be5c08f510c438",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 4107700152,
+          "modId": 976858
+        },
+        "modrinthProject": {
+          "id": "uqnMI1kq",
+          "slug": "inventory-tweaks-refoxed",
+          "project_type": "mod",
+          "team": "S0S92QRZ",
+          "title": "Inventory Tweaks: ReFoxed",
+          "description": "Inventory Tweaks for NeoForge",
+          "body": "A fork of Inventory Tweaks Renewed, updated for NeoForge 1.20.\n\n\nThis mod allows you to easily manage your inventory, in both single player and multiplayer. It works out of the box, and will make you save a massive amount of time!\n\nIt automatically replaces your tools as they break, and item stacks once emptied\nIt sorts your inventory and your chests in a single click/keystroke\nIt provides lots of powerful shortcuts to move items around\nIt allows you to customize entirely the way your inventory is sorted, thanks to clever configuration files",
+          "published": "2024-02-19T23:08:37.020281Z",
+          "updated": "2024-11-26T18:52:57.351918Z",
+          "status": "approved",
+          "license": {
+            "id": "Apache-2.0",
+            "name": "Apache License 2.0"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uqnMI1kq/1c41a4db66e86f74ccbad63f346ba8d74340f2c0.png",
+          "issues_url": "https://github.com/JDKDigital/InvTweaksRefoxed/issues",
+          "source_url": "https://github.com/JDKDigital/InvTweaksRefoxed",
+          "discord_url": "https://discord.gg/x822BKu624",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "tcTciTmQ",
+          "project_id": "uqnMI1kq",
+          "author_id": "AAL1KesL",
+          "name": "1.21.1-1.2.0",
+          "version_number": "1.21.1-1.2.0",
+          "changelog": "- Fixed items being deleted on sort\r\n- Fixed armor unequipping when equipped from right click\r\n- Blacklisted more GUIs by default",
+          "date_published": "2024-11-26T18:15:13.783718Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "a419544da8d943ccf17ed62f359fdbff04752735d370b18de3833a74277039e0313c8032e06462125b6b9b4e15b4eec057b680d302b465191ce51c13254bdeb2",
+                "sha1": "f81426b87be821aba41da4483895760cf6248710"
+              },
+              "url": "https://cdn.modrinth.com/data/uqnMI1kq/versions/tcTciTmQ/invtweaks-1.21.1-1.2.0.jar",
+              "filename": "invtweaks-1.21.1-1.2.0.jar",
+              "primary": true,
+              "size": 74866
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21.1",
+            "1.21.2",
+            "1.21.3"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Sodium Dynamic Lights",
+        "version": "SodiumDynamicLights Neoforge 1.0.10 for 1.21.1",
+        "optional": true,
+        "file": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+        "type": "mods",
+        "description": "Multiloader port of LambDynLights that adds Sodium options integration",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 551736,
+        "curseForgeFileId": 6044477,
+        "curseForgeProject": {
+          "id": 551736,
+          "name": "Sodium/Embeddium Dynamic Lights",
+          "authors": [
+            {
+              "id": 102782844,
+              "name": "Txni",
+              "url": "https://www.curseforge.com/members/txni"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Multiloader port of LambDynLights that adds Sodium/Embeddium settings support",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Performance",
+              "slug": "performance",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+              "dateModified": "2024-01-16T06:56:01.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 6814,
+              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Performance",
+              "slug": "performance",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+              "dateModified": "2024-01-16T06:56:01.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 6814,
+              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "dynamiclights-reforged",
+          "isFeatured": false,
+          "dateModified": "2025-04-10T21:24:23.3Z",
+          "dateCreated": "2021-12-02T03:36:35.27Z",
+          "dateReleased": "2025-04-10T21:19:54.253Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/txnimc/SodiumDynamicLights/issues",
+            "sourceUrl": "https://github.com/txnimc/SodiumDynamicLights"
+          },
+          "logo": {
+            "id": 1068309,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1068/309/256/256/638602793082566240.png",
+            "title": "638602793082566240.png",
+            "url": "https://media.forgecdn.net/avatars/1068/309/638602793082566240.png",
+            "modId": 551736
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6408534
+        },
+        "curseForgeFile": {
+          "id": 6044477,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "SodiumDynamicLights Neoforge 1.0.10 for 1.21.1",
+          "fileName": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-01-02T01:22:42.973Z",
+          "fileLength": 299353,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 1103431,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 394468,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 6044483,
+          "modules": [
+            {
+              "fingerprint": 233804710,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1997262962,
+              "name": "LambDynamicLights.LICENSE"
+            },
+            {
+              "fingerprint": 1958171739,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 670667074,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 835876190,
+              "name": "mixins.sodiumdynamiclights.json"
+            },
+            {
+              "fingerprint": 4105100827,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2210316125,
+              "name": "sodiumdynamiclights.toml"
+            },
+            {
+              "fingerprint": 4053808789,
+              "name": "sodiumdynamiclights_1.20.1.accesswidener"
+            },
+            {
+              "fingerprint": 1095485847,
+              "name": "sodiumdynamiclights_1.21.1.accesswidener"
+            },
+            {
+              "fingerprint": 1095485847,
+              "name": "sodiumdynamiclights_1.21.4.accesswidener"
+            },
+            {
+              "fingerprint": 979772024,
+              "name": "toni"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652",
+              "algo": 1
+            },
+            {
+              "value": "daaa3a9e438fddffc1db19bf8a7dfba0",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 474806553,
+          "modId": 551736
+        },
+        "modrinthProject": {
+          "id": "PxQSWIcD",
+          "slug": "sodium-dynamic-lights",
+          "project_type": "mod",
+          "team": "hBGCPeKZ",
+          "title": "Sodium Dynamic Lights",
+          "description": "Multiloader port of LambDynLights that adds Sodium options integration",
+          "body": "![banner](https://cdn.modrinth.com/data/cached_images/56ae9d34e07794c183a3c9c89b57b6b6043e3b2e.png)\n\nAn unofficial Forge/multiloader port of LambDynamicLights that integrates with Sodium and Embeddium.\n\nYou may also enjoy [Sodium/Embeddium Extras](https://modrinth.com/mod/sodium-extras)\n\n![sodium options](https://cdn.modrinth.com/data/cached_images/4f224929dc5c2a0cfca922dcbb918ae9d87000db.png)\n\n![demo](https://cdn.modrinth.com/data/cached_images/14bdbab8f5aae99193fb0be2d36d872da17d96aa.png)",
+          "published": "2024-08-26T14:26:07.157981Z",
+          "updated": "2025-04-10T21:19:54.842919Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "decoration",
+            "optimization"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/PxQSWIcD/a5ab5515213391934e18baaf487c87e4b24ebfa3_96.webp",
+          "issues_url": "https://github.com/txnimc/SodiumDynamicLights/issues",
+          "source_url": "https://github.com/txnimc/SodiumDynamicLights",
+          "discord_url": "https://discord.gg/kS7auUeYmc",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/PxQSWIcD/images/bf198f89bf08b1e43a67d8da3038c5b32c8f7ce3_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/PxQSWIcD/images/56ae9d34e07794c183a3c9c89b57b6b6043e3b2e.png",
+              "featured": false,
+              "created": "2024-08-26T14:50:40.557804Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "XI0WLXdn",
+          "project_id": "PxQSWIcD",
+          "author_id": "dSn53j6E",
+          "name": "SodiumDynamicLights Neoforge 1.0.10 for 1.21.1",
+          "version_number": "neoforge-1.21.1-1.0.10",
+          "changelog": "fix crash with mods using the new LambDynLights API",
+          "date_published": "2025-01-02T01:22:43.914842Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a",
+                "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652"
+              },
+              "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+              "filename": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+              "primary": true,
+              "size": 299353
+            },
+            {
+              "hashes": {
+                "sha1": "38dbd03a29d65637e78f05b65121eafa6ba30bb0",
+                "sha512": "1684095a16e0c96c663dc62a84905e25df805f5bdb347c44009c6db99b216bdaf358242062a03e5a2bc04599ad1db6b0d79de56470719ef5a468e5cf50c24f18"
+              },
+              "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1-sources.jar",
+              "filename": "sodiumdynamiclights-neoforge-1.0.10-1.21.1-sources.jar",
+              "primary": false,
+              "size": 280751
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "AANobbMI",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "Es5v4eyq",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Modflared",
+        "version": "1.2.2+release.81 for 1.21.1",
+        "optional": true,
+        "file": "modflared-1.2.2+release.81.jar",
+        "type": "mods",
+        "description": "Automatically connects you to a Cloudflare tunnel without having to install cloudflared separately.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 997330,
+        "curseForgeFileId": 6450016,
+        "curseForgeProject": {
+          "id": 997330,
+          "name": "Modflared",
+          "authors": [
+            {
+              "id": 101316129,
+              "name": "HttxRafa",
+              "url": "https://www.curseforge.com/members/httxrafa"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Automatically connects you to a Cloudflare tunnel without having to install cloudflared separately.",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "modflared",
+          "isFeatured": false,
+          "dateModified": "2025-07-01T14:55:15.43Z",
+          "dateCreated": "2024-04-03T14:09:23.397Z",
+          "dateReleased": "2025-07-01T14:53:20.97Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modflared",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/HttpRafa/modflared/issues",
+            "sourceUrl": "https://github.com/HttpRafa/Modflared"
+          },
+          "logo": {
+            "id": 974447,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/974/447/256/256/638477501636186429.png",
+            "title": "638477501636186429.png",
+            "url": "https://media.forgecdn.net/avatars/974/447/638477501636186429.png",
+            "modId": 997330
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6717015
+        },
+        "curseForgeFile": {
+          "id": 6450016,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "1.2.2+release.81 for 1.21.1",
+          "fileName": "modflared-1.2.2+release.81.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-04-22T00:14:35.733Z",
+          "fileLength": 72468,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2095037298,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4289179127,
+              "name": "architectury_inject_modflared_common_18087daca98e48e5a5df217a7c308e59_c6bfd9d7a7c64a366f66b54ef25aa1b8f89741c55a93316941eab51b0a6fe6camodflared122release81devjar"
+            },
+            {
+              "fingerprint": 497202369,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 617560813,
+              "name": "de"
+            },
+            {
+              "fingerprint": 517127043,
+              "name": "forced_tunnels.json"
+            },
+            {
+              "fingerprint": 2367178182,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 1550835770,
+              "name": "modflared-common-refmap.json"
+            },
+            {
+              "fingerprint": 1145800198,
+              "name": "modflared-common.mixins.json"
+            },
+            {
+              "fingerprint": 1095485847,
+              "name": "modflared.accesswidener"
+            },
+            {
+              "fingerprint": 1885333392,
+              "name": "modflared.mixins.json"
+            },
+            {
+              "fingerprint": 1509136372,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "13739434e6b1819cb46404b54e12eb2f3c00cf31",
+              "algo": 1
+            },
+            {
+              "value": "57f92abf3708b95c0a0a2b2e60204e0b",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 1048266886,
+          "modId": 997330
+        },
+        "modrinthProject": {
+          "id": "uRHq6kbO",
+          "slug": "modflared",
+          "project_type": "mod",
+          "team": "NiS2VH3d",
+          "title": "Modflared",
+          "description": "Automatically connects you to a Cloudflare tunnel without having to install cloudflared separately.",
+          "body": "# Modflared\nAutomatically connects you to a [Cloudflare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) without having to install [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/) separately.\n#### This mod has not yet been fully tested!\n\n## How to use\nTo be able to use the mod you have to be on the operating system Windows, Linux, or MacOS.\n\n## Other resources\nFor more detailed instructions, you can also read Varun A's blog post. The blog post can be found [here](https://dacubeking.com/2024/02/28/Proxying-Minecraft.html).\n\n## Configuring Cloudflared\nYou need to set up cloudflare on your server for this to work. There's plenty of guides on how to do this elsewhere.  \nMake sure in your config file (possibly in `/etc/cloudflared/config.yml`) you have the lines:\n```YML\n- hostname: example.domain.net\n  service: tcp://localhost:25565\n```\nReplace `example.domain.net` with the correct subdomain you want to use. If you're running multiple instances (eg. with docker), change the port 25565 to whatever port you're using.  \nRestart the cloudflare daemon (`sudo systemctl restart cloudflared`) to apply the changes.\nAdd the correct DNS entry: go to [Cloudflare dashboard](https://dash.cloudflare.net), go to your website and DNS entries, then add a new CNAME DNS entry with your subdomain and set the target to `<tunnelID>.cfargotunnel.com`, with the tunnel ID found in the cloudflare config.yml file.\n### Example DNS Entries\n![Example CNAME](https://raw.githubusercontent.com/HttpRafa/modflared/multi/latest/.github/images/dns_cname.png)\n![Example TXT](https://raw.githubusercontent.com/HttpRafa/modflared/multi/latest/.github/images/dns_txt.png)\n\n### For Players\nIf your server admin has properly configured their server you should be able to connect to the server as usual. \nNo extra configuration is needed.\n\nIf your server admin has not properly configured their server, you will need to add their server to the `forced_tunnels.json` file in the modflared config folder. \n#### Example configuration (modflared/forced_tunnels.json)\n```JSON\n[\"example.domain.net\", \"example2.domain.net\"]\n```\n\n### Server Admins (Setting Up cloudflared)\nInstall Cloudflared as described in the “Configuring Cloudflared” part above.\n\n#### Telling modflared to use connect to your server using cloudflared\nFor the hostname that you want your players to connect to (eg. `example.domain.net`), create a TXT dns record with either of the following values:\n- `cloudflared-use-tunnel` - This will make modflared connect to the tunnel on the hostname itself (eg. `example.domain.net`)\n- `cloudflared-route=<route>` - This will make modflared connect to the tunnel under the hostname of `<route>`. \n(ex. setting `cloudflared-route=example2.domain.net` will make modflared connect to the tunnel on `example2.domain.net` instead of `example.domain.net`)",
+          "published": "2022-11-01T01:00:08.305972Z",
+          "updated": "2025-07-01T14:53:15.516231Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uRHq6kbO/ab1f4ec637184a80209305271757c86d319db936_96.webp",
+          "issues_url": "https://github.com/HttpRafa/Modflared/issues",
+          "source_url": "https://github.com/HttpRafa/Modflared",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "YkeiestV",
+          "project_id": "uRHq6kbO",
+          "author_id": "gEbUZpMj",
+          "name": "1.2.2+release.81 for 1.21.1",
+          "version_number": "1.2.2+release.81+1.21.1",
+          "changelog": "This version is uploaded automatically by GitHub Actions.  \n\nChangelog:  \n- [184ea1b2](https://github.com/HttpRafa/modflared/commit/184ea1b28c4a51a1e2dd2156111e7808b5d35314) feat: Backport https://github.com/HttpRafa/modflared/commit/4a889dfdac4bee6b2afa12e31e96c03dab43f6eb to 1.21.1 - HttpRafa  \n",
+          "date_published": "2025-04-22T00:14:32.590149Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "13739434e6b1819cb46404b54e12eb2f3c00cf31",
+                "sha512": "dd7d843533a9a62f327f16cbc67d4212c9342439850da678ff26be80da1e1c7bbee4dc522523297e0b93a4346b818bb93eaafaea4ba94a7fa078f5efb6c34248"
+              },
+              "url": "https://cdn.modrinth.com/data/uRHq6kbO/versions/YkeiestV/modflared-1.2.2%2Brelease.81.jar",
+              "filename": "modflared-1.2.2+release.81.jar",
+              "primary": true,
+              "size": 72468
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
         "name": "Distant Horizons",
         "version": "2.3.2-b - 1.21.1 neo/fabric",
         "optional": true,
@@ -35100,207 +35522,13 @@
             "neoforge"
           ]
         }
-      },
-      {
-        "name": "Inventory Tweaks: ReFoxed",
-        "version": "1.21.1-1.2.0",
-        "optional": true,
-        "file": "invtweaks-1.21.1-1.2.0.jar",
-        "type": "mods",
-        "description": "Inventory Tweaks for NeoForge",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 976858,
-        "curseForgeFileId": 5939540,
-        "curseForgeProject": {
-          "id": 976858,
-          "name": "Inventory Tweaks - ReFoxed",
-          "authors": [
-            {
-              "id": 101028709,
-              "name": "LobsterJonn",
-              "url": "https://www.curseforge.com/members/lobsterjonn"
-            }
-          ],
-          "gameId": 432,
-          "summary": "Inventory Tweaks for NeoForge",
-          "categories": [
-            {
-              "name": "Utility & QoL",
-              "slug": "utility-qol",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
-              "dateModified": "2021-11-17T11:45:09.143Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 5191,
-              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 5191,
-          "classId": 6,
-          "slug": "inventory-tweaks-refoxed",
-          "isFeatured": false,
-          "dateModified": "2025-06-09T08:18:03.723Z",
-          "dateCreated": "2024-02-19T14:13:31.117Z",
-          "dateReleased": "2025-06-09T08:14:34.83Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-refoxed",
-            "wikiUrl": "",
-            "issuesUrl": "https://github.com/JDKDigital/InvTweaksRefoxed/issues",
-            "sourceUrl": "https://github.com/JDKDigital/InvTweaksRefoxed"
-          },
-          "logo": {
-            "id": 951092,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/951/92/256/256/638440158830430802.png",
-            "title": "638440158830430802.png",
-            "url": "https://media.forgecdn.net/avatars/951/92/638440158830430802.png",
-            "modId": 976858
-          },
-          "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 6632417
-        },
-        "curseForgeFile": {
-          "id": 5939540,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "invtweaks-1.21.1-1.2.0.jar",
-          "fileName": "invtweaks-1.21.1-1.2.0.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2024-11-26T18:15:12.537Z",
-          "fileLength": 74866,
-          "dependencies": [],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 2325008119,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 576637308,
-              "name": "invtweaks"
-            },
-            {
-              "fingerprint": 234590878,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 2237320170,
-              "name": "pack.mcmeta"
-            },
-            {
-              "fingerprint": 3208778516,
-              "name": "logo.png"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "f81426b87be821aba41da4483895760cf6248710",
-              "algo": 1
-            },
-            {
-              "value": "d870ff3ea3e496d660be5c08f510c438",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
-              "gameVersionName": "NeoForge"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000021.0000000001",
-              "gameVersion": "1.21.1",
-              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
-              "gameVersionName": "1.21.1"
-            }
-          ],
-          "gameVersions": [
-            "NeoForge",
-            "1.21.1"
-          ],
-          "fileFingerprint": 4107700152,
-          "modId": 976858
-        },
-        "modrinthProject": {
-          "id": "uqnMI1kq",
-          "slug": "inventory-tweaks-refoxed",
-          "project_type": "mod",
-          "team": "S0S92QRZ",
-          "title": "Inventory Tweaks: ReFoxed",
-          "description": "Inventory Tweaks for NeoForge",
-          "body": "A fork of Inventory Tweaks Renewed, updated for NeoForge 1.20.\n\n\nThis mod allows you to easily manage your inventory, in both single player and multiplayer. It works out of the box, and will make you save a massive amount of time!\n\nIt automatically replaces your tools as they break, and item stacks once emptied\nIt sorts your inventory and your chests in a single click/keystroke\nIt provides lots of powerful shortcuts to move items around\nIt allows you to customize entirely the way your inventory is sorted, thanks to clever configuration files",
-          "published": "2024-02-19T23:08:37.020281Z",
-          "updated": "2024-11-26T18:52:57.351918Z",
-          "status": "approved",
-          "license": {
-            "id": "Apache-2.0",
-            "name": "Apache License 2.0"
-          },
-          "client_side": "required",
-          "server_side": "unsupported",
-          "categories": [
-            "utility"
-          ],
-          "loaders": [
-            "forge",
-            "neoforge"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/uqnMI1kq/1c41a4db66e86f74ccbad63f346ba8d74340f2c0.png",
-          "issues_url": "https://github.com/JDKDigital/InvTweaksRefoxed/issues",
-          "source_url": "https://github.com/JDKDigital/InvTweaksRefoxed",
-          "discord_url": "https://discord.gg/x822BKu624",
-          "donation_urls": [],
-          "gallery": []
-        },
-        "modrinthVersion": {
-          "id": "tcTciTmQ",
-          "project_id": "uqnMI1kq",
-          "author_id": "AAL1KesL",
-          "name": "1.21.1-1.2.0",
-          "version_number": "1.21.1-1.2.0",
-          "changelog": "- Fixed items being deleted on sort\r\n- Fixed armor unequipping when equipped from right click\r\n- Blacklisted more GUIs by default",
-          "date_published": "2024-11-26T18:15:13.783718Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "a419544da8d943ccf17ed62f359fdbff04752735d370b18de3833a74277039e0313c8032e06462125b6b9b4e15b4eec057b680d302b465191ce51c13254bdeb2",
-                "sha1": "f81426b87be821aba41da4483895760cf6248710"
-              },
-              "url": "https://cdn.modrinth.com/data/uqnMI1kq/versions/tcTciTmQ/invtweaks-1.21.1-1.2.0.jar",
-              "filename": "invtweaks-1.21.1-1.2.0.jar",
-              "primary": true,
-              "size": 74866
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.21.1",
-            "1.21.2",
-            "1.21.3"
-          ],
-          "loaders": [
-            "neoforge"
-          ]
-        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1751764534545,
-    "numPlays": 169
+    "lastPlayed": 1751799063968,
+    "numPlays": 184
   },
   "id": "1.21.1",
   "complianceLevel": 1,
