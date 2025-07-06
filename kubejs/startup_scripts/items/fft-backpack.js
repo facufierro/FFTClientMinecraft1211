@@ -1,5 +1,6 @@
 StartupEvents.registry('item', event => {
   event.create('fftbackpack')
     .displayName('Backpack')
-    .texture('usefulbackpacks:item/backpack_small')
+    .texture('kubejs:item/backpack')
+    .color('#8B4513') // Brown tint
 })
