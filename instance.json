@@ -18,8 +18,9 @@
     },
     "requiredMemory": 0,
     "requiredPermGen": 0,
-    "quickPlay": {},
-    "preLaunchCommand": "",
+    "quickPlay": {
+      "serverAddress": "minecraft.ffdomain.win"
+    },
     "isDev": false,
     "isPlayable": true,
     "assetsMapToResources": false,
@@ -3049,319 +3050,6 @@
             "forge",
             "neoforge",
             "quilt"
-          ]
-        }
-      },
-      {
-        "name": "Thirst Was Taken",
-        "version": "Thirst Was Taken 1.21.1-2.1.3",
-        "optional": true,
-        "file": "ThirstWasTaken-1.21.1-2.1.3.jar",
-        "type": "mods",
-        "description": "A modern take on thirst, compatible with Create, Farmer's Delight & more.",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 679270,
-        "curseForgeFileId": 6532318,
-        "curseForgeProject": {
-          "id": 679270,
-          "name": "Thirst Was Taken",
-          "authors": [
-            {
-              "id": 102098185,
-              "name": "ghenghen_",
-              "url": "https://www.curseforge.com/members/ghenghen_"
-            }
-          ],
-          "gameId": 432,
-          "summary": "Modern take on thirst, compatible with Create, Farmer's Delight & more",
-          "categories": [
-            {
-              "name": "Food",
-              "slug": "mc-food",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
-              "dateModified": "2014-05-08T17:45:26.55Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 436,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 436,
-          "classId": 6,
-          "slug": "thirst-was-taken",
-          "isFeatured": false,
-          "dateModified": "2025-06-17T09:02:24.9Z",
-          "dateCreated": "2022-09-24T14:59:16.297Z",
-          "dateReleased": "2025-06-17T08:56:27.327Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/thirst-was-taken",
-            "wikiUrl": "https://github.com/ghen-git/Thirst-Mod/wiki",
-            "issuesUrl": "https://github.com/ghen-git/Thirst-Mod/issues",
-            "sourceUrl": "https://github.com/ghen-git/Thirst-Mod"
-          },
-          "logo": {
-            "id": 614721,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/614/721/256/256/637998904766370759.png",
-            "title": "637998904766370759.png",
-            "url": "https://media.forgecdn.net/avatars/614/721/637998904766370759.png",
-            "modId": 679270
-          },
-          "allowModDistribution": true,
-          "screenshots": [
-            {
-              "id": 511030,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/30/310/172/2022-11-02_13.png",
-              "title": "Gameplay screenshot without AppleSkin",
-              "url": "https://media.forgecdn.net/attachments/511/30/2022-11-02_13.png",
-              "modId": 679270
-            },
-            {
-              "id": 511028,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/28/310/172/2022-11-02_13.png",
-              "title": "Gameplay screenshot with AppleSkin",
-              "url": "https://media.forgecdn.net/attachments/511/28/2022-11-02_13.png",
-              "modId": 679270
-            },
-            {
-              "id": 511023,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/23/310/172/2022-11-02_10.png",
-              "title": "Advanced purification setup",
-              "url": "https://media.forgecdn.net/attachments/511/23/2022-11-02_10.png",
-              "modId": 679270
-            },
-            {
-              "id": 511022,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/22/310/172/2022-11-02_10.png",
-              "title": "Basic purification contraption",
-              "url": "https://media.forgecdn.net/attachments/511/22/2022-11-02_10.png",
-              "modId": 679270
-            },
-            {
-              "id": 511021,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/21/310/172/sand_filter.png",
-              "title": "The sand filter",
-              "url": "https://media.forgecdn.net/attachments/511/21/sand_filter.png",
-              "modId": 679270
-            },
-            {
-              "id": 511020,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/20/310/172/cocks.png",
-              "title": "Purifying water on a campfire",
-              "url": "https://media.forgecdn.net/attachments/511/20/cocks.png",
-              "modId": 679270
-            }
-          ],
-          "mainFileId": 6660408
-        },
-        "curseForgeFile": {
-          "id": 6532318,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "ThirstWasTaken-1.21.1-2.1.3.jar",
-          "fileName": "ThirstWasTaken-1.21.1-2.1.3.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2025-05-15T13:31:02.42Z",
-          "fileLength": 203116,
-          "dependencies": [],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 4012607816,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 2900599822,
-              "name": "dev"
-            },
-            {
-              "fingerprint": 3647736623,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 279016172,
-              "name": "data"
-            },
-            {
-              "fingerprint": 3991746568,
-              "name": "pack.mcmeta"
-            },
-            {
-              "fingerprint": 1874538582,
-              "name": "thirst.mixins.json"
-            },
-            {
-              "fingerprint": 3896997290,
-              "name": "thirstwastaken.png"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "77f566b16833c97f29bb32925a86323d4d66a4f4",
-              "algo": 1
-            },
-            {
-              "value": "949a83b453b696d07e96039a1dfa2628",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Client"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
-              "gameVersionName": "NeoForge"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000021.0000000001",
-              "gameVersion": "1.21.1",
-              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
-              "gameVersionName": "1.21.1"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Server"
-            }
-          ],
-          "gameVersions": [
-            "Client",
-            "NeoForge",
-            "1.21.1",
-            "Server"
-          ],
-          "fileFingerprint": 447870609,
-          "modId": 679270
-        },
-        "modrinthProject": {
-          "id": "iUheEnjm",
-          "slug": "thirst-was-taken",
-          "project_type": "mod",
-          "team": "TCkrFD1E",
-          "title": "Thirst Was Taken",
-          "description": "A modern take on thirst, compatible with Create, Farmer's Delight & more.",
-          "body": "<p align=\"center\"><img src=\"https://imgur.com/4IBZaA4.png\"/></p>\n \n### 💧 1.3.0 Update \n- 1.20.1 is now supported (thanks to [mlus233](https://github.com/mlus-asuka))\n- **Fire protection** and **fire resistance** slow down dehydration\n- You can **find** various **drinks** in structures' chests \n- Piglins now trade **Purified Water**\n- The Sand Filter now has a **Ponder** scene\n\n**Thirst was Taken** is a simple mod that adds a thirst mechanic to the game, but that fits well in modpacks (especially aesthetics-oriented ones) by adding diverse features and compatibility with a lot of often-used mods.  \n\n### 💧 Water Purity  \nWater can have 4 different levels of purity, depending on where it was harvested:  \n![](https://imgur.com/9HA6FXF.png)  \n\nIf you **drink non-purified water**, depending on the purity level, you will have a chance to get **sick**, or worse, **poisoned**.\n\nWater can be **purified** on a **campfire** or a **furnace**: a campfire will purify it by 1 unit, and a furnace by 2 (meaning it will go from Dirty to Acceptable, for instance).  \n\n![](https://imgur.com/Ekh8huc.png)\n\n### ☀ Climate & Cold Sweat  \n\nThe **hydration depletion** speed is **biome-dependent**, meaning you will get thirsty more easily in **hot** or **dry** biomes, and less so in **cold** or **wet** ones. Hydration is more relevant than temperature, so building your base in wet biomes is more advisable than doing so in cold ones.\nThis system is also compatible with **Cold Sweat**, and will use their more precise temperature calculations if the mod is present in the pack.  \n\n### 🍖 Farmer's Delight & Co.  \n\nThe stack size for **water bottles** has been increased to **64**, to make them fit with the foods from Farmer's Delight.\nEvery food item that should quench your thirst added by farmer's delight, respite, and brewin and chewin' is integrated by default, making teas (or booze) the **best late-game hydration source**.  \n\n### ⚙ Create\n\nA new block is added if you have Create installed: the **Sand Filter**, which can purify water fed to it by pipes.  \n\n![](https://i.imgur.com/UdIApb3.png)  \n\n### 💧 Apple Skin  \n\nThe mod is compatible with apple skin, showing the \"quenched\" overlay if the mod is present, as well as tooltips for every item that quenches your thirst.  \n\n![](https://imgur.com/pbqR6Ea.png)\n\n##### To learn more about the mod, you can check out the [Wiki](https://github.com/ghen-git/Thirst-Mod/wiki) or the [Discord](https://discord.gg/wqfgcZCfYh)\n\n##### This mod is still very early in development, which means it's filled to the brim with bugs and glitches. Sorry\n\n",
-          "published": "2023-07-05T11:34:20.764959Z",
-          "updated": "2025-06-17T08:55:55.409802Z",
-          "status": "approved",
-          "license": {
-            "id": "MIT",
-            "name": "MIT License"
-          },
-          "client_side": "required",
-          "server_side": "required",
-          "categories": [
-            "food",
-            "game-mechanics"
-          ],
-          "loaders": [
-            "forge",
-            "neoforge"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/iUheEnjm/07fe1e8aae59a2257225598b1a23d17ebfed8a8c.png",
-          "issues_url": "https://github.com/ghen-git/Thirst-Mod/issues",
-          "source_url": "https://github.com/ghen-git/Thirst-Mod",
-          "wiki_url": "https://github.com/ghen-git/Thirst-Mod/wiki",
-          "donation_urls": [],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/1a02a0ed37803728725e2dc71216c3769f4ce7b1_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/8a330cb7050520c28d1978e7a3cbb9d47ccf4033.png",
-              "featured": false,
-              "title": "Basic purification setup",
-              "created": "2023-07-05T11:40:29.625553Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/35e866765174dd7891bfc00c3331145eb888be0e_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/41f449a2d98e27b53c406e8560c0dcb97c9bda16.png",
-              "featured": false,
-              "title": "Gameplay screenshot with AppleSkin",
-              "created": "2023-07-05T11:42:48.481059Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/3c450a657dcb38eff3672195778d749623218c3b_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/3c450a657dcb38eff3672195778d749623218c3b.png",
-              "featured": false,
-              "title": "Gameplay screenshot without AppleSkin",
-              "created": "2023-07-05T11:41:46.454969Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/74fc0337413af5c2c900c4fc6f51fb746079318e_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/74fc0337413af5c2c900c4fc6f51fb746079318e.png",
-              "featured": false,
-              "title": "Purifying water on a campfire",
-              "created": "2023-07-05T11:43:11.028228Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/ae1bc043b2f3aa04451e58bd62d5ab3270637455_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/ae1bc043b2f3aa04451e58bd62d5ab3270637455.png",
-              "featured": false,
-              "title": "Advanced purification contraption",
-              "created": "2023-07-05T11:41:08.740043Z",
-              "ordering": 1.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/bff2f12557b1dbba36f6584fe73499422f211b99_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/bff2f12557b1dbba36f6584fe73499422f211b99.png",
-              "featured": false,
-              "title": "The Sand Filter",
-              "created": "2023-07-05T11:43:29.034346Z",
-              "ordering": 2.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "Tdb3cy02",
-          "project_id": "iUheEnjm",
-          "author_id": "d5E4O8yb",
-          "name": "Thirst Was Taken 1.21.1-2.1.3",
-          "version_number": "1.21.1-2.1.3",
-          "changelog": "- Really Fix StackPotion Issue this time!",
-          "date_published": "2025-05-15T13:31:54.282946Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "6ad11216a35d78765ee361021bbef8e1946262ede066782589e6df874bc2b70dde325a4295d120ec75b19c00c4cf42882342928366f70867c65f9fe6deaf1295",
-                "sha1": "77f566b16833c97f29bb32925a86323d4d66a4f4"
-              },
-              "url": "https://cdn.modrinth.com/data/iUheEnjm/versions/Tdb3cy02/ThirstWasTaken-1.21.1-2.1.3.jar",
-              "filename": "ThirstWasTaken-1.21.1-2.1.3.jar",
-              "primary": true,
-              "size": 203116
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
-            "1.21.1"
-          ],
-          "loaders": [
-            "neoforge"
           ]
         }
       },
@@ -18258,382 +17946,6 @@
           ],
           "game_versions": [
             "1.21",
-            "1.21.1"
-          ],
-          "loaders": [
-            "neoforge"
-          ]
-        }
-      },
-      {
-        "name": "Sooty Chimneys",
-        "version": "Unknown",
-        "optional": true,
-        "file": "sootychimneys-neoforge-1.3.3.jar",
-        "type": "mods",
-        "description": "Spiritual successor to campfires!",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 634005,
-        "curseForgeFileId": 6303434,
-        "curseForgeProject": {
-          "id": 634005,
-          "name": "Sooty Chimneys",
-          "authors": [
-            {
-              "id": 34174777,
-              "name": "mortuusars",
-              "url": "https://www.curseforge.com/members/mortuusars"
-            }
-          ],
-          "gameId": 432,
-          "summary": "Spiritual successor to campfires!",
-          "categories": [
-            {
-              "name": "Cosmetic",
-              "slug": "cosmetic",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
-              "dateModified": "2014-05-08T17:42:35.597Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 424,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Miscellaneous",
-              "slug": "mc-miscellaneous",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
-              "dateModified": "2014-06-15T04:27:14.543Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 425,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 425,
-          "classId": 6,
-          "slug": "sooty-chimneys",
-          "isFeatured": false,
-          "dateModified": "2025-03-14T15:18:29.61Z",
-          "dateCreated": "2022-06-16T02:08:10.207Z",
-          "dateReleased": "2025-03-14T15:14:44.83Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sooty-chimneys",
-            "wikiUrl": "",
-            "issuesUrl": "https://github.com/mortuusars/SootyChimneys/issues",
-            "sourceUrl": "https://github.com/mortuusars/SootyChimneys"
-          },
-          "logo": {
-            "id": 719778,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/719/778/256/256/638076031242993719.png",
-            "title": "638076031242993719.png",
-            "url": "https://media.forgecdn.net/avatars/719/778/638076031242993719.png",
-            "modId": 634005
-          },
-          "allowModDistribution": true,
-          "screenshots": [
-            {
-              "id": 780555,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/780/555/310/172/mud_brick.png",
-              "title": "Mud Brick Chimney Clean/Dirty",
-              "url": "https://media.forgecdn.net/attachments/780/555/mud_brick.png",
-              "modId": 634005
-            },
-            {
-              "id": 780554,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/780/554/310/172/iron.png",
-              "title": "Iron Chimney Clean/Dirty",
-              "url": "https://media.forgecdn.net/attachments/780/554/iron.png",
-              "modId": 634005
-            },
-            {
-              "id": 780553,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/780/553/310/172/cobblestone.png",
-              "title": "Cobblestone Chimney Clean/Dirty",
-              "url": "https://media.forgecdn.net/attachments/780/553/cobblestone.png",
-              "modId": 634005
-            },
-            {
-              "id": 470785,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/470/785/310/172/copper_chimney.png",
-              "title": "Copper Chimney",
-              "url": "https://media.forgecdn.net/attachments/470/785/copper_chimney.png",
-              "modId": 634005
-            },
-            {
-              "id": 470784,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/470/784/310/172/stone_brick_chimney.png",
-              "title": "Stone Brick Chimney",
-              "url": "https://media.forgecdn.net/attachments/470/784/stone_brick_chimney.png",
-              "modId": 634005
-            },
-            {
-              "id": 470548,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/470/548/310/172/terracotta_chimney_demo.png",
-              "title": "Terracotta Chimney Clean/Dirty",
-              "url": "https://media.forgecdn.net/attachments/470/548/terracotta_chimney_demo.png",
-              "modId": 634005
-            },
-            {
-              "id": 469617,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/469/617/310/172/brick_chimney_demo.png",
-              "title": "Brick Chimney Dirty/Clean",
-              "url": "https://media.forgecdn.net/attachments/469/617/brick_chimney_demo.png",
-              "modId": 634005
-            },
-            {
-              "id": 469615,
-              "description": "",
-              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/469/615/310/172/brick_chimney_showcase.png",
-              "title": "Brick Chimney",
-              "url": "https://media.forgecdn.net/attachments/469/615/brick_chimney_showcase.png",
-              "modId": 634005
-            }
-          ],
-          "mainFileId": 6303434
-        },
-        "curseForgeFile": {
-          "id": 6303434,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "Sooty Chimneys - NeoForge 1.21.1 - 1.3.3",
-          "fileName": "sootychimneys-neoforge-1.3.3.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2025-03-14T15:14:44.83Z",
-          "fileLength": 175513,
-          "dependencies": [],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 4231102847,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 397348573,
-              "name": "architectury_inject_sootychimneys_common_9f906c7331f2498dac108bac572a7846_91075995208df90c389dc8690b3b15ee7781fab72bc2a38518c4094ca4e303c6sootychimneyscommon133devjar"
-            },
-            {
-              "fingerprint": 4287851644,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 1754422527,
-              "name": "data"
-            },
-            {
-              "fingerprint": 3732503551,
-              "name": "io"
-            },
-            {
-              "fingerprint": 1945396059,
-              "name": "sootychimneys-common-common-refmap.json"
-            },
-            {
-              "fingerprint": 1735679367,
-              "name": "sootychimneys.accesswidener"
-            },
-            {
-              "fingerprint": 1678770974,
-              "name": "sootychimneys.mixins.json"
-            },
-            {
-              "fingerprint": 3328967540,
-              "name": "sootychimneys.neoforge.mixins.json"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "e3439125c1e10d08dd7a53152f21cc5028dda102",
-              "algo": 1
-            },
-            {
-              "value": "7b96114f65a556b854aec2ff337bba07",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Client"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
-              "gameVersionName": "NeoForge"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000021.0000000001",
-              "gameVersion": "1.21.1",
-              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
-              "gameVersionName": "1.21.1"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Server"
-            }
-          ],
-          "gameVersions": [
-            "Client",
-            "NeoForge",
-            "1.21.1",
-            "Server"
-          ],
-          "fileFingerprint": 639263566,
-          "modId": 634005
-        },
-        "modrinthProject": {
-          "id": "b3w1XM9H",
-          "slug": "sooty-chimneys",
-          "project_type": "mod",
-          "team": "6wqcuj6l",
-          "title": "Sooty Chimneys",
-          "description": "Spiritual successor to campfires!",
-          "body": "![Sooty Chimneys](https://i.imgur.com/QtURGQ9.png)\n\nAdds **_Brick_**, **_Cobblestone_**, **_Mud Brick_**, **_Stone Brick_**, **_Iron_**, **_Copper_** and **_Terracotta_** chimneys, that emit smoke particles.\n\n<img  src=\"https://i.imgur.com/H4YUooO.png\" alt=\"Features\" width=1000/>\n \n<details>\n<summary>Features in text form</summary>\n  \n#### Features:\n\n### Soot\n\nAfter some time, chimney will be covered in soot and become dirty. Scrape with axe to clean it.\n\nScraping soot from chimney has a chance to drop a Black Dye.\n\n \n\n### Wind\n\nChimney smoke is influenced by wind direction and strength. Wind is stronger in the rain and thunder, and calmer at nights. Wind also affects smoke from Campfires.\n\n \n\n### Redstone Control\n\nWhen chimney receives redstone signal it will stop emitting smoke.\n\n \n\n### Smoke Blocking\n\nRight click chimney with an empty hand to toggle flow of the smoke.\n\n\n\n### Chimney Stacking\n\nPlace chimney on top of other chimney to make it emit signal smoke (like Haybale under Campfire)\n\n</details>\n\n<h1> </h1>\n\n<div align=\"center\">\n<br>\n\n[<img alt=\"Discord Server\" src=\"https://raw.githubusercontent.com/mortuusars/resources/main/media/banners/discord.png\" width=500/>](https://discord.gg/FzHKGDW2et)\n\n<h1> </h1>\n\n#### Enjoying the mod? Your support would allow me to continue working on it and on other mods!\n[<img alt=\"Patreon\" src=\"https://raw.githubusercontent.com/mortuusars/resources/main/media/banners/patreon.png\" width=500/>](https://patreon.com/mortuusars?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink) [<img alt=\"PayPal\" src=\"https://raw.githubusercontent.com/mortuusars/resources/main/media/banners/paypal.png\" width=98/>](https://www.paypal.com/donate/?hosted_button_id=4VPMCBCLZVUEA)\n\n</div>",
-          "published": "2023-01-27T19:32:03.875793Z",
-          "updated": "2025-03-14T15:14:36.773243Z",
-          "status": "approved",
-          "license": {
-            "id": "MIT",
-            "name": "MIT License"
-          },
-          "client_side": "required",
-          "server_side": "required",
-          "categories": [
-            "decoration"
-          ],
-          "loaders": [
-            "fabric",
-            "forge",
-            "neoforge",
-            "quilt"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/b3w1XM9H/d15bf7dfc2cc706e6392343fe52bdbc15233010c.png",
-          "issues_url": "https://github.com/mortuusars/SootyChimneys/issues",
-          "source_url": "https://github.com/mortuusars/SootyChimneys",
-          "donation_urls": [
-            {
-              "id": "patreon",
-              "platform": "Patreon",
-              "url": "https://www.patreon.com/mortuusars?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"
-            },
-            {
-              "id": "paypal",
-              "platform": "Paypal",
-              "url": "https://www.paypal.com/donate/?hosted_button_id=4VPMCBCLZVUEA"
-            }
-          ],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/b125a3d0b931b212af547b6d808dcc3799fa9ca0_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/c6808af3c3c68fe056e181d1b975adf665f07e4c.png",
-              "featured": true,
-              "title": "Brick Chimney on a House",
-              "created": "2023-01-27T21:09:08.816065Z",
-              "ordering": 0.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/5186b06132a85bd1f98936792361f791bd46a7ca_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/63afd13c46c9b84d9cde9ffa76233ce4142c1f07.png",
-              "featured": false,
-              "title": "Brick Chimney",
-              "created": "2023-01-27T21:10:05.492641Z",
-              "ordering": 10.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/26b3eac85489705041226adfdb0c38835b047cab.png",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/26b3eac85489705041226adfdb0c38835b047cab.png",
-              "featured": false,
-              "title": " Mud Brick Chimney Clean/Dirty",
-              "created": "2023-12-28T04:40:39.899039Z",
-              "ordering": 11.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/750c33b90af59ac1b41ab508b57024f35181cf8e_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/151df84e1276a71eb4afd91eae8fedf6056ae0d5.png",
-              "featured": false,
-              "title": "Stone Brick Chimney",
-              "created": "2023-01-27T21:10:19.318298Z",
-              "ordering": 11.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/eea73a85fcf3dc2257a8f6eda96283d27261430c.png",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/eea73a85fcf3dc2257a8f6eda96283d27261430c.png",
-              "featured": false,
-              "title": "Cobblestone Chimney Clean/Dirty",
-              "created": "2023-12-28T04:39:40.287434Z",
-              "ordering": 11.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/1ec8e646ee68cb5b7764cdb66ae3325639a6e1f9_350.webp",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/9c3b3877acc074162a6a6ab61c523672ea1a8fdb.png",
-              "featured": false,
-              "title": "Terracotta Chimney",
-              "created": "2023-01-27T21:10:33.382715Z",
-              "ordering": 12.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/42b15d00b929e1e069ac698bb57c9e78b9a5ca09.png",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/42b15d00b929e1e069ac698bb57c9e78b9a5ca09.png",
-              "featured": false,
-              "title": "Copper Chimney",
-              "created": "2023-01-27T21:10:54.554473Z",
-              "ordering": 13.0
-            },
-            {
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/images/7c03b042fb7cd96ffdd8e4e8097b33d16978468c.png",
-              "raw_url": "https://cdn.modrinth.com/data/b3w1XM9H/images/7c03b042fb7cd96ffdd8e4e8097b33d16978468c.png",
-              "featured": false,
-              "title": "Iron Chimney Clean/Dirty",
-              "created": "2023-12-28T04:40:11.427609Z",
-              "ordering": 21.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "JmonLy4J",
-          "project_id": "b3w1XM9H",
-          "author_id": "hmzuhiA6",
-          "name": "Sooty Chimneys - 1.3.3",
-          "version_number": "1.3.3",
-          "changelog": "## 1.3.3 - 2025-03-14\r\n- [NeoForge] Chimneys on Create contraptions are now interactable (for smoke blocking/restoring)\r\n- [NeoForge] Fixed Chimneys not emitting signal smoke when stacked on a Create contraption.",
-          "date_published": "2025-03-14T15:14:36.773243Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha1": "e3439125c1e10d08dd7a53152f21cc5028dda102",
-                "sha512": "072e89de046ea21b0d189c0ff348a9bd6e61229bfcdf98d16efad9c5e72c88d7f61c9617ef6d5de212d24c5cc2ed493890d17482802302bc8e5c7d32168448af"
-              },
-              "url": "https://cdn.modrinth.com/data/b3w1XM9H/versions/JmonLy4J/sootychimneys-neoforge-1.3.3.jar",
-              "filename": "sootychimneys-neoforge-1.3.3.jar",
-              "primary": true,
-              "size": 175513
-            }
-          ],
-          "dependencies": [],
-          "game_versions": [
             "1.21.1"
           ],
           "loaders": [
@@ -35522,13 +34834,2973 @@
             "neoforge"
           ]
         }
+      },
+      {
+        "name": "Status Effect Bars",
+        "version": "v1.0.6",
+        "optional": true,
+        "file": "status-effect-bars-1.0.6.jar",
+        "type": "mods",
+        "description": "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 615459,
+        "curseForgeFileId": 5432551,
+        "curseForgeProject": {
+          "id": 615459,
+          "name": "Status Effect Bars",
+          "authors": [
+            {
+              "id": 100871202,
+              "name": "A5b84",
+              "url": "https://www.curseforge.com/members/a5b84"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "status-effect-bars",
+          "isFeatured": false,
+          "dateModified": "2025-07-03T21:15:19.967Z",
+          "dateCreated": "2022-04-20T12:56:58.677Z",
+          "dateReleased": "2025-06-21T16:37:13.24Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/status-effect-bars",
+            "issuesUrl": "https://github.com/A5b84/status-effect-bars/issues",
+            "sourceUrl": "https://github.com/A5b84/status-effect-bars"
+          },
+          "logo": {
+            "id": 537297,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/537/297/256/256/637860562187085252.png",
+            "title": "637860562187085252.png",
+            "url": "https://media.forgecdn.net/avatars/537/297/637860562187085252.png",
+            "modId": 615459
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 456377,
+              "description": "Bars can be put almost anywhere (examples aren't exhaustive).",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/377/310/172/layout.png",
+              "title": "Layout customization",
+              "url": "https://media.forgecdn.net/attachments/456/377/layout.png",
+              "modId": 615459
+            },
+            {
+              "id": 456376,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/376/310/172/colors.png",
+              "title": "Color customization",
+              "url": "https://media.forgecdn.net/attachments/456/376/colors.png",
+              "modId": 615459
+            },
+            {
+              "id": 456374,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/374/310/172/inventory.png",
+              "title": "Inventory",
+              "url": "https://media.forgecdn.net/attachments/456/374/inventory.png",
+              "modId": 615459
+            },
+            {
+              "id": 456372,
+              "description": "Bars of beacon effects are hidden automatically.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/372/310/172/hud.png",
+              "title": "HUD bars",
+              "url": "https://media.forgecdn.net/attachments/456/372/hud.png",
+              "modId": 615459
+            }
+          ],
+          "mainFileId": 6679490
+        },
+        "curseForgeFile": {
+          "id": 5432551,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "v1.0.6 [Fabric/Quilt 1.21-1.21.1]",
+          "fileName": "status-effect-bars-1.0.6.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-06-15T20:56:38.207Z",
+          "fileLength": 42373,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 348521,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 308702,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3259676353,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1136524626,
+              "name": "COPYING.LESSER_status-effect-bars"
+            },
+            {
+              "fingerprint": 2226923820,
+              "name": "COPYING_status-effect-bars"
+            },
+            {
+              "fingerprint": 3738180345,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1878269232,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 3642053528,
+              "name": "io"
+            },
+            {
+              "fingerprint": 325210867,
+              "name": "status-effect-bars-refmap.json"
+            },
+            {
+              "fingerprint": 3834520379,
+              "name": "status-effect-bars.mixins.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c44856cace7ab4ccf37ede190ab1275dd1920af6",
+              "algo": 1
+            },
+            {
+              "value": "7462cb4955d2567149d0b10bc0572d66",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000021",
+              "gameVersion": "1.21",
+              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+              "gameVersionName": "1.21"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-05-26T00:00:00Z",
+              "gameVersionName": "Quilt"
+            }
+          ],
+          "gameVersions": [
+            "1.21",
+            "Fabric",
+            "Client",
+            "1.21.1",
+            "Quilt"
+          ],
+          "fileFingerprint": 3135410198,
+          "modId": 615459
+        },
+        "modrinthProject": {
+          "id": "x02cBj9Y",
+          "slug": "status-effect-bars",
+          "project_type": "mod",
+          "team": "jlJ6buKb",
+          "title": "Status Effect Bars",
+          "description": "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
+          "body": "A client-side [Fabric](https://fabricmc.net/) mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects.\n\nFeatures:\n- Cute little bars\n- Config screen to edit colors and bar positions\n- Bars can be hidden automatically in some specific cases to reduce clutter (e.g. beacon effects and effects with very long durations)\n\nRequires [Cloth Config]. The config screen can be accessed using [Mod Menu](https://modrinth.com/mod/modmenu).\n\n![Bars on the HUD](https://cdn.modrinth.com/data/x02cBj9Y/images/c98d161c7500da131ffae614e573d61fcb0c99b2.png \"HUD\")\n\n![Bars in the inventory](https://cdn.modrinth.com/data/x02cBj9Y/images/b078783e15bacfd25185abbce01cea107e2106bd.png \"Inventory\")\n\n## Credits\n- Potentially inspired by [SkyUI](https://www.nexusmods.com/skyrim/mods/3863)'s active effects HUD\n- Config screen powered by [Cloth Config]\n- `pt_br` translation by [FITFC](https://github.com/FITFC)\n\nLinks: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/status-effect-bars) · [GitHub](https://github.com/A5b84/status-effect-bars) · [Modrinth](https://modrinth.com/mod/status-effect-bars)\n\n[Cloth Config]: https://modrinth.com/mod/cloth-config",
+          "published": "2022-08-31T18:52:08.501761Z",
+          "updated": "2025-06-21T16:34:35.512296Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "decoration",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/x02cBj9Y/7ee93fac37512f4f04aa82f15deada7b2ca9269f.png",
+          "issues_url": "https://github.com/A5b84/status-effect-bars/issues",
+          "source_url": "https://github.com/A5b84/status-effect-bars",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/x02cBj9Y/images/c98d161c7500da131ffae614e573d61fcb0c99b2.png",
+              "raw_url": "https://cdn.modrinth.com/data/x02cBj9Y/images/c98d161c7500da131ffae614e573d61fcb0c99b2.png",
+              "featured": true,
+              "title": "HUD bars",
+              "description": "Bars of beacon effects are hidden automatically.",
+              "created": "2022-08-31T19:47:31.146959Z",
+              "ordering": 100.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/x02cBj9Y/images/b078783e15bacfd25185abbce01cea107e2106bd.png",
+              "raw_url": "https://cdn.modrinth.com/data/x02cBj9Y/images/b078783e15bacfd25185abbce01cea107e2106bd.png",
+              "featured": false,
+              "title": "Inventory",
+              "created": "2022-08-31T19:47:31.754133Z",
+              "ordering": 200.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/x02cBj9Y/images/2a5eb8686db0758e7c5fe90ecf35579caa6faa04.png",
+              "raw_url": "https://cdn.modrinth.com/data/x02cBj9Y/images/2a5eb8686db0758e7c5fe90ecf35579caa6faa04.png",
+              "featured": false,
+              "title": "Color customization",
+              "created": "2022-08-31T19:47:32.356542Z",
+              "ordering": 300.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/x02cBj9Y/images/5ad8bdff128c9215ba1478d91390c999e65f2a99.png",
+              "raw_url": "https://cdn.modrinth.com/data/x02cBj9Y/images/5ad8bdff128c9215ba1478d91390c999e65f2a99.png",
+              "featured": false,
+              "title": "Layout customization",
+              "description": "Bars can be put almost anywhere (examples aren't exhaustive).",
+              "created": "2022-08-31T19:47:32.941462Z",
+              "ordering": 400.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "ramqgou6",
+          "project_id": "x02cBj9Y",
+          "author_id": "QjLlkTTT",
+          "name": "v1.0.6",
+          "version_number": "1.0.6",
+          "changelog": "Updated to 1.21-pre4",
+          "date_published": "2024-06-15T21:01:58.537636Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "3e33772836b72d05a169c853a87971f56ca202604486d50fc408b604eef697acc66274491d0ad85544ca2446af7d9172955a9b28b626c543118125fa812f9652",
+                "sha1": "c44856cace7ab4ccf37ede190ab1275dd1920af6"
+              },
+              "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar",
+              "filename": "status-effect-bars-1.0.6.jar",
+              "primary": true,
+              "size": 42373
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "9s6osm5g",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "mOgUt4GM",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.21",
+            "1.21.1"
+          ],
+          "loaders": [
+            "fabric",
+            "quilt"
+          ]
+        }
+      },
+      {
+        "name": "Open Sesame",
+        "version": "NeoForge 1.0.2",
+        "optional": true,
+        "file": "open_sesame-neoforge-1.21-1.0.2.jar",
+        "type": "mods",
+        "description": "Open doors together; Open Sesame!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 1282518,
+        "curseForgeFileId": 6628580,
+        "curseForgeProject": {
+          "id": 1282518,
+          "name": "Open Sesame",
+          "authors": [
+            {
+              "id": 124293819,
+              "name": "Ellie_McQuinn",
+              "url": "https://www.curseforge.com/members/ellie_mcquinn"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Open doors together; Open Sesame!",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "open-sesame",
+          "isFeatured": false,
+          "dateModified": "2025-06-28T10:43:02.903Z",
+          "dateCreated": "2025-06-08T06:47:38.55Z",
+          "dateReleased": "2025-06-28T10:39:36.153Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/open-sesame",
+            "issuesUrl": "https://github.com/Ellie-McQuinn/open-sesame/issues",
+            "sourceUrl": "https://github.com/Ellie-McQuinn/open-sesame"
+          },
+          "logo": {
+            "id": 1306676,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1306/676/256/256/638849620587318177.png",
+            "title": "638849620587318177.png",
+            "url": "https://media.forgecdn.net/avatars/1306/676/638849620587318177.png",
+            "modId": 1282518
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6704276
+        },
+        "curseForgeFile": {
+          "id": 6628580,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "NeoForge 1.0.2",
+          "fileName": "open_sesame-neoforge-1.21-1.0.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-06-08T07:06:04.863Z",
+          "fileLength": 5041,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1575407647,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 896207682,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 3791370163,
+              "name": "open_sesame.mixins.json"
+            },
+            {
+              "fingerprint": 1323367297,
+              "name": "open_sesame.png"
+            },
+            {
+              "fingerprint": 2487269738,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c603ff2bc422a097996f4033143a92797a12477d",
+              "algo": 1
+            },
+            {
+              "value": "fd1ca9292fa57ec2f605623e188d7f05",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000021",
+              "gameVersion": "1.21",
+              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+              "gameVersionName": "1.21"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000005",
+              "gameVersion": "1.21.5",
+              "gameVersionReleaseDate": "2025-03-25T16:46:25.94Z",
+              "gameVersionName": "1.21.5"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000004",
+              "gameVersion": "1.21.4",
+              "gameVersionReleaseDate": "2024-12-03T16:26:15.35Z",
+              "gameVersionName": "1.21.4"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000003",
+              "gameVersion": "1.21.3",
+              "gameVersionReleaseDate": "2024-10-23T13:16:45.71Z",
+              "gameVersionName": "1.21.3"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000002",
+              "gameVersion": "1.21.2",
+              "gameVersionReleaseDate": "2024-10-22T00:00:00Z",
+              "gameVersionName": "1.21.2"
+            }
+          ],
+          "gameVersions": [
+            "1.21",
+            "1.21.5",
+            "Client",
+            "1.21.4",
+            "NeoForge",
+            "1.21.3",
+            "1.21.1",
+            "Server",
+            "1.21.2"
+          ],
+          "fileFingerprint": 1232242918,
+          "modId": 1282518
+        },
+        "modrinthProject": {
+          "id": "u40fRXlK",
+          "slug": "open-sesame",
+          "project_type": "mod",
+          "team": "TIfLFK2x",
+          "title": "Open Sesame",
+          "description": "Open doors together; Open Sesame!",
+          "body": "# Open Sesame\nNow when opening doors if the door is part of a double door then both doors will open together.\n\nThis also goes for redstone, villagers, and wind charges opening doors.\n\n**Special Thanks:**\nThank you **TelepathicGrunt** for the mod name suggestion, please go check out **The BumbleZone** for [NeoForge](https://modrinth.com/mod/the-bumblezone) or [Fabric](https://modrinth.com/mod/the-bumblezone-fabric).",
+          "published": "2024-09-07T07:59:41.578352Z",
+          "updated": "2025-06-28T10:39:35.732514Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/u40fRXlK/3fc8161875b2ff33fc954289a923ad319cf32c42.png",
+          "issues_url": "https://github.com/Ellie-McQuinn/open-sesame/issues",
+          "source_url": "https://github.com/Ellie-McQuinn/open-sesame",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/u40fRXlK/images/20340cdca4635211f9a7563227387ccc9a443120_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/u40fRXlK/images/20340cdca4635211f9a7563227387ccc9a443120.png",
+              "featured": false,
+              "title": "Double Doors Closed",
+              "created": "2024-09-07T12:49:02.969188Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/u40fRXlK/images/457a5674c413f99f0acc3eb5468d2390095533f5_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/u40fRXlK/images/457a5674c413f99f0acc3eb5468d2390095533f5.png",
+              "featured": true,
+              "title": "Double Doors Open",
+              "created": "2024-09-07T12:49:14.854221Z",
+              "ordering": 2.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "8eYPTxBs",
+          "project_id": "u40fRXlK",
+          "author_id": "CW6II289",
+          "name": "NeoForge 1.0.2",
+          "version_number": "1.0.2+neoforge",
+          "changelog": "- Just a simple identity swap and relicense to MIT - Ellie McQuinn, aka Toybox System, Quinn Semele, Ellemes, ect...\n",
+          "date_published": "2025-06-08T07:06:05.359597Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "c603ff2bc422a097996f4033143a92797a12477d",
+                "sha512": "85d901a277846fe7bcda3f280d0508e9e2f2b5fe7f5d9eff6c53b3349c5fca914f8b8933369a9acce6682937d73b632fe2c045eb5a079b44431730fed1018a82"
+              },
+              "url": "https://cdn.modrinth.com/data/u40fRXlK/versions/8eYPTxBs/open_sesame-neoforge-1.21-1.0.2.jar",
+              "filename": "open_sesame-neoforge-1.21-1.0.2.jar",
+              "primary": true,
+              "size": 5041
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21",
+            "1.21.1",
+            "1.21.2",
+            "1.21.3",
+            "1.21.4",
+            "1.21.5"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Marbled's First Aid [Neo/Forge]",
+        "version": "Marbled's First Aid [Neo/Forge] 1.21.1neo-1.1.0.1",
+        "optional": true,
+        "file": "marbledsfirstaid-1.21.1neo-1.1.0.1.jar",
+        "type": "mods",
+        "description": "A mod that adds sorts of first aid items, medicines, and syringes",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 1185929,
+        "curseForgeFileId": 6597301,
+        "curseForgeProject": {
+          "id": 1185929,
+          "name": "Marbled's First Aid [Neo/Forge]",
+          "authors": [
+            {
+              "id": 102211373,
+              "name": "MarbledNull",
+              "url": "https://www.curseforge.com/members/marblednull"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A mod that adds sorts of first aid items, medicines, and syringes",
+          "categories": [
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 434,
+          "classId": 6,
+          "slug": "marbleds-first-aid",
+          "isFeatured": false,
+          "dateModified": "2025-05-30T01:56:11.913Z",
+          "dateCreated": "2025-01-24T06:30:58.21Z",
+          "dateReleased": "2025-05-30T01:52:42.56Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/marbleds-first-aid",
+            "wikiUrl": "https://www.marbledhubb.com/marbleds-first-aid/marbleds-first-aid-wiki"
+          },
+          "logo": {
+            "id": 1163454,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1163/454/256/256/638732970584406342.png",
+            "title": "638732970584406342.png",
+            "url": "https://media.forgecdn.net/avatars/1163/454/638732970584406342.png",
+            "modId": 1185929
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6597301
+        },
+        "curseForgeFile": {
+          "id": 6597301,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "marbledsfirstaid-1.21.1neo-1.1.0.1.jar",
+          "fileName": "marbledsfirstaid-1.21.1neo-1.1.0.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-05-30T01:52:42.56Z",
+          "fileLength": 268790,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 482076365,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1743808394,
+              "name": "net"
+            },
+            {
+              "fingerprint": 3927427121,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 82473029,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1472047503,
+              "name": "firstaidicon.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "b7f35e2136c8a965d7575378642a3c6941bc8d6e",
+              "algo": 1
+            },
+            {
+              "value": "7dba8c53b60e25772ac9fd9504e6b7fa",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000021",
+              "gameVersion": "1.21",
+              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+              "gameVersionName": "1.21"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "1.21",
+            "Client",
+            "NeoForge",
+            "1.21.1",
+            "Server"
+          ],
+          "fileFingerprint": 2994346489,
+          "modId": 1185929
+        },
+        "modrinthProject": {
+          "id": "Y98QxocH",
+          "slug": "marbleds-first-aid",
+          "project_type": "mod",
+          "team": "PbWM64Wc",
+          "title": "Marbled's First Aid [Neo/Forge]",
+          "description": "A mod that adds sorts of first aid items, medicines, and syringes",
+          "body": "[![BH Partner](https://i.postimg.cc/cJwynrYz/mhs-partnerbanner.png)](https://bisecthosting.com/marbledhubb?r=Modrinth)\n\n![mfa title](https://i.postimg.cc/tC5GHC0S/mfa-title.png)\n\nMarbled's First Aid is a mod that adds sorts of first aid items, medicines, and syringes for Forge 1.20.1, NeoForge 1.21.1, and NeoForge 1.21.4.\n\n# Features\n\n- First aid items: Medkit, Bandages, Bandaid, and Pain Pills.\n\n- Medicine items: Morphine, Tonic, Eye Drops, Antidote, and Elixir.\n\n- Syringe items: Morphine Syringe, Adrenaline Syringe, and Stimpack.\n\n- Other items: Awkward Medicine Bottle/Syringe for brewing medicines and syringes.\n\n# Usage\n\n- You may use this in your modpacks, no credit required but it would be apprecated.\n\n- You may use this in your video, no credit required but it would be appreciated.\n\n- You may NOT re-distribute this mod or its assets ANYWHERE. \n\n\nMarbledHubb Studios is proudly partnered with [BisectHosting!](https://bisecthosting.com/marbledhubb?r=Modrinth) When using our code \"marbledhubb\", you are saving 25% off any gaming server while supporting us by commission, supporting the development of our projects!",
+          "published": "2025-01-24T06:28:57.833061Z",
+          "updated": "2025-05-30T01:53:32.609030Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "equipment",
+            "utility"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/Y98QxocH/12dfab20b0e4ea57786ef87bd8f03954ecded9df.png",
+          "wiki_url": "https://www.marbledhubb.com/marbleds-first-aid/marbleds-first-aid-wiki",
+          "discord_url": "https://discord.com/invite/aUX4MX7BAJ",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://patreon.com/MarbledNull"
+            },
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/marblednull"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "V7xgNgY6",
+          "project_id": "Y98QxocH",
+          "author_id": "vdQ9zvbv",
+          "name": "Marbled's First Aid [Neo/Forge] 1.21.1neo-1.1.0.1",
+          "version_number": "1.1.0.1",
+          "changelog": "- Added Create compatibility. You can now automate Medicine and Syringe recipes via brewing. Items also stand upright on Mechanical Belts. (1.20.1, 1.21/1)\n- Updated credits (1.20.1, 1.21/1)\n- Small backend changes and fixes (1.20.1, 1.21/1)",
+          "date_published": "2025-05-30T01:53:32.609030Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "659ae9da27a36097ce1303a105258382936dce41ade7ec9950fc7b2ec381e1d3095e97b38290e459c1a0e9a221386a8e7aa6b65c83421eecd16e60101ddf0cd9",
+                "sha1": "b7f35e2136c8a965d7575378642a3c6941bc8d6e"
+              },
+              "url": "https://cdn.modrinth.com/data/Y98QxocH/versions/V7xgNgY6/marbledsfirstaid-1.21.1neo-1.1.0.1.jar",
+              "filename": "marbledsfirstaid-1.21.1neo-1.1.0.1.jar",
+              "primary": true,
+              "size": 268790
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21",
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "ForgeEndertech",
+        "version": "ForgeEndertech-1.21.1-12.1.0.0-NeoForge-build.0408.jar",
+        "optional": true,
+        "file": "ForgeEndertech-1.21.1-12.1.0.0-NeoForge-build.0408.jar",
+        "type": "mods",
+        "description": "Shared library used by all Endertech mods",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 244844,
+        "curseForgeFileId": 6728787,
+        "curseForgeProject": {
+          "id": 244844,
+          "name": "ForgeEndertech",
+          "authors": [
+            {
+              "id": 24846242,
+              "name": "EnderLanky",
+              "url": "https://www.curseforge.com/members/enderlanky"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Shared library used by all Endertech mods",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "forgeendertech",
+          "isFeatured": false,
+          "dateModified": "2025-07-05T12:41:22.743Z",
+          "dateCreated": "2016-05-07T17:41:58.17Z",
+          "dateReleased": "2025-07-05T12:33:00.817Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgeendertech",
+            "wikiUrl": ""
+          },
+          "logo": {
+            "id": 39528,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/39/528/256/256/635982217182008015.png",
+            "title": "635982217182008015.png",
+            "url": "https://media.forgecdn.net/avatars/39/528/635982217182008015.png",
+            "modId": 244844
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6733107
+        },
+        "curseForgeFile": {
+          "id": 6728787,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ForgeEndertech-1.21.1-12.1.0.0-NeoForge-build.0408.jar",
+          "fileName": "ForgeEndertech-1.21.1-12.1.0.0-NeoForge-build.0408.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-07-04T08:55:09.03Z",
+          "fileLength": 520870,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1887612281,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3167404887,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3998599017,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2980984461,
+              "name": "CHANGELOG.md"
+            },
+            {
+              "fingerprint": 585354997,
+              "name": "logo.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "442aa1f0fdf2c3e4340576fa4f66eb8ee2516926",
+              "algo": 1
+            },
+            {
+              "value": "bf5388a30eb431b48c6ab87a5b670757",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.21.1",
+            "Server"
+          ],
+          "fileFingerprint": 3095894189,
+          "modId": 244844
+        }
+      },
+      {
+        "name": "Advanced Chimneys",
+        "version": "AdChimneys-1.21.1-11.1.0.0-NeoForge-build.0408.jar",
+        "optional": true,
+        "file": "AdChimneys-1.21.1-11.1.0.0-NeoForge-build.0408.jar",
+        "type": "mods",
+        "description": "Adds chimney pipes, through which smoke from the fire or furnace goes up into the air",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 244830,
+        "curseForgeFileId": 6728828,
+        "curseForgeProject": {
+          "id": 244830,
+          "name": "Advanced Chimneys",
+          "authors": [
+            {
+              "id": 24846242,
+              "name": "EnderLanky",
+              "url": "https://www.curseforge.com/members/enderlanky"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds chimney pipes, through which smoke from the fire or furnace goes up into the air",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Processing",
+              "slug": "technology-processing",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-processing",
+              "dateModified": "2014-05-08T17:38:41.96Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 413,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/28/635351495219610266.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "advanced-chimneys",
+          "isFeatured": false,
+          "dateModified": "2025-07-05T12:59:09.533Z",
+          "dateCreated": "2016-05-07T13:24:27.297Z",
+          "dateReleased": "2025-07-05T12:38:04.143Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/advanced-chimneys",
+            "wikiUrl": ""
+          },
+          "logo": {
+            "id": 567999,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/567/999/256/256/637928912128696690_animated.gif",
+            "title": "637928912128696690.gif",
+            "url": "https://media.forgecdn.net/avatars/567/999/637928912128696690.gif",
+            "modId": 244830
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 292378,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/292/378/310/172/modern-smoke-particles.png",
+              "title": "Fancy Smoke Particles",
+              "url": "https://media.forgecdn.net/attachments/292/378/modern-smoke-particles.png",
+              "modId": 244830
+            },
+            {
+              "id": 744246,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/744/246/310/172/industrial-city-day.png",
+              "title": "Industrial City - Day",
+              "url": "https://media.forgecdn.net/attachments/744/246/industrial-city-day.png",
+              "modId": 244830
+            },
+            {
+              "id": 744248,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/744/248/310/172/medieval-village.png",
+              "title": "Medieval Village",
+              "url": "https://media.forgecdn.net/attachments/744/248/medieval-village.png",
+              "modId": 244830
+            },
+            {
+              "id": 744245,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/744/245/310/172/modern-farmhouse.png",
+              "title": "Modern Farmhouse",
+              "url": "https://media.forgecdn.net/attachments/744/245/modern-farmhouse.png",
+              "modId": 244830
+            },
+            {
+              "id": 744247,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/744/247/310/172/industrial-city-night.png",
+              "title": "Industrial City - Night",
+              "url": "https://media.forgecdn.net/attachments/744/247/industrial-city-night.png",
+              "modId": 244830
+            },
+            {
+              "id": 465084,
+              "description": "Available since version 1.16.5-6.1.0.0",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/465/84/310/172/new_ventilation_system.png",
+              "title": "Smoke Ventilation System",
+              "url": "https://media.forgecdn.net/attachments/465/84/new_ventilation_system.png",
+              "modId": 244830
+            }
+          ],
+          "mainFileId": 6733126
+        },
+        "curseForgeFile": {
+          "id": 6728828,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "AdChimneys-1.21.1-11.1.0.0-NeoForge-build.0408.jar",
+          "fileName": "AdChimneys-1.21.1-11.1.0.0-NeoForge-build.0408.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-07-04T09:02:07.28Z",
+          "fileLength": 284951,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 316867,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 74072,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 395653,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 243121,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 439890,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 231484,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 890405,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 821483,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 226410,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 693815,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 871735,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 869316,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 886559,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 363543,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 69163,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 901491,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 479516,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 634005,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 582376,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 281849,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 247560,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 326258,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 223565,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 244844,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 290209,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 64578,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 356578965,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2624309603,
+              "name": "com"
+            },
+            {
+              "fingerprint": 958092334,
+              "name": "adchimneys.mixins.json"
+            },
+            {
+              "fingerprint": 1202759472,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2222146466,
+              "name": "CHANGELOG.md"
+            },
+            {
+              "fingerprint": 2179882852,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2089332890,
+              "name": "logo.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "d4909f5953183a6579a754098a4e08d5ddf1f004",
+              "algo": 1
+            },
+            {
+              "value": "c33a8ffe907bdd148b42848f475beb38",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.21.1",
+            "Server"
+          ],
+          "fileFingerprint": 1231522336,
+          "modId": 244830
+        }
+      },
+      {
+        "name": "Dehydration",
+        "version": "dehydration-1.3.8+1.21.1",
+        "optional": true,
+        "file": "dehydration-1.3.8.jar",
+        "type": "mods",
+        "description": "Keep hydrated!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 410830,
+        "curseForgeFileId": 6136782,
+        "curseForgeProject": {
+          "id": 410830,
+          "name": "Dehydration",
+          "authors": [
+            {
+              "id": 33848116,
+              "name": "Globox_Z",
+              "url": "https://www.curseforge.com/members/globox_z"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Keep hydrated!",
+          "categories": [
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 422,
+          "classId": 6,
+          "slug": "dehydration",
+          "isFeatured": false,
+          "dateModified": "2025-01-29T14:54:25.99Z",
+          "dateCreated": "2020-10-01T20:19:34.52Z",
+          "dateReleased": "2025-01-29T14:52:38.27Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dehydration",
+            "wikiUrl": "https://globox1997.github.io/wiki/mods/Dehydration/",
+            "issuesUrl": "https://github.com/Globox1997/Dehydration/issues",
+            "sourceUrl": "https://github.com/Globox1997/Dehydration"
+          },
+          "logo": {
+            "id": 369164,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/369/164/256/256/637538269092690806.png",
+            "title": "637538269092690806.png",
+            "url": "https://media.forgecdn.net/avatars/369/164/637538269092690806.png",
+            "modId": 410830
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6136782
+        },
+        "curseForgeFile": {
+          "id": 6136782,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "dehydration-1.3.8+1.21.1",
+          "fileName": "dehydration-1.3.8.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-01-29T14:52:37.94Z",
+          "fileLength": 353161,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 348521,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 306612,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 6136783,
+          "modules": [
+            {
+              "fingerprint": 1975545480,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2226923820,
+              "name": "LICENSE_dehydration"
+            },
+            {
+              "fingerprint": 629332963,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 250322310,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3692970960,
+              "name": "dehydration-refmap.json"
+            },
+            {
+              "fingerprint": 1405877706,
+              "name": "dehydration.mixins.json"
+            },
+            {
+              "fingerprint": 2157887645,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 850862423,
+              "name": "net"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "eb12712e3a7376f9ed3e33447c1daf532147396d",
+              "algo": 1
+            },
+            {
+              "value": "8c8613eb8aabef9e94eceeac5611865f",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "1.21.1"
+          ],
+          "fileFingerprint": 3519628434,
+          "modId": 410830
+        },
+        "modrinthProject": {
+          "id": "qWDh3G0p",
+          "slug": "dehydration",
+          "project_type": "mod",
+          "team": "7dIMnOJ6",
+          "title": "Dehydration",
+          "description": "Keep hydrated!",
+          "body": "![Headline](https://i.imgur.com/En0gYBs.png)\n\n<center>\n\n[<img src=\"https://img.shields.io/discord/745451299713056791?color=7289DA&label=DISCORD&logo=discord&logoColor=white&style=for-the-badge\">](https://discord.gg/cV4cJyGXqF) \n[<img src=\"https://img.shields.io/website?color=7bc466&label=Globox&style=for-the-badge&up_message=Wiki&url=https://globox1997.github.io/wiki/mods/Dehydration/\">](https://globox1997.github.io/wiki/mods/Dehydration/)\n[<img src=\"https://img.shields.io/github/issues/Globox1997/Dehydration?color=c4667b&style=for-the-badge\">](https://github.com/Globox1997/Dehydration/issues)\n</center>\n\n<img src=\"https://i.imgur.com/K0Bn3Mh.png\" alt= “Description” width=\"25%\" height=\"auto\">\n<br><br/>\n\nDehydration adds thirst to Minecraft: just like food, you'll need to stay hydrated to survive and thrive.  \nFor an easier start, use the bonus chest on world generation.  \nCompatible with: [Motschen's Puddles](https://modrinth.com/mod/puddles), [Environmentz](https://modrinth.com/mod/environmentz)\n\n![Showcase](https://i.imgur.com/1ucv7lr.png)\n![Showcase](https://i.imgur.com/A7Pimwb.png)\n\n<img src=\"https://i.imgur.com/WKCuHQL.png\" alt= “Misc” width=\"10%\" height=\"auto\">\n<br><br />\n\n[<img src=\"https://i.imgur.com/Ol1Tcf8.png\" width=\"25%\" height=\"auto\">](https://modrinth.com/mod/fabric-api)\n[<img src=\"https://i.imgur.com/7weZ8uu.png\" width=\"25%\" height=\"auto\">](https://modrinth.com/mod/cloth-config)\n\n\n\nThis mod is developed for Fabric.  \nThere are no plans to develop a Forge version. \n\n\nModpack Permission:  \nFeel free to use it in any modpacks.\n\n\nBug Report:  \nJust report bugs at the github page.",
+          "published": "2023-04-19T17:46:05.096845Z",
+          "updated": "2025-01-29T14:52:41.125717Z",
+          "status": "approved",
+          "license": {
+            "id": "GPL-3.0-only",
+            "name": "GNU General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "food"
+          ],
+          "loaders": [
+            "fabric"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/qWDh3G0p/b20efa12909ad14f8696765518a3d589cfba686d.png",
+          "issues_url": "https://github.com/Globox1997/Dehydration/issues",
+          "source_url": "https://github.com/Globox1997/Dehydration",
+          "wiki_url": "https://globox1997.github.io/wiki/mods/Dehydration/",
+          "discord_url": "https://discord.gg/cV4cJyGXqF",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "2UrT6ykT",
+          "project_id": "qWDh3G0p",
+          "author_id": "tGFAjHNa",
+          "name": "dehydration-1.3.8+1.21.1",
+          "version_number": "1.3.8+1.21.1",
+          "changelog": "### Added:\n- \n### Fixed:\n- Fixed uncraftable potion crash\n- Fixed chat interference with hydration ui\n- Fixed bamboo pump crash\n- Fixed puddles compat\n- Fixed dispense crash\n- Fixed thirst from non food items\n### Changed:\n- ",
+          "date_published": "2025-01-29T14:52:41.125717Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "7dc34309e078745a88bd224ba6a3ff93982da0326af761154e5fdedeace9dabe7a5ed88b4fcda8d68c59f7d2b8f7ac7210412e63b2f47444650adacdfd31d23a",
+                "sha1": "eb12712e3a7376f9ed3e33447c1daf532147396d"
+              },
+              "url": "https://cdn.modrinth.com/data/qWDh3G0p/versions/2UrT6ykT/dehydration-1.3.8.jar",
+              "filename": "dehydration-1.3.8.jar",
+              "primary": true,
+              "size": 353161
+            },
+            {
+              "hashes": {
+                "sha512": "518a14535b55d79a5e8ab6d24336a5c37229b3531e766a7e51f1a9acfb69ae0968d8130087259c2d6331a720b74fbbcb598b50554178f97d5d1e93613bdecd30",
+                "sha1": "179ddcc6402bca4aaaffe668452775b968ceddc0"
+              },
+              "url": "https://cdn.modrinth.com/data/qWDh3G0p/versions/2UrT6ykT/dehydration-1.3.8-sources.jar",
+              "filename": "dehydration-1.3.8-sources.jar",
+              "primary": false,
+              "size": 264972
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "9s6osm5g",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "P7dR8mSH",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "fabric"
+          ]
+        }
+      },
+      {
+        "name": "Hardcore Torches (Forge)",
+        "version": "hardcore_torches-1.21+-1.0.jar",
+        "optional": true,
+        "file": "hardcore_torches-1.21.0-1.0.jar",
+        "type": "mods",
+        "description": "Makes torches and lanterns temporary. Torches can be replaced and lanterns can be refueled with oil.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 576846,
+        "curseForgeFileId": 6724373,
+        "curseForgeProject": {
+          "id": 576846,
+          "name": "Hardcore Torches (Forge)",
+          "authors": [
+            {
+              "id": 15408633,
+              "name": "WolfieWaffle",
+              "url": "https://www.curseforge.com/members/wolfiewaffle"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Makes torches and lanterns temporary. Torches can be replaced and lanterns can be refueled with oil.",
+          "categories": [
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 434,
+          "classId": 6,
+          "slug": "hardcore-torches-forge",
+          "isFeatured": false,
+          "dateModified": "2025-07-03T22:38:26.53Z",
+          "dateCreated": "2022-02-06T05:21:36.307Z",
+          "dateReleased": "2025-07-03T08:03:29.973Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/hardcore-torches-forge",
+            "issuesUrl": "https://github.com/WolfieWaffle/Hardcore-Torches-Forge/issues",
+            "sourceUrl": "https://github.com/WolfieWaffle/Hardcore-Torches-Forge"
+          },
+          "logo": {
+            "id": 490242,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/490/242/256/256/637797216963526307.png",
+            "title": "637797216963526307.png",
+            "url": "https://media.forgecdn.net/avatars/490/242/637797216963526307.png",
+            "modId": 576846
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 430806,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/430/806/310/172/2022-02-04_23.png",
+              "title": "All Items",
+              "url": "https://media.forgecdn.net/attachments/430/806/2022-02-04_23.png",
+              "modId": 576846
+            }
+          ],
+          "mainFileId": 6724373
+        },
+        "curseForgeFile": {
+          "id": 6724373,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "hardcore_torches-1.21+-1.0.jar",
+          "fileName": "hardcore_torches-1.21.0-1.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-07-03T08:03:29.973Z",
+          "fileLength": 256752,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 896746,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 309927,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3060174669,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1810769041,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3731572379,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1765890183,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2752006121,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 2570597514,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "27e875cfb47fe5d77792819f30d390cbb4584db9",
+              "algo": 1
+            },
+            {
+              "value": "0c24a6ccff6d14732768bd7f0c8bfc0c",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000021",
+              "gameVersion": "1.21",
+              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+              "gameVersionName": "1.21"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "1.21",
+            "Client",
+            "NeoForge",
+            "1.21.1",
+            "Server"
+          ],
+          "fileFingerprint": 901604490,
+          "modId": 576846
+        }
+      },
+      {
+        "name": "Diagonal Windows",
+        "version": "[NEOFORGE] [1.21.1] DiagonalWindows-v21.1.1",
+        "optional": true,
+        "file": "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar",
+        "type": "mods",
+        "description": "Now windows are connecting diagonally, too?! This is getting out of hand!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 891328,
+        "curseForgeFileId": 5918192,
+        "curseForgeProject": {
+          "id": 891328,
+          "name": "Diagonal Windows [Forge & Fabric]",
+          "authors": [
+            {
+              "id": 10384423,
+              "name": "Fuzs",
+              "url": "https://www.curseforge.com/members/fuzs"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Now windows are connecting diagonally, too?! This is getting out of hand!",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "diagonal-windows",
+          "isFeatured": false,
+          "dateModified": "2025-07-02T08:05:21.857Z",
+          "dateCreated": "2023-07-20T13:55:29.557Z",
+          "dateReleased": "2025-07-02T08:00:03.797Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/diagonal-windows",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Fuzss/diagonalwindows/issues",
+            "sourceUrl": "https://github.com/Fuzss/diagonalwindows"
+          },
+          "logo": {
+            "id": 852548,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/852/548/256/256/638255496148711135.png",
+            "title": "638255496148711135.png",
+            "url": "https://media.forgecdn.net/avatars/852/548/638255496148711135.png",
+            "modId": 891328
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6720168
+        },
+        "curseForgeFile": {
+          "id": 5918192,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[NEOFORGE] [1.21.1] DiagonalWindows-v21.1.1",
+          "fileName": "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-11-18T23:30:19.897Z",
+          "fileLength": 172170,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 544048,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 495476,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3423944905,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 263874301,
+              "name": "CHANGELOG.md"
+            },
+            {
+              "fingerprint": 186374256,
+              "name": "LICENSE-ASSETS.md"
+            },
+            {
+              "fingerprint": 2980605036,
+              "name": "LICENSE.md"
+            },
+            {
+              "fingerprint": 3134625811,
+              "name": "architectury_inject_DiagonalWindows1211_Common_816bd1a3ff4b46cca2c942822fc3ce6d_bfc2245d28c52f828f11ee594043ce55994d80cf92411089aceb750d15a4062fDiagonalWindowsv21111211Commondevjar"
+            },
+            {
+              "fingerprint": 1941862519,
+              "name": "diagonalwindows.common.mixins.json"
+            },
+            {
+              "fingerprint": 1334689034,
+              "name": "diagonalwindows.neoforge.mixins.json"
+            },
+            {
+              "fingerprint": 2403166199,
+              "name": "fuzs"
+            },
+            {
+              "fingerprint": 419182472,
+              "name": "mod_banner.png"
+            },
+            {
+              "fingerprint": 1924956884,
+              "name": "mod_logo.png"
+            },
+            {
+              "fingerprint": 1369778798,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "a2d28a50756a297d77f0a0fb9a015f4c2c501700",
+              "algo": 1
+            },
+            {
+              "value": "bc9ba029ab701559b493352224b80ea0",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 1779177131,
+          "modId": 891328
+        },
+        "modrinthProject": {
+          "id": "oOi0CKes",
+          "slug": "diagonal-windows",
+          "project_type": "mod",
+          "team": "lAnqEzlN",
+          "title": "Diagonal Windows",
+          "description": "Now windows are connecting diagonally, too?! This is getting out of hand!",
+          "body": "<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/banner.png\" width=\"854\" height=\"240\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p style=\"text-align: center; line-height: 36px;\"><a href=\"https://lunapixel.studio/discord\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Discord&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=discord&amp;logoColor=white\" width=\"117\" height=\"28\" /></a>&emsp;<a href=\"https://twitter.com/Fusseel\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Twitter&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=twitter&amp;logoColor=white\" width=\"116\" height=\"28\" /></a>&emsp;<a href=\"https://www.youtube.com/channel/UC2l26SuCmCNSCPefpfbCX7Q\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=YouTube&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=youtube&amp;logoColor=white\" width=\"118\" height=\"28\" /></a>&emsp;<a href=\"https://www.patreon.com/heyitsfuzs\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Patreon&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=patreon&amp;logoColor=white\" width=\"118\" height=\"28\" /></a>&emsp;<a href=\"https://www.paypal.com/donate/?hosted_button_id=TYG7QUSWMVSNG\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=PayPal&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=paypal&amp;logoColor=white\" width=\"107\" height=\"28\" /></a>&emsp;<a href=\"https://github.com/Fuzss\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=GitHub&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=github&amp;logoColor=white\" width=\"108\" height=\"28\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/about.png\" width=\"854\" height=\"32\" /></p>\n<p><span style=\"font-size: 14px;\">Diagonal Windows is a simple mod: Now all types of glass panes and iron bars are able to connect diagonally! So what are you waiting for? Let's get building!</span></p>\n<p><span style=\"font-size: 14px;\">Blocks added by other mods are dynamically supported whenever possible. Blocks that are affected unintentionally can be prevented from being so by adding them to the </span><code><span style=\"font-size: 14px;\">diagonalwindows:non_diagonal_windows</span></code><span style=\"font-size: 14px;\"> block tag.</span></p>\n<p><span style=\"font-size: 14px;\">Check out the two other projects from the diagonal blocks mod family: </span><a href=\"https://www.curseforge.com/minecraft/mc-mods/diagonal-fences\"><span style=\"font-size: 14px;\">Diagonal Fences</span></a><span style=\"font-size: 14px;\"> and </span><a href=\"https://www.curseforge.com/minecraft/mc-mods/diagonal-walls\"><span style=\"font-size: 14px;\">Diagonal Walls</span></a><span style=\"font-size: 14px;\">.</span></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/media.png\" width=\"854\" height=\"32\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/media/1.png\" width=\"854\" height=\"480\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/media/2.png\" width=\"854\" height=\"480\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/media/3.png\" width=\"854\" height=\"480\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/installation.png\" width=\"854\" height=\"32\" /></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">INSTALLATION REQUIRED ON CLIENT &amp; REQUIRED ON SERVER</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">REQUIRES </span></strong><a href=\"https://modrinth.com/mod/puzzles-lib\"><strong><span style=\"font-size: 14px;\">PUZZLES LIB</span></strong></a><strong><span style=\"font-size: 14px;\"> TO BE INSTALLED (FORGE &amp; FABRIC)</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">REQUIRES </span></strong><a href=\"https://modrinth.com/mod/fabric-api\"><strong><span style=\"font-size: 14px;\">FABRIC API</span></strong></a><strong><span style=\"font-size: 14px;\"> TO BE INSTALLED (FABRIC)</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">REQUIRES </span></strong><a href=\"https://modrinth.com/mod/forge-config-api-port\"><strong><span style=\"font-size: 14px;\">FORGE CONFIG API PORT</span></strong></a><strong><span style=\"font-size: 14px;\"> TO BE INSTALLED (FABRIC)</span></strong></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/credits.png\" width=\"854\" height=\"32\" /></p>\n<p><span style=\"font-size: 14px;\">🌟 </span><span style=\"font-size: 14px;\">Thanks a lot to </span><a href=\"https://www.curseforge.com/members/xfacthd\"><span style=\"font-size: 14px;\">XFactHD</span></a><span style=\"font-size: 14px;\"> for contributing the diagonal model transformation code and helping out during development in general!</span></p>\n<p><span style=\"font-size: 14px;\">🌟 </span><span style=\"font-size: 14px;\">Thanks to </span><a href=\"https://www.curseforge.com/members/magneticflux_\"><span style=\"font-size: 14px;\">Magneticflux</span></a><span style=\"font-size: 14px;\"> and their </span><a href=\"https://www.curseforge.com/minecraft/mc-mods/diagonal-panes\"><span style=\"font-size: 14px;\">Diagonal Panes</span></a><span style=\"font-size: 14px;\"> mod for serving as an inspiration.</span></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><a href=\"https://www.patreon.com/heyitsfuzs\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/support.png\" width=\"854\" height=\"240\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><a href=\"https://modrinth.com/mod/bartering-station\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/barteringstation/banner.png\" width=\"854\" height=\"240\" /></a></p><p><a href=\"https://modrinth.com/mod/completionists-index\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/completionistsindex/banner.png\" width=\"854\" height=\"240\" /></a></p><p><a href=\"https://modrinth.com/mod/tiny-skeletons\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/tinyskeletons/banner.png\" width=\"854\" height=\"240\" /></a></p><p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><a href=\"https://lunapixel.studio/discord\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/studio.png\" width=\"854\" height=\"240\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwindows/strip.png\" width=\"854\" height=\"14\" /></p>\n",
+          "published": "2023-07-21T15:35:35.791849Z",
+          "updated": "2025-07-02T08:00:08.135565Z",
+          "status": "approved",
+          "license": {
+            "id": "MPL-2.0",
+            "name": "Mozilla Public License 2.0"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "decoration"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/oOi0CKes/22fc3f2c49d0144e3bf55261909ba5316dc062f0_96.webp",
+          "issues_url": "https://github.com/Fuzss/diagonalwindows/issues",
+          "source_url": "https://github.com/Fuzss/diagonalwindows",
+          "discord_url": "https://lunapixel.studio/discord",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/heyitsfuzs"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/oOi0CKes/images/fdb3325859e65a53048be5435c0ee14893f7322e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/oOi0CKes/images/82d65e51fb2a42685837a74b7c0c5cc1324029dc.png",
+              "featured": true,
+              "created": "2023-07-21T15:36:13.126764Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "IwUmOLxe",
+          "project_id": "oOi0CKes",
+          "author_id": "rHdGpxOA",
+          "name": "[NEOFORGE] [1.21.1] DiagonalWindows-v21.1.1",
+          "version_number": "v21.1.1-1.21.1-NeoForge",
+          "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.1-1.21.1] - 2024-11-18\n- Bump bundled Diagonal Blocks mod to v21.1.1\n\n## [v21.1.0-1.21.1] - 2024-09-17\n- Port to Minecraft 1.21.1\n",
+          "date_published": "2024-11-18T23:30:24.124494Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "a2d28a50756a297d77f0a0fb9a015f4c2c501700",
+                "sha512": "fd335b7789321a1d0de9691d855c2bcc51d669f4614bdd2cd6fe17f7881f9dd39e63cb28c39a1a1798e98a6876ad1658ef2e3805e884f13e4650810611227849"
+              },
+              "url": "https://cdn.modrinth.com/data/oOi0CKes/versions/IwUmOLxe/DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar",
+              "filename": "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar",
+              "primary": true,
+              "size": 172170
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "5WeWGLoJ",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "QAGBst4M",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Diagonal Walls",
+        "version": "[NEOFORGE] [1.21.1] DiagonalWalls-v21.1.2",
+        "optional": true,
+        "file": "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar",
+        "type": "mods",
+        "description": "The missing diagonal blocks are here! After all these years. Finally, you have them all.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 969422,
+        "curseForgeFileId": 5918894,
+        "curseForgeProject": {
+          "id": 969422,
+          "name": "Diagonal Walls",
+          "authors": [
+            {
+              "id": 10384423,
+              "name": "Fuzs",
+              "url": "https://www.curseforge.com/members/fuzs"
+            }
+          ],
+          "gameId": 432,
+          "summary": "The missing diagonal blocks are here! After all these years. Finally, you have them all.",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "diagonal-walls",
+          "isFeatured": false,
+          "dateModified": "2025-07-02T08:05:23.203Z",
+          "dateCreated": "2024-02-01T12:54:03.52Z",
+          "dateReleased": "2025-07-02T08:00:02.387Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/diagonal-walls",
+            "issuesUrl": "https://github.com/Fuzss/diagonalwalls/issues",
+            "sourceUrl": "https://github.com/Fuzss/diagonalwalls"
+          },
+          "logo": {
+            "id": 941954,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/941/954/256/256/638423888435546433.png",
+            "title": "638423888435546433.png",
+            "url": "https://media.forgecdn.net/avatars/941/954/638423888435546433.png",
+            "modId": 969422
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6720167
+        },
+        "curseForgeFile": {
+          "id": 5918894,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[NEOFORGE] [1.21.1] DiagonalWalls-v21.1.2",
+          "fileName": "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-11-19T08:35:36.977Z",
+          "fileLength": 167853,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 495476,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 544048,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 843729905,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1382099718,
+              "name": "CHANGELOG.md"
+            },
+            {
+              "fingerprint": 186374256,
+              "name": "LICENSE-ASSETS.md"
+            },
+            {
+              "fingerprint": 2980605036,
+              "name": "LICENSE.md"
+            },
+            {
+              "fingerprint": 2093427328,
+              "name": "architectury_inject_DiagonalWalls1211_Common_65c940f296ee468db6cdc4fea721d7a0_67a41b235e2170101c14e9df4093dccd101d889885693f1430ecf5d882bafc97DiagonalWallsv21121211Commondevjar"
+            },
+            {
+              "fingerprint": 675544102,
+              "name": "diagonalwalls.common.mixins.json"
+            },
+            {
+              "fingerprint": 1996383861,
+              "name": "diagonalwalls.neoforge.mixins.json"
+            },
+            {
+              "fingerprint": 124107036,
+              "name": "fuzs"
+            },
+            {
+              "fingerprint": 2959957788,
+              "name": "mod_banner.png"
+            },
+            {
+              "fingerprint": 1986283727,
+              "name": "mod_logo.png"
+            },
+            {
+              "fingerprint": 4245497175,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "f2aed3ac68f5cc5e41ccc9d493f2706b0df53296",
+              "algo": 1
+            },
+            {
+              "value": "7469d597e89e550fb00d9ba183d5dd7b",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 3660372421,
+          "modId": 969422
+        },
+        "modrinthProject": {
+          "id": "FQgc8dib",
+          "slug": "diagonal-walls",
+          "project_type": "mod",
+          "team": "H8SsRTfB",
+          "title": "Diagonal Walls",
+          "description": "The missing diagonal blocks are here! After all these years. Finally, you have them all.",
+          "body": "<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/banner.png\" width=\"854\" height=\"240\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p style=\"text-align: center; line-height: 36px;\"><a href=\"https://lunapixel.studio/discord\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Discord&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=discord&amp;logoColor=white\" width=\"117\" height=\"28\" /></a>&emsp;<a href=\"https://twitter.com/Fusseel\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Twitter&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=twitter&amp;logoColor=white\" width=\"116\" height=\"28\" /></a>&emsp;<a href=\"https://www.youtube.com/channel/UC2l26SuCmCNSCPefpfbCX7Q\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=YouTube&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=youtube&amp;logoColor=white\" width=\"118\" height=\"28\" /></a>&emsp;<a href=\"https://www.patreon.com/heyitsfuzs\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=Patreon&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=patreon&amp;logoColor=white\" width=\"118\" height=\"28\" /></a>&emsp;<a href=\"https://www.paypal.com/donate/?hosted_button_id=TYG7QUSWMVSNG\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=PayPal&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=paypal&amp;logoColor=white\" width=\"107\" height=\"28\" /></a>&emsp;<a href=\"https://github.com/Fuzss\"><img src=\"https://img.shields.io/static/v1?label=&amp;message=GitHub&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=github&amp;logoColor=white\" width=\"108\" height=\"28\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/about.png\" width=\"854\" height=\"32\" /></p>\n<p><span style=\"font-size: 14px;\">Diagonal Walls is the final addition to the diagonal blocks mod serires: At last not just fences and glass panes, but also walls are able to connect when placed diagonally. Finally you can build the castle of your dreams without limits.</span></p>\n<p><span style=\"font-size: 14px;\">Please note that for technical reasons when installing the Diagonal Walls mod walls are no longer able to connect upwards and will once again show gaps when stacked vertically (like they used to in Minecraft 1.15.2 and before). Adding that feature back is unfortunatly not technically feasible and is not planned.</span></p>\n<p><span style=\"font-size: 14px;\">Blocks added by other mods are dynamically supported whenever possible. Blocks that are affected unintentionally can be prevented from being so by adding them to the </span><code><span style=\"font-size: 14px;\">diagonalwalls:non_diagonal_walls</span></code><span style=\"font-size: 14px;\"> block tag.</span></p>\n<p><span style=\"font-size: 14px;\">Check out the two other projects from the diagonal blocks mod family: </span><a href=\"https://www.curseforge.com/minecraft/mc-mods/diagonal-fences\"><span style=\"font-size: 14px;\">Diagonal Fences</span></a><span style=\"font-size: 14px;\"> and </span><a href=\"https://www.curseforge.com/minecraft/mc-mods/diagonal-windows\"><span style=\"font-size: 14px;\">Diagonal Windows</span></a><span style=\"font-size: 14px;\">.</span></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/media.png\" width=\"854\" height=\"32\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/media/1.png\" width=\"854\" height=\"480\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/installation.png\" width=\"854\" height=\"32\" /></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">INSTALLATION REQUIRED ON CLIENT &amp; REQUIRED ON SERVER</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">REQUIRES </span></strong><a href=\"https://modrinth.com/mod/puzzles-lib\"><strong><span style=\"font-size: 14px;\">PUZZLES LIB</span></strong></a><strong><span style=\"font-size: 14px;\"> TO BE INSTALLED (FABRIC &amp; NEOFORGE &amp; FORGE)</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">REQUIRES </span></strong><a href=\"https://modrinth.com/mod/fabric-api\"><strong><span style=\"font-size: 14px;\">FABRIC API</span></strong></a><strong><span style=\"font-size: 14px;\"> TO BE INSTALLED (FABRIC)</span></strong></p>\n<p><strong><span style=\"font-size: 14px;\">⏩ </span></strong><strong><span style=\"font-size: 14px;\">REQUIRES </span></strong><a href=\"https://modrinth.com/mod/forge-config-api-port\"><strong><span style=\"font-size: 14px;\">FORGE CONFIG API PORT</span></strong></a><strong><span style=\"font-size: 14px;\"> TO BE INSTALLED (FABRIC &amp; FORGE)</span></strong></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/credits.png\" width=\"854\" height=\"32\" /></p>\n<p><span style=\"font-size: 14px;\">🌟 </span><span style=\"font-size: 14px;\">Thanks a lot to </span><a href=\"https://www.curseforge.com/members/xfacthd\"><span style=\"font-size: 14px;\">XFactHD</span></a><span style=\"font-size: 14px;\"> for contributing the diagonal model transformation code and helping out during development in general!</span></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><a href=\"https://www.patreon.com/heyitsfuzs\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/support.png\" width=\"854\" height=\"240\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><a href=\"https://modrinth.com/mod/leave-my-bars-alone\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/leavemybarsalone/banner.png\" width=\"854\" height=\"240\" /></a></p><p><a href=\"https://modrinth.com/mod/metal-bundles\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/metalbundles/banner.png\" width=\"854\" height=\"240\" /></a></p><p><a href=\"https://modrinth.com/mod/bag-of-holding\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/bagofholding/banner.png\" width=\"854\" height=\"240\" /></a></p><p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n<p><a href=\"https://lunapixel.studio/discord\"><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/studio.png\" width=\"854\" height=\"240\" /></a></p>\n<p><img src=\"https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalwalls/strip.png\" width=\"854\" height=\"14\" /></p>\n",
+          "published": "2024-02-01T12:54:33.320005Z",
+          "updated": "2025-07-02T08:00:06.897677Z",
+          "status": "approved",
+          "license": {
+            "id": "MPL-2.0",
+            "name": "Mozilla Public License 2.0"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "decoration"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/FQgc8dib/df93780486910bf6b3ae2bf9ddc3e531ab923780_96.webp",
+          "issues_url": "https://github.com/Fuzss/diagonalwalls/issues",
+          "source_url": "https://github.com/Fuzss/diagonalwalls",
+          "discord_url": "https://lunapixel.studio/discord",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/FQgc8dib/images/09b74b3c95dd884a88cf168f30ffd3d6433a8373_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/FQgc8dib/images/920a205afc3a40927b8e1d65217cb412bba0bdb1.png",
+              "featured": true,
+              "created": "2024-02-01T12:57:21.743823Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "2k3GCxEt",
+          "project_id": "FQgc8dib",
+          "author_id": "rHdGpxOA",
+          "name": "[NEOFORGE] [1.21.1] DiagonalWalls-v21.1.2",
+          "version_number": "v21.1.2-1.21.1-NeoForge",
+          "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.2-1.21.1] - 2024-11-19\n- Bump bundled Diagonal Blocks mod to v21.1.2\n\n## [v21.1.1-1.21.1] - 2024-11-18\n- Bump bundled Diagonal Blocks mod to v21.1.1\n\n## [v21.1.0-1.21.1] - 2024-09-17\n- Port to Minecraft 1.21.1\n",
+          "date_published": "2024-11-19T08:35:41.817557Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "69495235948a9786b6c99eac06cf2a406f478b4425f08699b205da667a3a8a7f9cd3e7ac643199a01487d3a7319b275e014d2a81885008845d2ec798664620f0",
+                "sha1": "f2aed3ac68f5cc5e41ccc9d493f2706b0df53296"
+              },
+              "url": "https://cdn.modrinth.com/data/FQgc8dib/versions/2k3GCxEt/DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar",
+              "filename": "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar",
+              "primary": true,
+              "size": 167853
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "QAGBst4M",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "5WeWGLoJ",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Enchanted Vertical Slabs",
+        "version": "[NF] v2.3.1 for mc1.21 - 1.21.1",
+        "optional": true,
+        "file": "enchanted-vertical-slabs-2.3.1-neoforge-mc1.21.jar",
+        "type": "mods",
+        "description": "Vertical slabs is a simple, vanilla-like mod that adds vertical slabs to Minecraft.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 559148,
+        "curseForgeFileId": 5883826,
+        "curseForgeProject": {
+          "id": 559148,
+          "name": "Enchanted Vertical Slabs",
+          "authors": [
+            {
+              "id": 100870515,
+              "name": "Enchanted_Games",
+              "url": "https://www.curseforge.com/members/enchanted_games"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Vertical slabs is a vanilla-like mod that adds vertical slabs to Minecraft",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "enchanted-vertical-slabs",
+          "isFeatured": false,
+          "dateModified": "2025-06-19T22:27:35.82Z",
+          "dateCreated": "2021-12-21T20:33:22.697Z",
+          "dateReleased": "2025-06-19T22:24:40.973Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/enchanted-vertical-slabs",
+            "issuesUrl": "https://github.com/Enchanted-Games/enchanted-vertical-slabs/issues",
+            "sourceUrl": "https://github.com/Enchanted-Games/enchanted-vertical-slabs"
+          },
+          "logo": {
+            "id": 470365,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/470/365/256/256/637757156027763948.png",
+            "title": "637757156027763948.png",
+            "url": "https://media.forgecdn.net/avatars/470/365/637757156027763948.png",
+            "modId": 559148
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 692691,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/692/691/310/172/2023-05-29_13.png",
+              "title": "glass panes connecting to slabs",
+              "url": "https://media.forgecdn.net/attachments/692/691/2023-05-29_13.png",
+              "modId": 559148
+            },
+            {
+              "id": 692690,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/692/690/310/172/2023-05-29_13.png",
+              "title": "sandstone examples",
+              "url": "https://media.forgecdn.net/attachments/692/690/2023-05-29_13.png",
+              "modId": 559148
+            },
+            {
+              "id": 692689,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/692/689/310/172/2023-05-29_13.png",
+              "title": "Walls and slabs",
+              "url": "https://media.forgecdn.net/attachments/692/689/2023-05-29_13.png",
+              "modId": 559148
+            },
+            {
+              "id": 417228,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/417/228/310/172/slabs.png",
+              "title": "Creative Menu",
+              "url": "https://media.forgecdn.net/attachments/417/228/slabs.png",
+              "modId": 559148
+            },
+            {
+              "id": 417227,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/417/227/310/172/crafting.png",
+              "title": "Crafting Examples",
+              "url": "https://media.forgecdn.net/attachments/417/227/crafting.png",
+              "modId": 559148
+            }
+          ],
+          "mainFileId": 6672940
+        },
+        "curseForgeFile": {
+          "id": 5883826,
+          "gameId": 432,
+          "isAvailable": false,
+          "displayName": "[Fabric] v2.3.1 - mc 1.21 - 1.21.1",
+          "fileName": "enchanted-vertical-slabs-2.3.1-neoforge-mc1.21.jar",
+          "releaseType": 1,
+          "fileStatus": 8,
+          "fileDate": "2024-11-07T23:40:15.693Z",
+          "fileLength": 242800,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 306612,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 682879544,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 128250148,
+              "name": "games"
+            },
+            {
+              "fingerprint": 1304290276,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 939524410,
+              "name": "data"
+            },
+            {
+              "fingerprint": 422349675,
+              "name": "evs.mixins.json"
+            },
+            {
+              "fingerprint": 2821257184,
+              "name": "evs.neoforge.mixins.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "ce4c89853d8687bb509c9330bc3110fa341f78e7",
+              "algo": 1
+            },
+            {
+              "value": "c8128153f39d1aaad3123898531e5197",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000021",
+              "gameVersion": "1.21",
+              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+              "gameVersionName": "1.21"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-05-26T00:00:00Z",
+              "gameVersionName": "Quilt"
+            }
+          ],
+          "gameVersions": [
+            "1.21",
+            "Fabric",
+            "1.21.1",
+            "Quilt"
+          ],
+          "fileFingerprint": 2837007170,
+          "modId": 559148
+        },
+        "modrinthProject": {
+          "id": "TG1cHkRf",
+          "slug": "enchanted-vertical-slabs",
+          "project_type": "mod",
+          "team": "lHig9lft",
+          "title": "Enchanted Vertical Slabs",
+          "description": "Vertical slabs is a simple, vanilla-like mod that adds vertical slabs to Minecraft.",
+          "body": "# Enchanted Vertical Slabs v2\nThe mod has been rewritten from scratch to support both Fabric and NeoForge for Minecraft 1.21!\n\n**_Warning_**: While NeoForge is in beta, this mod may not work. If it crashes / doesn't load up on NeoForge, please open an issue on GitHub\n\n## Mod Features\nMost of the mods features:\n\n### Vertical Slabs variants of all vanilla slabs\nFor now, the mod only adds vertical slabs for all vanilla slabs\n\n### Crafting\nVertical slabs are crafted in a crafting table the same way as vanilla slabs but vertically.\nSome stone vertical slabs can also be crafted in a Stonecutter\n\n### Placing\nTo place a vertical slab, you need to craft one, this mod uses a seperate item for vertical slabs. You can combine vertical slabs in the same way vanilla slabs can be combined\n\n### Other\n- Vertical slabs can now be used as furnace fuel\n- Wooden Vertical slabs are flammable, be careful with fire!\n- Copper vertical slabs can be waxed and oxidise, just like other copper blocks\n\n## Translators\nHuge thanks to the following people for translating Enchanted Vertical Slabs!\n- ChristosMaragkos (github) [el_gr]\n- CANALETA (github) [es_mx]\n- PlayboyX312 (github) [ru_ru]\n- hhhhh-ckr (github) [tr_tr]\n- VladAndreiMorariu (github) [it_it]\n- ivan.hd (discord) [pt_br]\n- unroman (github) [uk_ua]\n\n## License\n<p xmlns:cc=\"http://creativecommons.org/ns#\" >Enchanted Vertical Slabs by <a rel=\"cc:attributionURL dct:creator\" property=\"cc:attributionName\" href=\"https://enchanted.games\">ioblackshaw (a.k.a. Enchanted_Games)</a> is licensed under <a href=\"http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">CC BY-NC 4.0<img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\"></a></p> \nVideo content creators may monetise videos including this work provided the license is followed.\n",
+          "published": "2021-12-21T21:36:14.818196Z",
+          "updated": "2025-07-01T18:56:53.786915Z",
+          "status": "approved",
+          "license": {
+            "id": "CC-BY-NC-4.0",
+            "name": "Creative Commons Attribution Non Commercial 4.0 International",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "decoration"
+          ],
+          "loaders": [
+            "fabric",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/TG1cHkRf/eb31275fae8b57b5c7e102beaa016e22b45a60e8_96.webp",
+          "issues_url": "https://github.com/Enchanted-Games/enchanted-vertical-slabs/issues",
+          "source_url": "https://github.com/Enchanted-Games/enchanted-vertical-slabs",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/ca7e40a499d8ae9bef2c96d6a42e55b6655c720e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/979c47ab42c597a07468d7fa8c04b763caeea87c.png",
+              "featured": true,
+              "title": "All Slabs",
+              "description": "* image taken with v1.9 of the mod",
+              "created": "2024-04-25T13:28:40.526534Z",
+              "ordering": -1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/5aecb9093574976dd6c10e66f61363932b6540a4_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/7592bd07e7034e17189608ef3fd943a5d6ceef62.png",
+              "featured": false,
+              "title": "Slabs in inventory",
+              "description": "as of v1.10",
+              "created": "2024-04-19T19:44:35.514110Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/e428bcae3fef4f47f0852f8843673ae0309b165d.png",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/e428bcae3fef4f47f0852f8843673ae0309b165d.png",
+              "featured": false,
+              "title": "Crafting Example",
+              "created": "2024-04-19T19:45:20.071464Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/fbff6a85432652dfcdbfaa428af1cb66c69e89f8_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/fbff6a85432652dfcdbfaa428af1cb66c69e89f8.png",
+              "featured": false,
+              "title": "Pale Oak and Resin Brick vertical slabs",
+              "description": "As of v2.5",
+              "created": "2024-12-03T18:44:29.065725Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/1fdbb8fb98328587c8bdd78d73288d08bfd78b4b_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/ca6d59eb16776d1ef10a78fb6fa2671e286a9a46.png",
+              "featured": false,
+              "title": "Glass Panes and Walls connecting to Vertical Slabs",
+              "description": "Showcase of what can be built in Enchanted Vertical Slabs 1.8 and above",
+              "created": "2023-05-29T13:31:17.361819Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/73e913118f05ac61008f7849044860677fe14807.png",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/73e913118f05ac61008f7849044860677fe14807.png",
+              "featured": false,
+              "title": "Stonecutting Example",
+              "description": "as of v1.9.3",
+              "created": "2024-04-19T19:45:50.815811Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/76d87a91cb0ce291bf9a0199dd42344dee641ab8_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/b67f0ba26008da640ecb4347e36537803e1c0b46.png",
+              "featured": false,
+              "title": "Wall built from vertical slabs and wall blocks",
+              "description": "Showcase of what can be built in Enchanted Vertical Slabs 1.8 and above",
+              "created": "2023-05-29T13:30:41.447154Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/images/578e7004cd4d6123919cfe75e550804dc59d5f06_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/TG1cHkRf/images/578e7004cd4d6123919cfe75e550804dc59d5f06.webp",
+              "featured": false,
+              "title": "Slabs in inventory",
+              "description": "Slabs appear with other blocks of the same material in the creative inventory as of v1.7",
+              "created": "2022-12-26T21:18:15.374827Z",
+              "ordering": 32767.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "TCMRFg8l",
+          "project_id": "TG1cHkRf",
+          "author_id": "q7Pixh4Q",
+          "name": "[NF] v2.3.1 for mc1.21 - 1.21.1",
+          "version_number": "2.3.1",
+          "changelog": "Add Turkish translation thanks to @hhhhh-ckr on github!",
+          "date_published": "2024-11-07T23:35:18.643861Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "ce4c89853d8687bb509c9330bc3110fa341f78e7",
+                "sha512": "515ef9d830596c5336209ed09290e715412a6eba2ccf9f9f8921fa787c640bb1b8b677ee3caa528ad7ec2148e86ccbb8f74e11b320645eeecbc1b373d5830acd"
+              },
+              "url": "https://cdn.modrinth.com/data/TG1cHkRf/versions/TCMRFg8l/enchanted-vertical-slabs-2.3.1-neoforge-mc1.21.jar",
+              "filename": "enchanted-vertical-slabs-2.3.1-neoforge-mc1.21.jar",
+              "primary": true,
+              "size": 242800
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21",
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Chalk",
+        "version": "Chalk - 1.6.10",
+        "optional": true,
+        "file": "chalk-1.6.10.jar",
+        "type": "mods",
+        "description": "You'll never lose your way again!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 533748,
+        "curseForgeFileId": 6661649,
+        "curseForgeProject": {
+          "id": 533748,
+          "name": "Chalk",
+          "authors": [
+            {
+              "id": 34174777,
+              "name": "mortuusars",
+              "url": "https://www.curseforge.com/members/mortuusars"
+            }
+          ],
+          "gameId": 432,
+          "summary": "You'll never lose your way again!",
+          "categories": [
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "chalk",
+          "isFeatured": false,
+          "dateModified": "2025-06-17T16:15:26.33Z",
+          "dateCreated": "2021-10-04T02:27:17.8Z",
+          "dateReleased": "2025-06-17T16:04:39.89Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chalk",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/mortuusars/Chalk/issues",
+            "sourceUrl": "https://github.com/mortuusars/Chalk"
+          },
+          "socialLinks": [
+            {
+              "type": "7",
+              "url": "https://www.patreon.com/mortuusars?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLin"
+            }
+          ],
+          "logo": {
+            "id": 822560,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/822/560/256/256/638205779710304418.png",
+            "title": "638205779710304418.png",
+            "url": "https://media.forgecdn.net/avatars/822/560/638205779710304418.png",
+            "modId": 533748
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 401921,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/401/921/310/172/2021-10-18_04.png",
+              "title": "X-Mark",
+              "url": "https://media.forgecdn.net/attachments/401/921/2021-10-18_04.png",
+              "modId": 533748
+            },
+            {
+              "id": 400362,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/400/362/310/172/glowing_showcase.png",
+              "title": "Glowing",
+              "url": "https://media.forgecdn.net/attachments/400/362/glowing_showcase.png",
+              "modId": 533748
+            },
+            {
+              "id": 400357,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/400/357/310/172/all_chalks_large.png",
+              "title": "All Chalks",
+              "url": "https://media.forgecdn.net/attachments/400/357/all_chalks_large.png",
+              "modId": 533748
+            },
+            {
+              "id": 400354,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/400/354/310/172/colors_showcase.png",
+              "title": "Colors",
+              "url": "https://media.forgecdn.net/attachments/400/354/colors_showcase.png",
+              "modId": 533748
+            },
+            {
+              "id": 398864,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/398/864/310/172/2021-10-04_05.png",
+              "title": "Marks",
+              "url": "https://media.forgecdn.net/attachments/398/864/2021-10-04_05.png",
+              "modId": 533748
+            },
+            {
+              "id": 398856,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/398/856/310/172/2021-10-04_04.png",
+              "title": "Caves",
+              "url": "https://media.forgecdn.net/attachments/398/856/2021-10-04_04.png",
+              "modId": 533748
+            }
+          ],
+          "mainFileId": 6661649
+        },
+        "curseForgeFile": {
+          "id": 6661649,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Chalk - 1.21 - 1.6.10",
+          "fileName": "chalk-1.6.10.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-06-17T16:04:39.89Z",
+          "fileLength": 334476,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 712473081,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2903140940,
+              "name": "io"
+            },
+            {
+              "fingerprint": 3205639139,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1895987360,
+              "name": "data"
+            },
+            {
+              "fingerprint": 345362588,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6a1b2d27e25d9f5f369c20b1206f5491b8a7eab2",
+              "algo": 1
+            },
+            {
+              "value": "44b7d808a3b038ad4d64cc205e713469",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000021",
+              "gameVersion": "1.21",
+              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+              "gameVersionName": "1.21"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "1.21",
+            "Client",
+            "NeoForge",
+            "1.21.1",
+            "Server"
+          ],
+          "fileFingerprint": 3440751648,
+          "modId": 533748
+        },
+        "modrinthProject": {
+          "id": "YWGP4Y1d",
+          "slug": "chalk-mod",
+          "project_type": "mod",
+          "team": "cBcxG29u",
+          "title": "Chalk",
+          "description": "You'll never lose your way again!",
+          "body": "<img src=\"https://i.imgur.com/XpqtuyD.png\" width=2000/>\n\n<div align=\"center\">\n\n### Mark your way through the vast world of Minecraft®!\n \n#### Chalk allows you to draw marks for easier navigation in the caves or structures.\n\n</div>\n\n<img  src=\"https://i.imgur.com/qx2fgdp.png\" alt=\"Chalks\" width=1000/>\n<img  src=\"https://i.imgur.com/f43BLYS.png\" alt=\"Symbols\" width=1000/>\n<img  src=\"https://i.imgur.com/YfuLEeh.png\" alt=\"Glowing\" width=1000/>\n<img  src=\"https://i.imgur.com/FjhcKIR.png\" alt=\"Chalk Box\" width=1000/>\n\n<iframe width=\"1000\" height=\"561\" src=\"https://www.youtube.com/embed/Yb5gsGmDugM\" title=\"YouTube Chalk Showcase\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<details>\n<summary>Description in text form</summary>\n<h3>Chalks</h3>\n\n - Chalks come in all 16 Minecraft colors<br>\n - Crafted with a piece of Calcite and any dye. They can also\nbe found in some underground chests or in a village<br><br>\n - Click on a full side of a block to draw a mark<br>\n - Direction of the mark depends on the click location relative\nto the center of the face<br>\n - Dot mark is drawn by clicking in the center<br>\n\n<h3>Symbols</h3>\n\n- You can also draw a couple of different symbols<br>\n- Right-click while sneaking to open a menu where you can\nchoose desired symbol to draw<br>\n- Some symbols will be unlocked by default, others can be\nunlocked by completing advancements<br>\n\n<h3>Glowing</h3>\n\n- Marks can be made glowing by applying Glowstone Dust or\nGlow Ink Sac to them<br>\n- Glowing marks are quite bright and will slightly light up their\nsurroundings<br>\n\n<h3>Chalk Box</h3>\n\n- Chalk Box is a convenient way to store and use your chalks<br>\n- It can be opened by using it while not looking at any block\nor right-clicking it in the GUI<br>\n- Marks will be drawn with a leftmost chalk in order<br>\n    - To quickly change active chalk - use the box while\nsneaking and not looking at any block<br>\n- You can draw glowing marks with Chalk Box by adding\nglowing items in a special slot<br>\n\n</details>\n\n<h1> </h1>\n\n<div align=\"center\">\n<br>\n\n[<img alt=\"Discord Server\" src=\"https://raw.githubusercontent.com/mortuusars/resources/main/media/banners/discord.png\" width=500/>](https://discord.gg/FzHKGDW2et)\n\n<h1> </h1>\n\n#### Enjoying the mod? Your support would allow me to continue working on it and on other mods!\n[<img alt=\"Patreon\" src=\"https://raw.githubusercontent.com/mortuusars/resources/main/media/banners/patreon.png\" width=500/>](https://patreon.com/mortuusars?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink) [<img alt=\"PayPal\" src=\"https://raw.githubusercontent.com/mortuusars/resources/main/media/banners/paypal.png\" width=98/>](https://www.paypal.com/donate/?hosted_button_id=4VPMCBCLZVUEA)\n\n</div>",
+          "published": "2022-05-31T15:28:36.358315Z",
+          "updated": "2025-06-17T16:04:40.907126Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "adventure",
+            "utility"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/YWGP4Y1d/c8140f37ca38d3ccfe1f6f4a9bbab74ad6828752.png",
+          "issues_url": "https://github.com/mortuusars/Chalk/issues",
+          "source_url": "https://github.com/mortuusars/Chalk",
+          "discord_url": "https://discord.gg/FzHKGDW2et",
+          "donation_urls": [
+            {
+              "id": "paypal",
+              "platform": "Paypal",
+              "url": "https://www.paypal.com/donate/?hosted_button_id=YTSFJQ8XTXZBW"
+            },
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/mortuusars?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/15822af66bd5b061fa3f4edec709377465af18c7.png",
+              "raw_url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/15822af66bd5b061fa3f4edec709377465af18c7.png",
+              "featured": true,
+              "title": "Chalks",
+              "created": "2022-06-08T01:11:19.686558Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/2a920660fa0cada4bf52e4d163d33cf085c06376_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/2a920660fa0cada4bf52e4d163d33cf085c06376.png",
+              "featured": false,
+              "title": "Glowing",
+              "created": "2022-06-03T23:15:31.845978Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/664a17431a92c2d59998e2a2dca1f4c127749d73_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/664a17431a92c2d59998e2a2dca1f4c127749d73.png",
+              "featured": false,
+              "title": "Colorful",
+              "created": "2022-06-03T23:15:29.648649Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/7034e53a36de4186e71f9801d68c5f9344f3e894_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/7034e53a36de4186e71f9801d68c5f9344f3e894.png",
+              "featured": false,
+              "title": "X-Mark",
+              "created": "2022-06-08T01:09:52.587726Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/c3173dbeedba9f11772d6c30d9a9afc5f214e844_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/c3173dbeedba9f11772d6c30d9a9afc5f214e844.png",
+              "featured": false,
+              "title": "Caves",
+              "created": "2022-06-08T01:16:29.848936Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/e290a2331defeb8106814549b11832aae75f1df2_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/YWGP4Y1d/images/e290a2331defeb8106814549b11832aae75f1df2.png",
+              "featured": false,
+              "title": "Marks",
+              "created": "2022-06-08T01:09:00.054574Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "pgGspa2K",
+          "project_id": "YWGP4Y1d",
+          "author_id": "hmzuhiA6",
+          "name": "Chalk - 1.6.10",
+          "version_number": "1.6.10",
+          "changelog": "## 1.6.10 - 2025-06-17\r\n- Updated localization files.",
+          "date_published": "2025-06-17T16:04:40.907126Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "51ca8f7c3974d046007f59ae3703f2ce6304b149f2d2002ca084e868bedcdc73e53cfa1498e442abe34ede7aa15f668cdd7b66c7ee779724e83c466124e04634",
+                "sha1": "6a1b2d27e25d9f5f369c20b1206f5491b8a7eab2"
+              },
+              "url": "https://cdn.modrinth.com/data/YWGP4Y1d/versions/pgGspa2K/chalk-1.6.10.jar",
+              "filename": "chalk-1.6.10.jar",
+              "primary": true,
+              "size": 334476
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21",
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1751799063968,
-    "numPlays": 184
+    "lastPlayed": 1751806129318,
+    "numPlays": 186
   },
   "id": "1.21.1",
   "complianceLevel": 1,
