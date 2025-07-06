@@ -34466,6 +34466,80 @@
             "fabric"
           ]
         }
+      },
+      {
+        "name": "FerriteCore",
+        "version": "ferritecore-7.0.2-neoforge",
+        "optional": true,
+        "file": "ferritecore-7.0.2-neoforge.jar",
+        "type": "mods",
+        "description": "Memory usage optimizations",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "modrinthProject": {
+          "id": "uXXizFIs",
+          "slug": "ferrite-core",
+          "project_type": "mod",
+          "team": "2JhABx1f",
+          "title": "FerriteCore",
+          "description": "Memory usage optimizations",
+          "body": "This mod reduces the memory usage of Minecraft in a few different ways. A high-level technical description of the changes is available [here](https://github.com/malte0811/FerriteCore/blob/main/summary.md).\n\nThe amount of memory saved will depend on the pack. In version 2.5.9 of [All Of Fabric 3](https://www.curseforge.com/minecraft/modpacks/all-of-fabric-3) it reduces the RAM usage (heap size) from 1,792 MB to 984 MB. For comparison the same setup with Hydrogen instead of FerriteCore uses 1,335 MB.  \nThese values were measured after generating a world with a fixed seed and waiting for two minutes.\nThe project picture is a cropped version of [this](https://commons.wikimedia.org/wiki/File:Magnetic-core_memory,_at_angle.jpg) picture.\n\n### FAQ\n\n#### Should I install this on the server or just on the client?\n\nSome optimizations are client-side only, but there are some rather high-impact optimizations that are relevant on the server too. So you should install it on both sides.\n\n#### Is this compatible with [other mod]?\n\nMost likely yes. The only exception is Hydrogen, which is compatible with all recent FerriteCore versions *on Minecraft versions where Hydrogen is officially released*. This means that 1.18+ builds are not compatible with Hydrogen, since it has been officially archived and won't receive any releases on these versions.",
+          "published": "2021-04-03T07:04:43.971189Z",
+          "updated": "2025-03-30T07:36:20.484598Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "optimization",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
+          "issues_url": "https://github.com/malte0811/FerriteCore/issues",
+          "source_url": "https://github.com/malte0811/FerriteCore",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "CnpoQxCx",
+          "project_id": "uXXizFIs",
+          "author_id": "cXzLZ8YY",
+          "name": "ferritecore-7.0.2-neoforge",
+          "version_number": "7.0.2-neoforge",
+          "changelog": "- Allow other mods to disable FerriteCore features\n  - This should only be used in rare cases where something is intrinsically incompatible. Please get it touch with me if you plan to use this in your mod, maybe we can find a different solution.\n",
+          "date_published": "2024-10-27T07:58:51.198350Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "7279fc52c32a033acc2864a9bcb018b2e04bbd03",
+                "sha512": "2a5a7b79473c42572bdbbd1f429a459630d793b35f3eb17051139a94bced2d13c39e9c6309c81368d5502bc46c509e9868a8b5fa3cf93c51375a694cd96c20ac"
+              },
+              "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/CnpoQxCx/ferritecore-7.0.2-neoforge.jar",
+              "filename": "ferritecore-7.0.2-neoforge.jar",
+              "primary": true,
+              "size": 118911
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
