@@ -34540,13 +34540,320 @@
             "neoforge"
           ]
         }
+      },
+      {
+        "name": "Skin Shuffle",
+        "version": "SkinShuffle 2.9.1",
+        "optional": true,
+        "file": "SkinShuffle-2.9.1+1.21.jar",
+        "type": "mods",
+        "description": "Effortless in-game skin customization and management—change, store, and customize your skins with SkinShuffle. Instant skin changes available on compatible servers.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 876386,
+        "curseForgeFileId": 6496045,
+        "curseForgeProject": {
+          "id": 876386,
+          "name": "Skin Shuffle",
+          "authors": [
+            {
+              "id": 103105756,
+              "name": "IMB11",
+              "url": "https://www.curseforge.com/members/imb11"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Choose and change your skin in-game!",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "skinshuffle",
+          "isFeatured": false,
+          "dateModified": "2025-07-02T10:49:39.06Z",
+          "dateCreated": "2023-06-17T10:04:50.683Z",
+          "dateReleased": "2025-07-01T14:27:29.663Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/skinshuffle",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/mineblock11/SkinShuffle",
+            "sourceUrl": "https://github.com/mineblock11/SkinShuffle"
+          },
+          "logo": {
+            "id": 1030243,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1030/243/256/256/638552593135602039.png",
+            "title": "638552593135602039.png",
+            "url": "https://media.forgecdn.net/avatars/1030/243/638552593135602039.png",
+            "modId": 876386
+          },
+          "allowModDistribution": false,
+          "screenshots": [],
+          "mainFileId": 6716886
+        },
+        "curseForgeFile": {
+          "id": 6496045,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "SkinShuffle 2.9.1",
+          "fileName": "SkinShuffle-2.9.1+1.21.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-05-04T17:40:26.687Z",
+          "fileLength": 5054375,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 408481,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 306612,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 631264415,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3035879135,
+              "name": "SkinShuffle-refmap.json"
+            },
+            {
+              "fingerprint": 2927898229,
+              "name": "SkinShuffle.mixins.json"
+            },
+            {
+              "fingerprint": 3601085300,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1026339307,
+              "name": "aw"
+            },
+            {
+              "fingerprint": 1416662295,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 1346900191,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 1442913753,
+              "name": "high_contrast"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "850c8d617c7a8a69148a2a44aff7f8a16c0c2a9f",
+              "algo": 1
+            },
+            {
+              "value": "50bfd9ca6c3acb1bdb9c903a939fa4c2",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000021",
+              "gameVersion": "1.21",
+              "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+              "gameVersionName": "1.21"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "1.21",
+            "Fabric",
+            "1.21.1"
+          ],
+          "fileFingerprint": 2683559748,
+          "modId": 876386
+        },
+        "modrinthProject": {
+          "id": "3s19I5jr",
+          "slug": "skinshuffle",
+          "project_type": "mod",
+          "team": "kIRHgZrI",
+          "title": "Skin Shuffle",
+          "description": "Effortless in-game skin customization and management—change, store, and customize your skins with SkinShuffle. Instant skin changes available on compatible servers.",
+          "body": "[![](https://github.com/mineblock11/mineblock11/blob/master/fabric-api_64h.png?raw=true)](https://modrinth.com/mod/fabric-api) [![](https://cdn.imb11.dev/mineblock%20badge_64h.png)](https://discord.gg/UzHtJKqHny) [![](https://cdn.imb11.dev/modding-elite-badge.png)](https://ko-fi.com/mineblock11)\n\n# SkinShuffle\n\nSkinShuffle is a mod that allows you to **change, store and customise** your skin in-game. It also allows you to change your skin **without leaving the server** as long as the mod is installed on the server.\n\n*SkinShuffle integrates with Mojang's online API to change skins, if you do not have a Minecraft account, SkinShuffle WILL NOT work, you will receive NO SUPPORT from me for using a pirated version of Minecraft.*\n\nSkins are stored in Skin Presets, these presets can be created from the following sources:\n\n- Texture URLs \n- Usernames\n- UUIDs\n- Files\n- In-game textures (Resource Locations)\n\n<hr />\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/CNMASU7GQBs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<h2 id=\"server-side-support\">Server-Side Support</h2>\n\nWhen SkinShuffle is installed on the server, you can change your skin in-game without having to relog. SkinShuffle will refresh your skin for you, and for other players instantly - even for players that do not have the mod on their client.\n\n**Got a Paper/Spigot/Bukkit server?** Consider using the [Skin Shuffle Bridge plugin](https://modrinth.com/plugin/skinshuffle-bridge) to allow players on your server to hot-swap skins!\n\nAlternatively, SkinShuffle is supported by [SkinRestorer (fabric+neoforge+forge)](https://modrinth.com/mod/skinrestorer) if your server has that installed, players using SkinShuffle will be able to quickly change their skins without needing to rejoin!\n\nWe have massive plans to expand server-side support in the future:\n\n- Skin Changing Commands that allow vanilla clients to change their skins.\n- Skin Preset Sharing\n\n<h2 id=\"client-side-support\">Client-Side Support</h2>\n\nSkinShuffle works right out the bat for clients! Browse, create and edit skin presets in the Carousel and Edit Preset screens that can be accessed via Mod Menu or through the widget on the pause screen and the title screen.\n\nWhen you start the game for the first time with SkinShuffle, it will automatically create a preset from your current skin and set it as the main preset! Your currently chosen preset will be shown on the widget.\n\n<center><img width=\"50%\" src=\"https://cdn.modrinth.com/data/3s19I5jr/images/0b5e81688937e2685b2fa00ec709c5c1db302648.png\"><img width=\"50%\" src=\"https://cdn.modrinth.com/data/3s19I5jr/images/e13b4fcd7b37d02aa043e422d2e9560d6f099527.png\"></center>\n\n<h3 id=\"carousel-screen\">Carousel Screen</h2>\n\nThe carousel is where all your skins will be stored for future use! You can create, edit and delete your presets.\n  \nThe carousel screen has two modes: Compact and Carousel\n\nYou can customize every preset to your own desire in the edit screen.\n<br><br>\n<center><img width=\"50%\" src=\"https://cdn.modrinth.com/data/3s19I5jr/images/ced596ec493eff53b3be5139fc991cf1e4d18d16.png\">\n<img width=\"50%\" src=\"https://cdn.modrinth.com/data/3s19I5jr/images/fea4801fa0923716a06982652c23c9a5c3fc72cf.png\"></center>\n\n<h3 id=\"edit-screen\">Edit Screen</h2>\n\nThe edit screen allows you to change the actual texture of the skin, the model type and the name of the preset.\n\nFor the future, there are plans to add cape and ear customization to this screen.\n\n<br>\n<center>\n<img width=\"50%\" src=\"https://cdn.modrinth.com/data/3s19I5jr/images/e36d3d61b107d22fba09831bd06bb80de0474921.png\" />\n</center>\n\n<h3 id=\"configuration\">Configuration</h2>\n\nEvery part of SkinShuffle is customizable thanks to [YACL]()'s powerful configuration screen.\n\nYou can customize the speed that skins rotate in the carousel, to where they should follow your cursor, and where the preview widget should show.\n\n<br>\n<center>\n<img width=\"50%\" src=\"https://cdn.modrinth.com/data/3s19I5jr/images/d1f435ad282114885fd9b589c538c8e7250b39ac.png\" />\n</center>\n\n<small>\n\nBy using my mods, you agree to the [Modpack Distribution Guidelines](https://imb11.dev/legal/modpacks) and the [End User License Agreement](https://imb11.dev/legal/eula)\n\n</small>\n",
+          "published": "2023-06-15T22:50:15.809894Z",
+          "updated": "2025-07-01T14:27:33.811553Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "social",
+            "utility"
+          ],
+          "loaders": [
+            "fabric"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/3s19I5jr/3d21d8e87e38c814e8951f26ae0f5cb3ae1fb924_96.webp",
+          "issues_url": "https://github.com/IMB11/SkinShuffle/issues",
+          "source_url": "https://github.com/IMB11/SkinShuffle",
+          "wiki_url": "https://docs.imb11.dev/",
+          "discord_url": "https://discord.imb11.dev/",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/mineblock11"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/images/341d1f24fe85e4ccea0ecbd880e2690462ac2f11_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/3s19I5jr/images/fea4801fa0923716a06982652c23c9a5c3fc72cf.png",
+              "featured": false,
+              "title": "Grid Mode",
+              "created": "2023-07-21T17:30:04.048615Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/images/5302805546e38a8aa671f64ecc2243dcdf44d24e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/3s19I5jr/images/e36d3d61b107d22fba09831bd06bb80de0474921.png",
+              "featured": false,
+              "title": "Edit Screen",
+              "created": "2023-06-17T17:17:25.325056Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/images/b3d782446f64942be1cae574867844044abebca4_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/3s19I5jr/images/0b5e81688937e2685b2fa00ec709c5c1db302648.png",
+              "featured": false,
+              "title": "Title Screen Widget",
+              "created": "2023-06-17T20:19:38.634441Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/images/baa7188f33ccfc7974f76fa09b30aa75ded582a4_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/3s19I5jr/images/ced596ec493eff53b3be5139fc991cf1e4d18d16.png",
+              "featured": false,
+              "title": "Carousel Mode",
+              "created": "2023-07-21T17:27:08.744567Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/images/bef30a864813602bf89d08fe6d103384c867a219.png",
+              "raw_url": "https://cdn.modrinth.com/data/3s19I5jr/images/bef30a864813602bf89d08fe6d103384c867a219.png",
+              "featured": true,
+              "created": "2023-11-19T15:19:42.346620Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/images/cab0dc3c8cbdb3fcbd37a7dc70747039be66f33d_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/3s19I5jr/images/e13b4fcd7b37d02aa043e422d2e9560d6f099527.png",
+              "featured": false,
+              "title": "Pause Screen Widget",
+              "created": "2023-06-17T20:19:08.704785Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/images/d1f435ad282114885fd9b589c538c8e7250b39ac.png",
+              "raw_url": "https://cdn.modrinth.com/data/3s19I5jr/images/d1f435ad282114885fd9b589c538c8e7250b39ac.png",
+              "featured": false,
+              "title": "Configuration Screen",
+              "created": "2024-01-26T23:50:54.770051Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "lvj5D7rA",
+          "project_id": "3s19I5jr",
+          "author_id": "bOHH0P9Z",
+          "name": "SkinShuffle 2.9.1",
+          "version_number": "2.9.1+1.21",
+          "changelog": "- In 2.9.0 the way your skin is rendered on the client changed, breaking compatibility with the [Capes](<https://modrinth.com/mod/capes>) and the [MinecraftCapes](<https://minecraftcapes.net/download>) mods. **This has now been fixed.**\r\n- All crashes relating to `INITIAL_SKIN_TEXTURES` should now be fixed.\r\n- Fixed crashes relating to the usage of quickplay, especially when launching the game via the Modrinth App.",
+          "date_published": "2025-05-04T17:40:30.783894Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "850c8d617c7a8a69148a2a44aff7f8a16c0c2a9f",
+                "sha512": "04af1f22f70d0ae748cc81e99f589751e0261598bf8214a7e86eeb67adc1b96b9971d15bc2e6ee269c24660ac22b2235a36cf0b772d6467a60bc7aeca7c14e58"
+              },
+              "url": "https://cdn.modrinth.com/data/3s19I5jr/versions/lvj5D7rA/SkinShuffle-2.9.1%2B1.21.jar",
+              "filename": "SkinShuffle-2.9.1+1.21.jar",
+              "primary": true,
+              "size": 5054375
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "89Wsn8GD",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "P7dR8mSH",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.21",
+            "1.21.1"
+          ],
+          "loaders": [
+            "fabric"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1751712721852,
-    "numPlays": 160
+    "lastPlayed": 1751760933420,
+    "numPlays": 161
   },
   "id": "1.21.1",
   "complianceLevel": 1,
