@@ -13642,196 +13642,6 @@
         }
       },
       {
-        "name": "Useful Backpacks",
-        "version": "Unknown",
-        "optional": true,
-        "file": "useful_backpacks-neoforge-1.21.1-3.0.2.129.jar",
-        "type": "mods",
-        "description": "Need more slots? Try these backpacks",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "modrinthProject": {
-          "id": "VLAWWg1B",
-          "slug": "useful-backpacks",
-          "project_type": "mod",
-          "team": "TCxFcfqH",
-          "title": "Useful Backpacks",
-          "description": "Need more slots? Try these backpacks",
-          "body": "Need more inventory storage? <br>\nThen try this mod. It adds three new backpacks with small, medium and large inventory.\n\n \n\n### This mod require [uteamcore](https://modrinth.com/mod/u-team-core)!<br><br>\n\n![Useful Backpack Items in an Item Frame](https://cdn.modrinth.com/data/cached_images/16fcbb4706c941d8d5f4c8e262013fd6754efb0f.png)\n\n \n\nCrafting Recipes:\n\n- Backpack Small:\n\n![Crafting Recipe of small backpack](https://cdn.modrinth.com/data/cached_images/a6aec09d276eb259175efbd9df8ae32aa81385be.gif)\n \n\n- Medium Backpacks:\n\n![Crafting Recipe of medium backpack](https://cdn.modrinth.com/data/cached_images/4b9bb40ce3398e2d83a8d65cb948bf1c68b371de.gif)\n \n\n- Large Backpacks:\n\n\n![Crafting Recipe of large backpack](https://cdn.modrinth.com/data/cached_images/36047b1ec7ebd2f43cb4607bfca875683d7a041e.gif)\n \n\nThis mod can be packed in every modpack you want. <br>\n[Sourcecode](https://github.com/MC-U-Team/Useful-Backpacks) is linked above and is available under Apache License 2.0. <br>\nReport Bugs on github.",
-          "published": "2024-07-22T21:11:15.642536Z",
-          "updated": "2025-05-22T19:25:06.258990Z",
-          "status": "approved",
-          "license": {
-            "id": "Apache-2.0",
-            "name": "Apache License 2.0"
-          },
-          "client_side": "required",
-          "server_side": "required",
-          "categories": [
-            "decoration",
-            "equipment",
-            "utility"
-          ],
-          "loaders": [
-            "fabric",
-            "forge",
-            "neoforge"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/VLAWWg1B/8e8ddafcf64e376f6beff6cde044720979320460_96.webp",
-          "issues_url": "https://github.com/MC-U-Team/Useful-Backpacks/issues",
-          "source_url": "https://github.com/MC-U-Team/Useful-Backpacks",
-          "discord_url": "https://discord.hycrafthd.net",
-          "donation_urls": [],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/VLAWWg1B/images/16fcbb4706c941d8d5f4c8e262013fd6754efb0f.png",
-              "raw_url": "https://cdn.modrinth.com/data/VLAWWg1B/images/16fcbb4706c941d8d5f4c8e262013fd6754efb0f.png",
-              "featured": true,
-              "title": "Backpacks",
-              "created": "2024-07-22T21:19:30.426171Z",
-              "ordering": 0.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "HMEIiZg2",
-          "project_id": "VLAWWg1B",
-          "author_id": "mvB3TNKC",
-          "name": "Useful-Backpacks-NeoForge-1.21.1-3.0.2.129",
-          "version_number": "3.0.2.129",
-          "changelog": "[Changelog for version 3.0.2.129](https://github.com/MC-U-Team/Useful-Backpacks/blob/1.21.1/CHANGELOG.md#1211-302129---2025-05-22)",
-          "date_published": "2025-05-22T19:25:06.258990Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "366d0a3c5d3130f6da6d5eb0a3d8e6f929b14ad8a6d9fc907b8ab58c65a0252cc7fe1c0ee7a9d400531f97693babdd55aa5f6ebeb4b571783021cbe08268a29f",
-                "sha1": "8183758d22fa3606775f8532d1430dd43a192f16"
-              },
-              "url": "https://cdn.modrinth.com/data/VLAWWg1B/versions/HMEIiZg2/useful_backpacks-neoforge-1.21.1-3.0.2.129.jar",
-              "filename": "useful_backpacks-neoforge-1.21.1-3.0.2.129.jar",
-              "primary": true,
-              "size": 184188
-            }
-          ],
-          "dependencies": [
-            {
-              "project_id": "BaqCltvf",
-              "dependency_type": "optional"
-            },
-            {
-              "project_id": "g2FGQs4R",
-              "dependency_type": "required"
-            },
-            {
-              "project_id": "u6dRKJwZ",
-              "dependency_type": "optional"
-            },
-            {
-              "project_id": "vvuO3ImH",
-              "dependency_type": "optional"
-            }
-          ],
-          "game_versions": [
-            "1.21.1"
-          ],
-          "loaders": [
-            "neoforge"
-          ]
-        }
-      },
-      {
-        "name": "U Team Core",
-        "version": "Unknown",
-        "optional": true,
-        "file": "u_team_core-neoforge-1.21.1-5.6.2.384.jar",
-        "type": "mods",
-        "description": "Open-Source API and library for U-Team's mods.",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "modrinthProject": {
-          "id": "g2FGQs4R",
-          "slug": "u-team-core",
-          "project_type": "mod",
-          "team": "zTc5bfpz",
-          "title": "U Team Core",
-          "description": "Open-Source API and library for U-Team's mods.",
-          "body": "Open-Source API and library for U-Team's mods.\n\n[<img src=\"https://i.imgur.com/8igEYOI.png\" width=\"283\" height=\"78\">](https://discordapp.com/invite/QXbWS36)\n\nJoin our discord server for updates.\n<br>\n\nReport bugs on [github issues](https://github.com/MC-U-Team/U-Team-Core/issues) please!\n<br>\n\nThis mod is just a libary mod used by other u-team's mods. <br>\nMay other mod authors depend on this.\n<br>\n\nThis mod can be packed in every modpack you want. <br>\n[Sourcecode](https://github.com/MC-U-Team/U-Team-Core) is linked above and is available under Apache License 2.0. <br>\nReport Bugs on github.",
-          "published": "2024-01-24T17:07:54.604743Z",
-          "updated": "2025-05-19T18:42:39.737527Z",
-          "status": "approved",
-          "license": {
-            "id": "Apache-2.0",
-            "name": "Apache License 2.0"
-          },
-          "client_side": "required",
-          "server_side": "required",
-          "categories": [
-            "library",
-            "utility"
-          ],
-          "loaders": [
-            "fabric",
-            "forge",
-            "neoforge"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/g2FGQs4R/c81984e526c01e2d0d697b81f6cdb3e952a84f6f_96.webp",
-          "issues_url": "https://github.com/MC-U-Team/U-Team-Core/issues",
-          "source_url": "https://github.com/MC-U-Team/U-Team-Core",
-          "discord_url": "https://discord.hycrafthd.net",
-          "donation_urls": [],
-          "gallery": [
-            {
-              "url": "https://cdn.modrinth.com/data/g2FGQs4R/images/12447bc33ee5e0b44bf7b7f7cc7c88093db05b99.png",
-              "raw_url": "https://cdn.modrinth.com/data/g2FGQs4R/images/12447bc33ee5e0b44bf7b7f7cc7c88093db05b99.png",
-              "featured": false,
-              "title": "U-Team-Core",
-              "description": "Library mod for U-Team Mods",
-              "created": "2024-03-29T14:16:40.148903Z",
-              "ordering": 0.0
-            }
-          ]
-        },
-        "modrinthVersion": {
-          "id": "A0Rx4Pvw",
-          "project_id": "g2FGQs4R",
-          "author_id": "mvB3TNKC",
-          "name": "U-Team-Core-NeoForge-1.21.1-5.6.2.384",
-          "version_number": "5.6.2.384",
-          "changelog": "[Changelog for version 5.6.2.384](https://github.com/MC-U-Team/U-Team-Core/blob/1.21.1/CHANGELOG.md#1211-562384---2025-05-19)",
-          "date_published": "2025-05-19T18:42:39.737527Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "b3219b26fe1c506a306e51ad19fcb3f6349e825ea2e976d13854af91509e72152c807d3adada08d541a4240a8ceba23fecfb019c9dd11adea1da21135eecc80f",
-                "sha1": "19ff2102f18ff7ac147fcd94fed9af0a09231781"
-              },
-              "url": "https://cdn.modrinth.com/data/g2FGQs4R/versions/A0Rx4Pvw/u_team_core-neoforge-1.21.1-5.6.2.384.jar",
-              "filename": "u_team_core-neoforge-1.21.1-5.6.2.384.jar",
-              "primary": true,
-              "size": 579911
-            }
-          ],
-          "dependencies": [
-            {
-              "project_id": "u6dRKJwZ",
-              "dependency_type": "optional"
-            }
-          ],
-          "game_versions": [
-            "1.21.1"
-          ],
-          "loaders": [
-            "neoforge"
-          ]
-        }
-      },
-      {
         "name": "Iron's Rpg Tweaks",
         "version": "Unknown",
         "optional": true,
@@ -33508,252 +33318,6 @@
         }
       },
       {
-        "name": "Dehydration",
-        "version": "dehydration-1.3.8+1.21.1",
-        "optional": true,
-        "file": "dehydration-1.3.8.jar",
-        "type": "mods",
-        "description": "Keep hydrated!",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 410830,
-        "curseForgeFileId": 6136782,
-        "curseForgeProject": {
-          "id": 410830,
-          "name": "Dehydration",
-          "authors": [
-            {
-              "id": 33848116,
-              "name": "Globox_Z",
-              "url": "https://www.curseforge.com/members/globox_z"
-            }
-          ],
-          "gameId": 432,
-          "summary": "Keep hydrated!",
-          "categories": [
-            {
-              "name": "Adventure and RPG",
-              "slug": "adventure-rpg",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
-              "dateModified": "2014-05-08T17:42:09.54Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 422,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Food",
-              "slug": "mc-food",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
-              "dateModified": "2014-05-08T17:45:26.55Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 436,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 422,
-          "classId": 6,
-          "slug": "dehydration",
-          "isFeatured": false,
-          "dateModified": "2025-01-29T14:54:25.99Z",
-          "dateCreated": "2020-10-01T20:19:34.52Z",
-          "dateReleased": "2025-01-29T14:52:38.27Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dehydration",
-            "wikiUrl": "https://globox1997.github.io/wiki/mods/Dehydration/",
-            "issuesUrl": "https://github.com/Globox1997/Dehydration/issues",
-            "sourceUrl": "https://github.com/Globox1997/Dehydration"
-          },
-          "logo": {
-            "id": 369164,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/369/164/256/256/637538269092690806.png",
-            "title": "637538269092690806.png",
-            "url": "https://media.forgecdn.net/avatars/369/164/637538269092690806.png",
-            "modId": 410830
-          },
-          "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 6136782
-        },
-        "curseForgeFile": {
-          "id": 6136782,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "dehydration-1.3.8+1.21.1",
-          "fileName": "dehydration-1.3.8.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2025-01-29T14:52:37.94Z",
-          "fileLength": 353161,
-          "dependencies": [
-            {
-              "fileId": 0,
-              "modId": 348521,
-              "relationType": 3
-            },
-            {
-              "fileId": 0,
-              "modId": 306612,
-              "relationType": 3
-            }
-          ],
-          "alternateFileId": 6136783,
-          "modules": [
-            {
-              "fingerprint": 1975545480,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 2226923820,
-              "name": "LICENSE_dehydration"
-            },
-            {
-              "fingerprint": 629332963,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 250322310,
-              "name": "data"
-            },
-            {
-              "fingerprint": 3692970960,
-              "name": "dehydration-refmap.json"
-            },
-            {
-              "fingerprint": 1405877706,
-              "name": "dehydration.mixins.json"
-            },
-            {
-              "fingerprint": 2157887645,
-              "name": "fabric.mod.json"
-            },
-            {
-              "fingerprint": 850862423,
-              "name": "net"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "eb12712e3a7376f9ed3e33447c1daf532147396d",
-              "algo": 1
-            },
-            {
-              "value": "8c8613eb8aabef9e94eceeac5611865f",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
-              "gameVersionName": "Fabric"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000021.0000000001",
-              "gameVersion": "1.21.1",
-              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
-              "gameVersionName": "1.21.1"
-            }
-          ],
-          "gameVersions": [
-            "Fabric",
-            "1.21.1"
-          ],
-          "fileFingerprint": 3519628434,
-          "modId": 410830
-        },
-        "modrinthProject": {
-          "id": "qWDh3G0p",
-          "slug": "dehydration",
-          "project_type": "mod",
-          "team": "7dIMnOJ6",
-          "title": "Dehydration",
-          "description": "Keep hydrated!",
-          "body": "![Headline](https://i.imgur.com/En0gYBs.png)\n\n<center>\n\n[<img src=\"https://img.shields.io/discord/745451299713056791?color=7289DA&label=DISCORD&logo=discord&logoColor=white&style=for-the-badge\">](https://discord.gg/cV4cJyGXqF) \n[<img src=\"https://img.shields.io/website?color=7bc466&label=Globox&style=for-the-badge&up_message=Wiki&url=https://globox1997.github.io/wiki/mods/Dehydration/\">](https://globox1997.github.io/wiki/mods/Dehydration/)\n[<img src=\"https://img.shields.io/github/issues/Globox1997/Dehydration?color=c4667b&style=for-the-badge\">](https://github.com/Globox1997/Dehydration/issues)\n</center>\n\n<img src=\"https://i.imgur.com/K0Bn3Mh.png\" alt= “Description” width=\"25%\" height=\"auto\">\n<br><br/>\n\nDehydration adds thirst to Minecraft: just like food, you'll need to stay hydrated to survive and thrive.  \nFor an easier start, use the bonus chest on world generation.  \nCompatible with: [Motschen's Puddles](https://modrinth.com/mod/puddles), [Environmentz](https://modrinth.com/mod/environmentz)\n\n![Showcase](https://i.imgur.com/1ucv7lr.png)\n![Showcase](https://i.imgur.com/A7Pimwb.png)\n\n<img src=\"https://i.imgur.com/WKCuHQL.png\" alt= “Misc” width=\"10%\" height=\"auto\">\n<br><br />\n\n[<img src=\"https://i.imgur.com/Ol1Tcf8.png\" width=\"25%\" height=\"auto\">](https://modrinth.com/mod/fabric-api)\n[<img src=\"https://i.imgur.com/7weZ8uu.png\" width=\"25%\" height=\"auto\">](https://modrinth.com/mod/cloth-config)\n\n\n\nThis mod is developed for Fabric.  \nThere are no plans to develop a Forge version. \n\n\nModpack Permission:  \nFeel free to use it in any modpacks.\n\n\nBug Report:  \nJust report bugs at the github page.",
-          "published": "2023-04-19T17:46:05.096845Z",
-          "updated": "2025-01-29T14:52:41.125717Z",
-          "status": "approved",
-          "license": {
-            "id": "GPL-3.0-only",
-            "name": "GNU General Public License v3.0 only"
-          },
-          "client_side": "required",
-          "server_side": "required",
-          "categories": [
-            "food"
-          ],
-          "loaders": [
-            "fabric"
-          ],
-          "icon_url": "https://cdn.modrinth.com/data/qWDh3G0p/b20efa12909ad14f8696765518a3d589cfba686d.png",
-          "issues_url": "https://github.com/Globox1997/Dehydration/issues",
-          "source_url": "https://github.com/Globox1997/Dehydration",
-          "wiki_url": "https://globox1997.github.io/wiki/mods/Dehydration/",
-          "discord_url": "https://discord.gg/cV4cJyGXqF",
-          "donation_urls": [],
-          "gallery": []
-        },
-        "modrinthVersion": {
-          "id": "2UrT6ykT",
-          "project_id": "qWDh3G0p",
-          "author_id": "tGFAjHNa",
-          "name": "dehydration-1.3.8+1.21.1",
-          "version_number": "1.3.8+1.21.1",
-          "changelog": "### Added:\n- \n### Fixed:\n- Fixed uncraftable potion crash\n- Fixed chat interference with hydration ui\n- Fixed bamboo pump crash\n- Fixed puddles compat\n- Fixed dispense crash\n- Fixed thirst from non food items\n### Changed:\n- ",
-          "date_published": "2025-01-29T14:52:41.125717Z",
-          "version_type": "release",
-          "files": [
-            {
-              "hashes": {
-                "sha512": "7dc34309e078745a88bd224ba6a3ff93982da0326af761154e5fdedeace9dabe7a5ed88b4fcda8d68c59f7d2b8f7ac7210412e63b2f47444650adacdfd31d23a",
-                "sha1": "eb12712e3a7376f9ed3e33447c1daf532147396d"
-              },
-              "url": "https://cdn.modrinth.com/data/qWDh3G0p/versions/2UrT6ykT/dehydration-1.3.8.jar",
-              "filename": "dehydration-1.3.8.jar",
-              "primary": true,
-              "size": 353161
-            },
-            {
-              "hashes": {
-                "sha512": "518a14535b55d79a5e8ab6d24336a5c37229b3531e766a7e51f1a9acfb69ae0968d8130087259c2d6331a720b74fbbcb598b50554178f97d5d1e93613bdecd30",
-                "sha1": "179ddcc6402bca4aaaffe668452775b968ceddc0"
-              },
-              "url": "https://cdn.modrinth.com/data/qWDh3G0p/versions/2UrT6ykT/dehydration-1.3.8-sources.jar",
-              "filename": "dehydration-1.3.8-sources.jar",
-              "primary": false,
-              "size": 264972
-            }
-          ],
-          "dependencies": [
-            {
-              "project_id": "9s6osm5g",
-              "dependency_type": "required"
-            },
-            {
-              "project_id": "P7dR8mSH",
-              "dependency_type": "required"
-            }
-          ],
-          "game_versions": [
-            "1.21.1"
-          ],
-          "loaders": [
-            "fabric"
-          ]
-        }
-      },
-      {
         "name": "Hardcore Torches (Forge)",
         "version": "hardcore_torches-1.21+-1.0.jar",
         "optional": true,
@@ -37770,6 +37334,319 @@
           ],
           "game_versions": [
             "1.21",
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Thirst Was Taken",
+        "version": "Thirst Was Taken 1.21.1-2.1.3",
+        "optional": true,
+        "file": "ThirstWasTaken-1.21.1-2.1.3.jar",
+        "type": "mods",
+        "description": "A modern take on thirst, compatible with Create, Farmer's Delight & more.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 679270,
+        "curseForgeFileId": 6532318,
+        "curseForgeProject": {
+          "id": 679270,
+          "name": "Thirst Was Taken",
+          "authors": [
+            {
+              "id": 102098185,
+              "name": "ghenghen_",
+              "url": "https://www.curseforge.com/members/ghenghen_"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Modern take on thirst, compatible with Create, Farmer's Delight & more",
+          "categories": [
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 436,
+          "classId": 6,
+          "slug": "thirst-was-taken",
+          "isFeatured": false,
+          "dateModified": "2025-06-17T09:02:24.9Z",
+          "dateCreated": "2022-09-24T14:59:16.297Z",
+          "dateReleased": "2025-06-17T08:56:27.327Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/thirst-was-taken",
+            "wikiUrl": "https://github.com/ghen-git/Thirst-Mod/wiki",
+            "issuesUrl": "https://github.com/ghen-git/Thirst-Mod/issues",
+            "sourceUrl": "https://github.com/ghen-git/Thirst-Mod"
+          },
+          "logo": {
+            "id": 614721,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/614/721/256/256/637998904766370759.png",
+            "title": "637998904766370759.png",
+            "url": "https://media.forgecdn.net/avatars/614/721/637998904766370759.png",
+            "modId": 679270
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 511030,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/30/310/172/2022-11-02_13.png",
+              "title": "Gameplay screenshot without AppleSkin",
+              "url": "https://media.forgecdn.net/attachments/511/30/2022-11-02_13.png",
+              "modId": 679270
+            },
+            {
+              "id": 511028,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/28/310/172/2022-11-02_13.png",
+              "title": "Gameplay screenshot with AppleSkin",
+              "url": "https://media.forgecdn.net/attachments/511/28/2022-11-02_13.png",
+              "modId": 679270
+            },
+            {
+              "id": 511023,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/23/310/172/2022-11-02_10.png",
+              "title": "Advanced purification setup",
+              "url": "https://media.forgecdn.net/attachments/511/23/2022-11-02_10.png",
+              "modId": 679270
+            },
+            {
+              "id": 511022,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/22/310/172/2022-11-02_10.png",
+              "title": "Basic purification contraption",
+              "url": "https://media.forgecdn.net/attachments/511/22/2022-11-02_10.png",
+              "modId": 679270
+            },
+            {
+              "id": 511021,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/21/310/172/sand_filter.png",
+              "title": "The sand filter",
+              "url": "https://media.forgecdn.net/attachments/511/21/sand_filter.png",
+              "modId": 679270
+            },
+            {
+              "id": 511020,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/511/20/310/172/cocks.png",
+              "title": "Purifying water on a campfire",
+              "url": "https://media.forgecdn.net/attachments/511/20/cocks.png",
+              "modId": 679270
+            }
+          ],
+          "mainFileId": 6660408
+        },
+        "curseForgeFile": {
+          "id": 6532318,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ThirstWasTaken-1.21.1-2.1.3.jar",
+          "fileName": "ThirstWasTaken-1.21.1-2.1.3.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-05-15T13:31:02.42Z",
+          "fileLength": 203116,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 4012607816,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2900599822,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 3647736623,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 279016172,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3991746568,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 1874538582,
+              "name": "thirst.mixins.json"
+            },
+            {
+              "fingerprint": 3896997290,
+              "name": "thirstwastaken.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "77f566b16833c97f29bb32925a86323d4d66a4f4",
+              "algo": 1
+            },
+            {
+              "value": "949a83b453b696d07e96039a1dfa2628",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.21.1",
+            "Server"
+          ],
+          "fileFingerprint": 447870609,
+          "modId": 679270
+        },
+        "modrinthProject": {
+          "id": "iUheEnjm",
+          "slug": "thirst-was-taken",
+          "project_type": "mod",
+          "team": "TCkrFD1E",
+          "title": "Thirst Was Taken",
+          "description": "A modern take on thirst, compatible with Create, Farmer's Delight & more.",
+          "body": "<p align=\"center\"><img src=\"https://imgur.com/4IBZaA4.png\"/></p>\n \n### 💧 1.3.0 Update \n- 1.20.1 is now supported (thanks to [mlus233](https://github.com/mlus-asuka))\n- **Fire protection** and **fire resistance** slow down dehydration\n- You can **find** various **drinks** in structures' chests \n- Piglins now trade **Purified Water**\n- The Sand Filter now has a **Ponder** scene\n\n**Thirst was Taken** is a simple mod that adds a thirst mechanic to the game, but that fits well in modpacks (especially aesthetics-oriented ones) by adding diverse features and compatibility with a lot of often-used mods.  \n\n### 💧 Water Purity  \nWater can have 4 different levels of purity, depending on where it was harvested:  \n![](https://imgur.com/9HA6FXF.png)  \n\nIf you **drink non-purified water**, depending on the purity level, you will have a chance to get **sick**, or worse, **poisoned**.\n\nWater can be **purified** on a **campfire** or a **furnace**: a campfire will purify it by 1 unit, and a furnace by 2 (meaning it will go from Dirty to Acceptable, for instance).  \n\n![](https://imgur.com/Ekh8huc.png)\n\n### ☀ Climate & Cold Sweat  \n\nThe **hydration depletion** speed is **biome-dependent**, meaning you will get thirsty more easily in **hot** or **dry** biomes, and less so in **cold** or **wet** ones. Hydration is more relevant than temperature, so building your base in wet biomes is more advisable than doing so in cold ones.\nThis system is also compatible with **Cold Sweat**, and will use their more precise temperature calculations if the mod is present in the pack.  \n\n### 🍖 Farmer's Delight & Co.  \n\nThe stack size for **water bottles** has been increased to **64**, to make them fit with the foods from Farmer's Delight.\nEvery food item that should quench your thirst added by farmer's delight, respite, and brewin and chewin' is integrated by default, making teas (or booze) the **best late-game hydration source**.  \n\n### ⚙ Create\n\nA new block is added if you have Create installed: the **Sand Filter**, which can purify water fed to it by pipes.  \n\n![](https://i.imgur.com/UdIApb3.png)  \n\n### 💧 Apple Skin  \n\nThe mod is compatible with apple skin, showing the \"quenched\" overlay if the mod is present, as well as tooltips for every item that quenches your thirst.  \n\n![](https://imgur.com/pbqR6Ea.png)\n\n##### To learn more about the mod, you can check out the [Wiki](https://github.com/ghen-git/Thirst-Mod/wiki) or the [Discord](https://discord.gg/wqfgcZCfYh)\n\n##### This mod is still very early in development, which means it's filled to the brim with bugs and glitches. Sorry\n\n",
+          "published": "2023-07-05T11:34:20.764959Z",
+          "updated": "2025-06-17T08:55:55.409802Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "food",
+            "game-mechanics"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/iUheEnjm/07fe1e8aae59a2257225598b1a23d17ebfed8a8c.png",
+          "issues_url": "https://github.com/ghen-git/Thirst-Mod/issues",
+          "source_url": "https://github.com/ghen-git/Thirst-Mod",
+          "wiki_url": "https://github.com/ghen-git/Thirst-Mod/wiki",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/1a02a0ed37803728725e2dc71216c3769f4ce7b1_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/8a330cb7050520c28d1978e7a3cbb9d47ccf4033.png",
+              "featured": false,
+              "title": "Basic purification setup",
+              "created": "2023-07-05T11:40:29.625553Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/35e866765174dd7891bfc00c3331145eb888be0e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/41f449a2d98e27b53c406e8560c0dcb97c9bda16.png",
+              "featured": false,
+              "title": "Gameplay screenshot with AppleSkin",
+              "created": "2023-07-05T11:42:48.481059Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/3c450a657dcb38eff3672195778d749623218c3b_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/3c450a657dcb38eff3672195778d749623218c3b.png",
+              "featured": false,
+              "title": "Gameplay screenshot without AppleSkin",
+              "created": "2023-07-05T11:41:46.454969Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/74fc0337413af5c2c900c4fc6f51fb746079318e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/74fc0337413af5c2c900c4fc6f51fb746079318e.png",
+              "featured": false,
+              "title": "Purifying water on a campfire",
+              "created": "2023-07-05T11:43:11.028228Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/ae1bc043b2f3aa04451e58bd62d5ab3270637455_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/ae1bc043b2f3aa04451e58bd62d5ab3270637455.png",
+              "featured": false,
+              "title": "Advanced purification contraption",
+              "created": "2023-07-05T11:41:08.740043Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/iUheEnjm/images/bff2f12557b1dbba36f6584fe73499422f211b99_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/iUheEnjm/images/bff2f12557b1dbba36f6584fe73499422f211b99.png",
+              "featured": false,
+              "title": "The Sand Filter",
+              "created": "2023-07-05T11:43:29.034346Z",
+              "ordering": 2.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "Tdb3cy02",
+          "project_id": "iUheEnjm",
+          "author_id": "d5E4O8yb",
+          "name": "Thirst Was Taken 1.21.1-2.1.3",
+          "version_number": "1.21.1-2.1.3",
+          "changelog": "- Really Fix StackPotion Issue this time!",
+          "date_published": "2025-05-15T13:31:54.282946Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "6ad11216a35d78765ee361021bbef8e1946262ede066782589e6df874bc2b70dde325a4295d120ec75b19c00c4cf42882342928366f70867c65f9fe6deaf1295",
+                "sha1": "77f566b16833c97f29bb32925a86323d4d66a4f4"
+              },
+              "url": "https://cdn.modrinth.com/data/iUheEnjm/versions/Tdb3cy02/ThirstWasTaken-1.21.1-2.1.3.jar",
+              "filename": "ThirstWasTaken-1.21.1-2.1.3.jar",
+              "primary": true,
+              "size": 203116
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
             "1.21.1"
           ],
           "loaders": [
