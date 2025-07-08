@@ -37856,6 +37856,123 @@
           "fileFingerprint": 3784999094,
           "modId": 457570
         }
+      },
+      {
+        "name": "Storage Drawers",
+        "version": "Storage Drawers-1.21-neoforge-13.8.9",
+        "optional": true,
+        "file": "Storage Drawers-neoforge-1.21-13.8.9.jar",
+        "type": "mods",
+        "description": "Interactive bulk storage solution",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "modrinthProject": {
+          "id": "guitPqEi",
+          "slug": "storagedrawers",
+          "project_type": "mod",
+          "team": "l2DUk76U",
+          "title": "Storage Drawers",
+          "description": "Interactive bulk storage solution",
+          "body": "Put your most frequently used items within convenient reach. Storage Drawers borrows ideas from Jabba and Bibliocraft, resulting in a highly functional, compact, and aesthetic storage solution that is meant to complement rather than replace those mods.\n\nUsage\n\nThere is no traditional slotted inventory with these containers. Interaction is click-based similar to Jabba. Clicking on one of drawers on front will interact with that drawer.\n\n* Right-Click: Insert full stack in hand into drawer (or partial stack if the drawer fills).\n* Double-Right-Click: Insert all compatible stacks in inventory into drawer (or until drawer fills).\n* Left-Click: Remove a single item from the drawer.\n* Shift+Left-Click: Remove a full stack from the drawer.\n* Shift+Right-Click with empty hand: Open a UI to see exact item counts and manage applied upgrades.\n\nThe shift-click behavior is reversed from Jabba. This is based on the theory that you normally interact with stacks in Jabba, but will want to normally interact with single items in Storage Drawers. The controls can be reversed in the mod config to match Jabba.",
+          "published": "2024-03-02T20:21:13.894811Z",
+          "updated": "2025-07-01T02:37:40.375310Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "storage"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/guitPqEi/58b4229c52876eff66c9f98a5d2a1e9b9f648501.png",
+          "issues_url": "https://github.com/jaquadro/StorageDrawers/issues",
+          "source_url": "https://github.com/jaquadro/StorageDrawers",
+          "wiki_url": "https://github.com/jaquadro/StorageDrawers/wiki",
+          "discord_url": "https://discord.gg/8WtpQfy",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/texel"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/guitPqEi/images/10def3b1d36d91f77f940477a7c1cb026e5e27d7_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/guitPqEi/images/bbf17f22bcd8e890dc16d73f2245ee445c9fad10.png",
+              "featured": true,
+              "created": "2024-03-02T20:42:58.016668Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/guitPqEi/images/318448650ae71f5c3ab5ed0403a7a37fb8ef9b5b.png",
+              "raw_url": "https://cdn.modrinth.com/data/guitPqEi/images/318448650ae71f5c3ab5ed0403a7a37fb8ef9b5b.png",
+              "featured": false,
+              "created": "2024-03-02T20:43:42.721633Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/guitPqEi/images/45e251c07f60226cc2eb36c41b564b5bb5db7a28_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/guitPqEi/images/45e251c07f60226cc2eb36c41b564b5bb5db7a28.png",
+              "featured": false,
+              "created": "2024-03-02T20:43:13.833465Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/guitPqEi/images/6961c07e57151c244276ea47e15255202a055690_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/guitPqEi/images/fd38871188fb2f2f825a66737a130523bb814d3a.png",
+              "featured": false,
+              "created": "2024-03-02T20:41:54.803926Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/guitPqEi/images/8f341eb63e508655304fbde2f4fde6dbaaa3e984_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/guitPqEi/images/8f341eb63e508655304fbde2f4fde6dbaaa3e984.png",
+              "featured": false,
+              "created": "2024-03-02T20:44:34.923391Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "b3ikhCub",
+          "project_id": "guitPqEi",
+          "author_id": "CjGInQcu",
+          "name": "Storage Drawers-1.21-neoforge-13.8.9",
+          "version_number": "1.21-13.8.9",
+          "changelog": "- Fix framing table voiding contents of drawers\n- Fix framing table not saving slots on reload",
+          "date_published": "2025-06-30T23:03:52.294217Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "6e241fd4dd5b58034ebcc053771dfc8f2f71b918c696e15e63b771ade697886f849f4d5a67350459d1650532d5282e8febabed46577857c21fc9b1c5e634bcd8",
+                "sha1": "4589a281a4d6942c55c7e25cb15597719f178241"
+              },
+              "url": "https://cdn.modrinth.com/data/guitPqEi/versions/b3ikhCub/Storage%20Drawers-neoforge-1.21-13.8.9.jar",
+              "filename": "Storage Drawers-neoforge-1.21-13.8.9.jar",
+              "primary": true,
+              "size": 994340
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.21",
+            "1.21.1"
+          ],
+          "loaders": [
+            "neoforge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
