@@ -37915,6 +37915,266 @@
             "neoforge"
           ]
         }
+      },
+      {
+        "name": "Configured",
+        "version": "Configured 2.6.0",
+        "optional": true,
+        "file": "configured-neoforge-1.21.1-2.6.0.jar",
+        "type": "mods",
+        "description": "Automatic in-game configuration menus for every mod!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 457570,
+        "curseForgeFileId": 5873783,
+        "curseForgeProject": {
+          "id": 457570,
+          "name": "Configured",
+          "authors": [
+            {
+              "id": 7244595,
+              "name": "MrCrayfish",
+              "url": "https://www.curseforge.com/members/mrcrayfish"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Automatic in-game configuration menus for every mod!",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "configured",
+          "isFeatured": false,
+          "dateModified": "2025-07-01T09:33:08.973Z",
+          "dateCreated": "2021-03-16T13:52:27.623Z",
+          "dateReleased": "2025-07-01T09:27:17.84Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/configured",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/MrCrayfish/Configured/issues",
+            "sourceUrl": "https://github.com/MrCrayfish/Configured"
+          },
+          "logo": {
+            "id": 871317,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/871/317/256/256/638288810833209348.png",
+            "title": "638288810833209348.png",
+            "url": "https://media.forgecdn.net/avatars/871/317/638288810833209348.png",
+            "modId": 457570
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 859942,
+              "description": "Configured running on Minecraft 1.20.6!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/859/942/310/172/newdesign.png",
+              "title": "New Transparency Look",
+              "url": "https://media.forgecdn.net/attachments/859/942/newdesign.png",
+              "modId": 457570
+            },
+            {
+              "id": 407571,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/407/571/310/172/screenshot1.png",
+              "title": "Select Config Menu",
+              "url": "https://media.forgecdn.net/attachments/407/571/screenshot1.png",
+              "modId": 457570
+            },
+            {
+              "id": 407573,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/407/573/310/172/screenshot3.png",
+              "title": "Selecting Enum Value",
+              "url": "https://media.forgecdn.net/attachments/407/573/screenshot3.png",
+              "modId": 457570
+            },
+            {
+              "id": 407572,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/407/572/310/172/screenshot2.png",
+              "title": "Editing Config Properties",
+              "url": "https://media.forgecdn.net/attachments/407/572/screenshot2.png",
+              "modId": 457570
+            },
+            {
+              "id": 407575,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/407/575/310/172/screenshot5.png",
+              "title": "Editing a String List",
+              "url": "https://media.forgecdn.net/attachments/407/575/screenshot5.png",
+              "modId": 457570
+            },
+            {
+              "id": 407576,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/407/576/310/172/screenshot6.png",
+              "title": "Editing Configs In-Game",
+              "url": "https://media.forgecdn.net/attachments/407/576/screenshot6.png",
+              "modId": 457570
+            },
+            {
+              "id": 407574,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/407/574/310/172/screenshot4.png",
+              "title": "Selecting World to Edit Local Server Config",
+              "url": "https://media.forgecdn.net/attachments/407/574/screenshot4.png",
+              "modId": 457570
+            },
+            {
+              "id": 407577,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/407/577/310/172/screenshot7.png",
+              "title": "Editing String In-Game",
+              "url": "https://media.forgecdn.net/attachments/407/577/screenshot7.png",
+              "modId": 457570
+            },
+            {
+              "id": 670627,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/670/627/310/172/configured_banner.png",
+              "title": "Banner",
+              "url": "https://media.forgecdn.net/attachments/670/627/configured_banner.png",
+              "modId": 457570
+            }
+          ],
+          "mainFileId": 6715872
+        },
+        "curseForgeFile": {
+          "id": 5873783,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Configured 2.6.0",
+          "fileName": "configured-neoforge-1.21.1-2.6.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-11-04T05:10:02.98Z",
+          "fileLength": 428760,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 549225,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 459701,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3719144393,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3725645352,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2319346633,
+              "name": "com"
+            },
+            {
+              "fingerprint": 1048794560,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "f118a9d2172368300627737b257bd2c0fb89e4d5",
+              "algo": 1
+            },
+            {
+              "value": "bd3a4f15e1355ead7266ef9292b63772",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000021.0000000001",
+              "gameVersion": "1.21.1",
+              "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+              "gameVersionName": "1.21.1"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.21.1"
+          ],
+          "fileFingerprint": 3784999094,
+          "modId": 457570
+        }
       }
     ],
     "ignoredUpdates": [],
