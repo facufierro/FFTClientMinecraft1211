@@ -1,0 +1,54 @@
+{
+    "shields": {
+        "desc:": "List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: [\"minecraft:shield;65;15\"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  [\"minecraft:shield;65;15\", \"minecraft:shield;65;15\"] ",
+        "shields": [
+            "morevanillashields:coal_shield;66;13",
+            "eternalnether:cutlass;60;0",
+            "morevanillashields:orange_stained_glass_shield;64;13",
+            "morevanillashields:green_stained_glass_shield;66;13",
+            "morevanillashields:emerald_shield;71;13",
+            "morevanillashields:lime_stained_glass_shield;68;10",
+            "morevanillashields:cyan_stained_glass_shield;65;12",
+            "morevanillashields:gold_shield;85;15",
+            "morevanillashields:amethyst_shield;63;16",
+            "morevanillashields:magma_shield;59;15",
+            "morevanillashields:diamond_shield;95;15",
+            "morevanillashields:leather_shield;80;10",
+            "minecraft:shield;90;10",
+            "morevanillashields:blue_stained_glass_shield;65;13",
+            "morevanillashields:redstone_shield;63;12",
+            "morevanillashields:red_stained_glass_shield;64;14",
+            "morevanillashields:brown_stained_glass_shield;65;12",
+            "morevanillashields:netherite_shield;83;10",
+            "eternalnether:gilded_netherite_shield;100;15",
+            "morevanillashields:yellow_stained_glass_shield;65;12",
+            "morevanillashields:glass_shield;66;14",
+            "morevanillashields:end_crystal_shield;69;16",
+            "morevanillashields:light_blue_stained_glass_shield;64;13",
+            "morevanillashields:pink_stained_glass_shield;66;14",
+            "morevanillashields:copper_shield;65;11",
+            "morevanillashields:tinted_glass_shield;68;10",
+            "morevanillashields:obsidian_shield;74;11"
+        ]
+    },
+    "playerOnly": {
+        "desc:": "Should the mechanic changes only affect players, default:false",
+        "playerOnly": false
+    },
+    "blockCooldown": {
+        "desc:": "Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, default = 5 ticks(0.25s)",
+        "blockCooldown": 0
+    },
+    "maxblockdamagereduction": {
+        "desc:": "Maximum percent of damage allowed to be blocked. Default:85",
+        "maxblockdamagereduction": 100
+    },
+    "maxpassivedamagereduction": {
+        "desc:": "Maximum percent of passive damage reduction while holding a shield(not blocking). Default:25",
+        "maxpassivedamagereduction": 25
+    },
+    "debugLogging": {
+        "desc:": "Enables debug logging of block damage reduction. Default:false",
+        "debugLogging": false
+    }
+}
