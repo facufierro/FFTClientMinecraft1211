@@ -4,7 +4,7 @@ const spreadFactor = 0.25;
 const baseDamage = 2.0;
 const speed = 0.2;
 const spellPowerMultiplier = 1.5;
-const homingDelay = 10;
+const homingDelay = 5;
 
 StartupEvents.registry('irons_spellbooks:spells', event => {
     event.create('fft_magic_missile')
@@ -51,6 +51,23 @@ const createMissileProjectile = (ctx) => {
     return missile;
 };
 
+// Helper function to add glow effect for debugging targeting
+const addTargetGlow = (entity) => {
+    if (!entity || !entity.getX) return;
+    
+    try {
+        // Add glowing effect for 1 second (20 ticks)
+        let MobEffects = Java.loadClass('net.minecraft.world.effect.MobEffects');
+        let MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectInstance');
+        
+        let glowEffect = new MobEffectInstance(MobEffects.GLOWING, 20, 0, false, false);
+        entity.addEffect(glowEffect);
+    } catch (e) {
+        // Fallback: just log the target
+        console.log(`Target: ${entity.getDisplayName().getString()} at ${entity.getX().toFixed(1)}, ${entity.getY().toFixed(1)}, ${entity.getZ().toFixed(1)}`);
+    }
+};
+
 // Helper function to register missile for homing
 const registerMissileForHoming = (missile, entityTarget) => {
     if (entityTarget && entityTarget.getX) {
@@ -62,7 +79,12 @@ const registerMissileForHoming = (missile, entityTarget) => {
                 ticksAlive: 0,
                 homingDelayRemaining: homingDelay
             });
-        } catch (e) { }
+            console.log(`[STARTUP] Registered missile for homing toward ${entityTarget.getDisplayName().getString()}`);
+        } catch (e) {
+            console.log(`[STARTUP] Failed to register missile for homing: ${e.message}`);
+        }
+    } else {
+        console.log(`[STARTUP] No valid target to register for homing`);
     }
 };
 
@@ -101,6 +123,28 @@ const findNearbyEntityForHoming = (missile, ctx) => {
 global.createFFTMissile = (ctx, target, entityTarget) => {
     // Create missile projectile
     let missile = createMissileProjectile(ctx);
+
+    // For delayed missiles, try to find the glowing target fresh
+    if (!entityTarget || !entityTarget.getX) {
+        try {
+            let MobEffects = Java.loadClass('net.minecraft.world.effect.MobEffects');
+            let nearbyEntities = ctx.level.getEntitiesOfClass(
+                Java.loadClass('net.minecraft.world.entity.LivingEntity'),
+                ctx.entity.getBoundingBox().inflate(32.0)
+            );
+
+            for (let entity of nearbyEntities) {
+                if (entity.hasEffect(MobEffects.GLOWING)) {
+                    console.log(`[STARTUP] Found glowing target for delayed missile: ${entity.getDisplayName().getString()}`);
+                    entityTarget = entity;
+                    target = entity;
+                    break;
+                }
+            }
+        } catch (e) {
+            console.log(`[STARTUP] Error searching for glowing target: ${e.message}`);
+        }
+    }
 
     // Calculate direction towards target
     let targetX, targetY, targetZ;
@@ -155,12 +199,13 @@ global.createFFTMissile = (ctx, target, entityTarget) => {
 
     ctx.level.addFreshEntity(missile);
 
-    // Register for homing
+    // Register for homing - always register missiles for potential homing
     let homingTarget = entityTarget || (target && target.getX ? target : null);
     if (homingTarget && homingTarget.getX) {
+        console.log(`[STARTUP] Registering missile for homing`);
         registerMissileForHoming(missile, homingTarget);
     } else {
-        findNearbyEntityForHoming(missile, ctx);
+        console.log(`[STARTUP] No homing target found for missile`);
     }
 };
 
@@ -177,6 +222,8 @@ global.magicMissile = (ctx) => {
     if (raycastResult && raycastResult.getType().name() === "ENTITY") {
         target = raycastResult.getEntity();
         entityTarget = target;
+        // Add glow effect to show what we're targeting
+        addTargetGlow(entityTarget);
     } else if (raycastResult && raycastResult.getType().name() === "BLOCK") {
         let blockLocation = raycastResult.getLocation();
         target = { x: blockLocation.x, y: blockLocation.y, z: blockLocation.z, isPosition: true };
@@ -233,12 +280,14 @@ global.magicMissile = (ctx) => {
 
             if (bestEntity) {
                 entityTarget = bestEntity;
+                // Add glow effect to show what we found as target
+                addTargetGlow(entityTarget);
             }
         } catch (e) { }
     }
 
     // Fire first missile immediately
-    global.createFFTMissile(ctx, 0, target, entityTarget);
+    global.createFFTMissile(ctx, target, entityTarget);
 
     // Queue remaining missiles
     if (missileCount > 1) {

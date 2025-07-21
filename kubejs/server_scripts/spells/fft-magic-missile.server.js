@@ -66,8 +66,8 @@ ServerEvents.tick(event => {
                 
                 console.log(`[SERVER TICK] Homing missile ${i}: ${homingData.ticksAlive} ticks alive`);
                 
-                // Remove old or invalid missiles
-                if (homingData.ticksAlive > 200) {
+                // Remove old or invalid missiles (increased timeout for longer range)
+                if (homingData.ticksAlive > 600) { // 30 seconds instead of 10
                     console.log(`[SERVER TICK] Removing old homing missile ${i} (${homingData.ticksAlive} ticks)`);
                     localHomingMissiles.splice(i, 1);
                     continue;
@@ -86,9 +86,12 @@ ServerEvents.tick(event => {
                     continue;
                 }
                 
+                // Check if target entity is valid - DON'T search for glowing targets until homing delay is over
+                let targetToUse = homingData.target;
+                
                 // Check if target entity is valid  
                 try {
-                    if (!homingData.target || !homingData.target.isAlive()) {
+                    if (!targetToUse || !targetToUse.isAlive()) {
                         console.log(`[SERVER TICK] Removing missile ${i} with dead target`);
                         localHomingMissiles.splice(i, 1);
                         continue;
@@ -106,9 +109,29 @@ ServerEvents.tick(event => {
                     continue; // Skip homing update while delay is active
                 }
                 
+                // ONLY after homing delay is over, try to find a glowing target
+                try {
+                    let MobEffects = Java.loadClass('net.minecraft.world.effect.MobEffects');
+                    let nearbyEntities = homingData.missile.getLevel().getEntitiesOfClass(
+                        Java.loadClass('net.minecraft.world.entity.LivingEntity'),
+                        homingData.missile.getBoundingBox().inflate(32.0)
+                    );
+                    
+                    for (let entity of nearbyEntities) {
+                        if (entity.hasEffect(MobEffects.GLOWING)) {
+                            console.log(`[SERVER TICK] Found glowing target for missile ${i}, switching to it`);
+                            targetToUse = entity;
+                            homingData.target = entity; // Update the stored target
+                            break;
+                        }
+                    }
+                } catch (e) {
+                    console.log(`[SERVER TICK] Error searching for glowing targets: ${e.message}`);
+                }
+                
                 // Update homing every tick for better responsiveness
                 try {
-                    console.log(`[SERVER TICK] Updating homing for missile ${i}`);
+                    console.log(`[SERVER TICK] Updating homing for missile ${i} toward ${targetToUse.getDisplayName().getString()}`);
                     updateHomingMissile(homingData);
                 } catch (e) {
                     console.error(`[SERVER TICK] Error updating homing missile ${i}:`, e);
