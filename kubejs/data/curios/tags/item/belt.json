@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:clock",
+        "minecraft:compass",
+        "minecraft:recovery_compass",
+        "supplementaries:altimeter",
+        "minecraft:spyglass"
+    ]
+}

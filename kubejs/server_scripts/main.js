@@ -1,12 +1,11 @@
 // priority 100
+
 function runCommandOnInterval(event, interval, condition, command) {
     if (event.server.tickCount % interval === 0) {
         if (condition) {
-            event.server.runCommandSilent(`execute if entity @p${condition} run ${command}`);
-        } else {
-            event.server.runCommandSilent(`execute as @p ${command}`);
+            // Execute command for all players that match the condition
+            event.server.runCommandSilent(`execute as @a${condition} run ${command}`);
         }
-
     }
 }
 function isItemInInventory(itemId, param) {
