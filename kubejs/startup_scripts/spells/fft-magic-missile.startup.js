@@ -2,6 +2,7 @@
 const delayBetweenMissiles = 7.5;
 const spreadFactor = 0.25;
 const baseDamage = 2.0;
+const speed = 0.2;
 const spellPowerMultiplier = 1.5;
 const homingDelay = 10;
 
