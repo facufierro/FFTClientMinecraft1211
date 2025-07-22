@@ -2,6 +2,10 @@
   "spell.kubejs.fft_magic_missile": "Magic Missiles",
   "spell.kubejs.fft_magic_missile.guide": "Shoot multiple unerring bolts of arcane energy. A trademark of every wizard.",
   "death.attack.kubejs.fft_magic_missile": "%1$s was killed by %2$s's magic missiles",
-  "death.attack.kubejs.fft_magic_missile.item": "%1$s was killed by %2$s's magic missiles using %3$s"
-
+  "death.attack.kubejs.fft_magic_missile.item": "%1$s was killed by %2$s's magic missiles using %3$s",
+  "spell.irons_spellbooks.magic_missile": "Ender Blast",
+  "spell.irons_spellbooks.magic_missile.guide": "Shoot a bolt of concentrated arcane magic.",
+  "death.attack.irons_spellbooks.magic_missile": "%1$s was killed by %2$s's ender blast",
+  "death.attack.irons_spellbooks.magic_missile.item": "%1$s was killed by %2$s's ender blast using %3$s",
+  "entity.irons_spellbooks.magic_missile_projectile": "Ender Blast"
 }

@@ -42,14 +42,28 @@ ServerEvents.tick(event => {
                 // If ready to fire
                 if (missile.ticksRemaining <= 0) {
                     try {
-                        console.log(`[SERVER TICK] Firing delayed missile ${missile.index}`);
-                        // Use the shared missile creation function with target
-                        global.createFFTMissile(missile.ctx, missile.index, missile.target, missile.entityTarget);
+                        let tgt = missile.target;
+                        let isEntityTarget = tgt && tgt.getX && typeof tgt.getX === 'function';
+                        let isPositionTarget = tgt && tgt.x !== undefined && !isEntityTarget;
+                        let targetType = isEntityTarget ? 'entity' : isPositionTarget ? 'position' : 'unknown';
+                        console.log(`[SERVER TICK] Firing delayed missile ${missile.index} with target type: ${targetType}`);
+                        if (isPositionTarget) {
+                            console.log(`[SERVER TICK] Position target: x=${tgt.x}, y=${tgt.y}, z=${tgt.z}`);
+                        }
+                        // Use the shared missile creation function with target and behavior flags, including missileAngle for arc/spread
+                        global.createFFTMissile(
+                            missile.ctx,
+                            missile.target,
+                            missile.entityTarget,
+                            missile.useSpread,
+                            missile.enableHoming,
+                            missile.missileIndex,
+                            missile.missileAngle // Pass the angle for arc phase
+                        );
                         console.log(`[SERVER TICK] Successfully fired delayed missile ${missile.index}`);
                     } catch (e) {
                         console.error(`[SERVER TICK] Error firing delayed missile ${missile.index}:`, e);
                     }
-                    
                     // Remove this missile from pending list
                     localPendingMissiles.splice(i, 1);
                     console.log(`[SERVER TICK] Removed missile ${missile.index} from pending list`);
@@ -57,23 +71,19 @@ ServerEvents.tick(event => {
             }
         }
 
-        // Handle homing missiles
+        // Handle homing missiles (with arc phase)
         if (localHomingMissiles.length > 0) {
             console.log(`[SERVER TICK] Processing ${localHomingMissiles.length} homing missiles`);
             for (let i = localHomingMissiles.length - 1; i >= 0; i--) {
                 let homingData = localHomingMissiles[i];
                 homingData.ticksAlive++;
-                
-                console.log(`[SERVER TICK] Homing missile ${i}: ${homingData.ticksAlive} ticks alive`);
-                
-                // Remove old or invalid missiles (increased timeout for longer range)
-                if (homingData.ticksAlive > 600) { // 30 seconds instead of 10
+
+                // Remove old or invalid missiles
+                if (homingData.ticksAlive > 600) {
                     console.log(`[SERVER TICK] Removing old homing missile ${i} (${homingData.ticksAlive} ticks)`);
                     localHomingMissiles.splice(i, 1);
                     continue;
                 }
-                
-                // Check if missile entity is valid
                 try {
                     if (!homingData.missile || !homingData.missile.isAlive()) {
                         console.log(`[SERVER TICK] Removing dead missile ${i}`);
@@ -85,54 +95,123 @@ ServerEvents.tick(event => {
                     localHomingMissiles.splice(i, 1);
                     continue;
                 }
-                
-                // Check if target entity is valid - DON'T search for glowing targets until homing delay is over
+
+                // Arc phase: blend velocity for first arcPhaseTicks
+                // S-curve logic for position targets
+                // Use previously declared targetToUse, isEntityTarget, isPositionTarget
+                if (isPositionTarget) {
+                    // Initialize S-curve state if not present
+                    if (!homingData.sArcState) {
+                        homingData.sArcState = {
+                            tick: 0,
+                            phase: 1, // 1 = outward, -1 = inward
+                            arcPhaseTicks: homingData.arcPhaseTicks || 12,
+                            arcCurveVec: homingData.arcCurveVec || { x: 0, y: 0, z: 0 },
+                            arcStartVel: homingData.arcStartVel || { x: 0, y: 0, z: 0 }
+                        };
+                    }
+                    let sArc = homingData.sArcState;
+                    sArc.tick++;
+                    let missile = homingData.missile;
+                    let progress = sArc.tick / sArc.arcPhaseTicks;
+                    let arcFactor = Math.sin(Math.PI * progress) * 0.8 * sArc.phase; // alternate direction
+                    let startVel = sArc.arcStartVel;
+                    let curve = sArc.arcCurveVec;
+                    let blendedX = startVel.x + curve.x * arcFactor;
+                    let blendedY = startVel.y + curve.y * arcFactor;
+                    let blendedZ = startVel.z + curve.z * arcFactor;
+                    // Move along the straight line to the target
+                    let missileX = missile.getX();
+                    let missileY = missile.getY();
+                    let missileZ = missile.getZ();
+                    let dx = targetToUse.x - missileX;
+                    let dy = targetToUse.y - missileY;
+                    let dz = targetToUse.z - missileZ;
+                    let dist = Math.sqrt(dx*dx + dy*dy + dz*dz);
+                    if (dist > 0) {
+                        dx /= dist;
+                        dy /= dist;
+                        dz /= dist;
+                    }
+                    // Project blended velocity onto the straight path
+                    let speed = Math.sqrt(blendedX*blendedX + blendedY*blendedY + blendedZ*blendedZ);
+                    blendedX = dx * speed + curve.x * arcFactor;
+                    blendedY = dy * speed + curve.y * arcFactor;
+                    blendedZ = dz * speed + curve.z * arcFactor;
+                    let Vec3 = Java.loadClass('net.minecraft.world.phys.Vec3');
+                    missile.setDeltaMovement(new Vec3(blendedX, blendedY, blendedZ));
+                    // When arc phase ends, flip direction and reset tick
+                    if (sArc.tick >= sArc.arcPhaseTicks) {
+                        sArc.phase *= -1;
+                        sArc.tick = 0;
+                    }
+                    continue;
+                }
+                // ...existing code for entity targets and other logic...
+
+                // Check if target is valid - handle both entity and position targets
                 let targetToUse = homingData.target;
-                
-                // Check if target entity is valid  
-                try {
-                    if (!targetToUse || !targetToUse.isAlive()) {
-                        console.log(`[SERVER TICK] Removing missile ${i} with dead target`);
+                let isEntityTarget = targetToUse && targetToUse.getX && typeof targetToUse.getX === 'function';
+                let isPositionTarget = targetToUse && targetToUse.x !== undefined && !isEntityTarget;
+
+                if (isEntityTarget) {
+                    try {
+                        if (!targetToUse.isAlive()) {
+                            console.log(`[SERVER TICK] Removing missile ${i} with dead entity target`);
+                            localHomingMissiles.splice(i, 1);
+                            continue;
+                        }
+                    } catch (e) {
+                        console.log(`[SERVER TICK] Removing missile ${i} with invalid entity target: ${e.message}`);
                         localHomingMissiles.splice(i, 1);
                         continue;
                     }
-                } catch (e) {
-                    console.log(`[SERVER TICK] Removing missile ${i} with invalid target: ${e.message}`);
+                } else if (isPositionTarget) {
+                    try {
+                        let missileX = homingData.missile.getX();
+                        let missileY = homingData.missile.getY();
+                        let missileZ = homingData.missile.getZ();
+                        let dx = targetToUse.x - missileX;
+                        let dy = targetToUse.y - missileY;
+                        let dz = targetToUse.z - missileZ;
+                        let distanceToTarget = Math.sqrt(dx*dx + dy*dy + dz*dz);
+                        if (distanceToTarget < 3.0) {
+                            // Missile reached center, stop homing but let it continue straight
+                            if (!homingData.straightMode) {
+                                homingData.straightMode = true;
+                                console.log(`[SERVER TICK] Missile ${i} reached imaginary target, switching to straight mode`);
+                            }
+                        }
+                    } catch (e) {
+                        console.log(`[SERVER TICK] Error checking distance to position target: ${e.message}`);
+                        localHomingMissiles.splice(i, 1);
+                        continue;
+                    }
+                } else {
+                    console.log(`[SERVER TICK] Removing missile ${i} with invalid target type`);
                     localHomingMissiles.splice(i, 1);
                     continue;
                 }
-                
+
                 // Handle homing delay - don't start homing until delay is over
                 if (homingData.homingDelayRemaining !== undefined && homingData.homingDelayRemaining > 0) {
                     homingData.homingDelayRemaining--;
                     console.log(`[SERVER TICK] Missile ${i} homing delayed: ${homingData.homingDelayRemaining} ticks remaining`);
                     continue; // Skip homing update while delay is active
                 }
-                
-                // ONLY after homing delay is over, try to find a glowing target
-                try {
-                    let MobEffects = Java.loadClass('net.minecraft.world.effect.MobEffects');
-                    let nearbyEntities = homingData.missile.getLevel().getEntitiesOfClass(
-                        Java.loadClass('net.minecraft.world.entity.LivingEntity'),
-                        homingData.missile.getBoundingBox().inflate(32.0)
-                    );
-                    
-                    for (let entity of nearbyEntities) {
-                        if (entity.hasEffect(MobEffects.GLOWING)) {
-                            console.log(`[SERVER TICK] Found glowing target for missile ${i}, switching to it`);
-                            targetToUse = entity;
-                            homingData.target = entity; // Update the stored target
-                            break;
-                        }
-                    }
-                } catch (e) {
-                    console.log(`[SERVER TICK] Error searching for glowing targets: ${e.message}`);
-                }
-                
+
                 // Update homing every tick for better responsiveness
                 try {
-                    console.log(`[SERVER TICK] Updating homing for missile ${i} toward ${targetToUse.getDisplayName().getString()}`);
-                    updateHomingMissile(homingData);
+                    if (!homingData.straightMode) {
+                        let targetName = isEntityTarget ? targetToUse.getDisplayName().getString() : 
+                            isPositionTarget ? `position (${targetToUse.x.toFixed(1)}, ${targetToUse.y.toFixed(1)}, ${targetToUse.z.toFixed(1)})` : 
+                            "unknown";
+                        console.log(`[SERVER TICK] Updating homing for missile ${i} toward ${targetName}`);
+                        updateHomingMissile(homingData);
+                    } else {
+                        // In straight mode, do not update velocity, just let missile continue
+                        console.log(`[SERVER TICK] Missile ${i} is in straight mode, not updating velocity`);
+                    }
                 } catch (e) {
                     console.error(`[SERVER TICK] Error updating homing missile ${i}:`, e);
                     localHomingMissiles.splice(i, 1);
@@ -150,15 +229,34 @@ function updateHomingMissile(homingData) {
     let missile = homingData.missile;
     let target = homingData.target;
     
-    if (!missile || !target || !missile.isAlive() || !target.isAlive()) {
-        console.log("[SERVER HOMING] Invalid missile or target, skipping");
+    // Check if missile is valid
+    if (!missile || !missile.isAlive()) {
+        console.log("[SERVER HOMING] Invalid missile, skipping");
         return;
     }
     
-    // Calculate direction to target
-    let targetX = target.getX ? target.getX() : target.x;
-    let targetY = target.getEyeY ? target.getEyeY() : (target.y || target.getY());
-    let targetZ = target.getZ ? target.getZ() : target.z;
+    // Handle different target types
+    let targetX, targetY, targetZ;
+    let isEntityTarget = target && target.getX && typeof target.getX === 'function';
+    
+    if (isEntityTarget) {
+        // Entity target
+        if (!target.isAlive()) {
+            console.log("[SERVER HOMING] Target entity dead, skipping");
+            return;
+        }
+        targetX = target.getX();
+        targetY = target.getEyeY ? target.getEyeY() : target.getY();
+        targetZ = target.getZ();
+    } else if (target && target.x !== undefined) {
+        // Position target (imaginary target)
+        targetX = target.x;
+        targetY = target.y;
+        targetZ = target.z;
+    } else {
+        console.log("[SERVER HOMING] Invalid target, skipping");
+        return;
+    }
     
     let missileX = missile.getX();
     let missileY = missile.getY();
@@ -216,35 +314,6 @@ function updateHomingMissile(homingData) {
     // Update missile velocity
     let Vec3 = Java.loadClass('net.minecraft.world.phys.Vec3');
     missile.setDeltaMovement(new Vec3(newX, newY, newZ));
-    
-    // Also try to update the missile's position more directly for better tracking
-    try {
-        // Get the look direction towards target for additional accuracy
-        let yaw = Math.atan2(-dx, dz);
-        let pitch = Math.atan2(-dy, Math.sqrt(dx*dx + dz*dz));
-        
-        // Convert to degrees
-        yaw = yaw * 180.0 / Math.PI;
-        pitch = pitch * 180.0 / Math.PI;
-        
-        console.log(`[SERVER HOMING] Setting missile rotation: yaw=${yaw}, pitch=${pitch}`);
-        
-        // Try different rotation methods - Iron's Spells missiles might use different method names
-        try {
-            missile.setYRot(yaw);
-            missile.setXRot(pitch);
-        } catch (e1) {
-            try {
-                missile.yRot = yaw;
-                missile.xRot = pitch;
-            } catch (e2) {
-                // Rotation setting failed, but that's okay - velocity updates are more important
-                console.log(`[SERVER HOMING] Could not set missile rotation (this is normal): ${e1.message}`);
-            }
-        }
-    } catch (e) {
-        console.log(`[SERVER HOMING] Error in rotation calculation: ${e.message}`);
-    }
     
     console.log("[SERVER HOMING] Missile velocity updated");
 }
